@@ -1,5 +1,7 @@
-body {
+body html main footer {
   height: 100%;
+  width: 100%;
+  overflow-y: hidden;
 }
 /* zorgt voor het randje van de tabel */
 table,
@@ -32,129 +34,21 @@ h1 {
   color: black;
 }
 /* nu komt er geen rand onder de linkjes */
-#games {
-  list-style-type: none;
+
+.hobby {
+  width: 300px;
+  height: 300px;
 }
 
-/* nu gaat ij nprotfolio foto naar rechts */
-#portfoliofoto {
-  position: absolute;
-  float: right;
-}
-html {
-  height: 100%;
-}
-main {
-  height: 100%;
-  width: 100%;
-}
 footer {
   z-index: 99999;
-}
-
-/* media screen voor laptop */
-@media screen and (min-width: 413px) {
-  /* nu worden de margins en paddings weggehaald */
-  body {
-    margin: 0px;
-    padding: 0px;
-    background-color: whitesmoke;
-    font-family: "nunitosans";
-  }
-  /* nu komt mijn foto rechts te staan */
-
-  /* hier zie je hoe de foto eruit ziet  */
-  #profile {
-    position: relative;
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-  }
-
-  /* zo blijft de tekst een maximale groote voordat hij naar de volgende regelgaat */
-  #test {
-    width: 300px;
-    height: 300px;
-  }
-}
-/* voor mobiel als hij rechtop staat */
-@media screen and (max-width: 412px) and (orientation: portrait) /*hiermee bepaal ik de margins en de padding van de pagina's */ {
-  body,
-  nav,
-  ul {
-    margin: 0px;
-    padding: 0px;
-    background-color: whitesmoke;
-  }
-
-  h1 {
-    position: absolute;
-    float: left;
-    font-size: 20px;
-  }
-  /* hiermee bepaal ik war de footer komt te staan */
-  footer {
-    bottom: 0;
-    position: fixed;
-    height: 4vh;
-    width: 200vw;
-    background-color: brown;
-    text-align: center;
-  }
-  /* de positie van de tekst in de main */
-  #test {
-    position: relative;
-  }
-  /* zo laag begint de tekst mijn resultaten */
-  #headline {
-    top: 70px;
-  }
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 /* voor als je de telefoon schuin houdt */
 @media screen and (max-width: 792px) and (orientation: landscape) {
-  /* nu haalt hij de margins en de padding weg  */
-  body {
-    margin: 0px;
-    padding: 0px;
-    background-color: whitesmoke;
-  }
-  /* dit is voor mijn foto die ik gebruik om de hover te laten zien */
-  img {
-    position: relative;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    left: 30px;
-  }
-  /* nu wordt de navbar zo wijt vanaf de linker kant */
-
-  /* nu wordt de tekst van h1 blijft links staan */
-  h1 {
-    position: absolute;
-    float: left;
-    font-size: 14px;
-    top: 100px;
-  }
-  /* hiermee wordt de main tekst niet in de navbar getoont */
-  #test {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0px;
-    left: 18%;
-  }
-  /* nu blijft de tekst normaal */
-  p {
-    position: relative;
-    font-weight: normal;
-    font-size: 14px;
-    width: 513px;
-    top: 40px;
-  }
-  /* hiermee maak ik de footer */
-
-  /* hier heb je de opmaak voor de resultaten tabel */
   table {
     position: relative;
     top: 100px;
@@ -167,11 +61,5 @@ footer {
     font-size: 30px;
     top: 15px;
     left: 10px;
-  }
-  /* hier bepaal ik waar de main begint  */
-
-  /* de letter groote van de a  */
-  a {
-    font-size: 20px;
   }
 }
