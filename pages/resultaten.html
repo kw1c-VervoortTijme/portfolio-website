@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Auteur: Tijme Vervoort
+Aanmaakdatum: <24-1-2023>
+    
+<omschrijving inhoud
+-->
+
+<html>
+
+<head>
+  <title>portfolio website</title>
+  <!--    declaratie tekenset -->
+  <meta charset="UTF-8" />
+  <!--    declaratie viewport -->
+  <meta name="viewport" content="width=device-width, initial-scal=1-0" />
+  <!--    link naar het css bestand -->
+  <link rel="stylesheet" href="../stylesheet/stylesheet2.css" />
+  <link rel="stylesheet" href="../stylesheet/stylesheet.css" />
+  <link rel="stylesheet" href="stylesheet/bootstrap.min.css" />
+  <!--    link naar script  -->
+  <script src="../scripts/scripts.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <!-- hier maak ik een navbar -->
+    <nav>
+      <ul>
+        <li>
+          <img src="../images/IMG_6126.JPG" alt="" />
+          <ul class="dropdown">
+            <li>
+              <a href="../index.html">home</a>
+            </li>
+            <li>
+              <a href="portfolio.html">portfolio</a>
+            </li>
+            <li>
+              <a href="hobby's.html">hobby's</a>
+            </li>
+            <li>
+              <a href="ervaringen.html">ervaringen</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- hier gebruik ik een id om de tabel mee op te maken in css -->
+    <h1 id="headline">
+      <b> Mijn Resultaten </b>
+    </h1>
+    <table>
+      <thead id="thead">
+        <td>Vakken</td>
+        <td colspan="3">Cijfers</td>
+        <td>Gemiddelde</td>
+      </thead>
+      <tbody id="tbody"></tbody>
+      <tfoot>
+        <!-- leeg -->
+      </tfoot>
+    </table>
+  </main>
+  <!-- hier mee maak ik de tekst voor de footer -->
+  <footer>&copy; tijme vervoort tijme.vervoort@edu-kw1c.nl</footer>
+  <script src="../scripts/bootstrap.min.js" defer></script>
+</body>
+
+</html>
