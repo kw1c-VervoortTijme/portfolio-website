@@ -32,11 +32,7 @@ h1 {
 #games {
   list-style-type: none;
 }
-/* hiermee zorg ik ervoor dat de achtergond zwart wort van de linkjes */
-div {
-  background-color: black;
-  width: 100vw;
-}
+
 /* nu gaat ij nprotfolio foto naar rechts */
 #portfoliofoto {
   position: absolute;
@@ -46,17 +42,14 @@ div {
 /* media screen voor laptop */
 @media screen and (min-width: 413px) {
   /* nu worden de margins en paddings weggehaald */
-  body,
-  nav,
-  ul,
-  img {
+  body {
     margin: 0px;
     padding: 0px;
     background-color: whitesmoke;
     font-family: "nunitosans";
   }
   /* nu komt mijn foto rechts te staan */
-  ul img {
+  img {
     position: absolute;
     right: 10px;
     top: 35px;
@@ -68,47 +61,7 @@ div {
     width: 90px;
     border-radius: 50%;
   }
-  /* voor de achtergrond van de navbar */
-  ul {
-    width: 100vw;
-    height: 24vh;
-    list-style-type: none;
-    background-color: #00616e;
-  }
-  /* hiermee worden de linkjes naar de anderpagina's gecenterd */
-  a {
-    display: flex;
-    align-items: center;
-    font-size: 36px;
-  }
-  /* nu zijn de lijntjes onder de linkjes weg */
-  ul {
-    list-style-type: none;
-    overflow: hidden;
-  }
-  /* dit is voor het dropdown menu  */
-  ul li ul.dropdown {
-    width: 100%;
-    position: relative;
-    top: 35px;
-  }
-  /* nu gaat de text links beginnen en an centere */
-  li {
-    float: left;
-    text-align: center;
-  }
-  /* nu is de tekst wit */
-  li a {
-    color: white;
-    text-align: center;
-    padding: 20px 46px;
-    text-decoration: none;
-  }
-  /* hij wordt zwart als je er overheen hovert */
-  ul li a:hover {
-    background-color: #00616e;
-    color: black;
-  }
+
   /* zo blijft de footer benenden staan */
   footer {
     bottom: 0;
