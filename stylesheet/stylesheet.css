@@ -1,8 +1,5 @@
 /* hier pas ik de letter typen toe */
-@font-face {
-  font-family: nunitosans;
-  src: url(../fonts/NunitoSans-Regular.ttf);
-}
+
 /* zorgt voor het randje van de tabel */
 table,
 td {
