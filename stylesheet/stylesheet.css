@@ -1,10 +1,21 @@
+body {
+  height: 100%;
+}
 /* zorgt voor het randje van de tabel */
 table,
 td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+c-item {
+  height: 500px;
+}
 
+c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
 /* zorgt voor de kleur binnen de tabel */
 td {
   width: 30px;
@@ -33,6 +44,16 @@ h1 {
   position: absolute;
   float: right;
 }
+html {
+  height: 100%;
+}
+main {
+  height: 100%;
+  width: 100%;
+}
+footer {
+  z-index: 99999;
+}
 
 /* media screen voor laptop */
 @media screen and (min-width: 413px) {
@@ -44,38 +65,19 @@ h1 {
     font-family: "nunitosans";
   }
   /* nu komt mijn foto rechts te staan */
-  img {
-    position: absolute;
-    right: 10px;
-    top: 35px;
-  }
+
   /* hier zie je hoe de foto eruit ziet  */
-  img {
+  #profile {
     position: relative;
     height: 90px;
     width: 90px;
     border-radius: 50%;
   }
 
-  /* zo blijft de footer benenden staan */
-  footer {
-    bottom: 0;
-    position: fixed;
-    height: 6vh;
-    width: 100vw;
-    background-color: brown;
-    text-align: center;
-    color: whitesmoke;
-  }
   /* zo blijft de tekst een maximale groote voordat hij naar de volgende regelgaat */
   #test {
     width: 300px;
     height: 300px;
-  }
-  /* nu komt mijn profielfoto rechts te staan */
-  #portfoliofoto {
-    position: absolute;
-    float: right;
   }
 }
 /* voor mobiel als hij rechtop staat */
@@ -87,59 +89,7 @@ h1 {
     padding: 0px;
     background-color: whitesmoke;
   }
-  /* hiermee laat ik zien wat postion sticky doet die zorgt ervoor dat hij gewoon blijf staan ook al wil ik hem verplaatsen */
-  img {
-    position: sticky;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-  }
-  /* de hoogte en de breedte van de navbar */
-  ul {
-    height: 10vh;
-    width: 110vw;
-  }
-  /* hiermee bepaal ik de achtergrond en zorg ervor dat er geen lijntjes onder de links komen */
-  ul {
-    list-style-type: none;
-    background-color: #00616e;
-  }
-  /* bepaalt de positie van de navbar  */
-  ul li {
-    position: relative;
-  }
-  /* hiermee maak  ik de navbar  */
-  ul li a {
-    display: block;
-    padding: 20px 25px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-  }
-  /* hier laat ik zien dat de nav bar ook kan uitklappen */
-  ul li ul.dropdown li {
-    display: block;
-  }
-  /* hiermee wordt de opmaak bepaald van de dropdown menu */
-  ul li ul.dropdown {
-    width: 100%;
-    height: 45vh;
-    background: #00616e;
-    position: absolute;
-    z-index: 1;
-    display: none;
-  }
-  /* nu kun je er overheen hoveren */
-  ul li a:hover {
-    background-color: #00616e;
-    color: black;
-  }
-  /* zo blijft hij staan als je er overheen hovert */
-  ul li:hover ul.dropdown {
-    display: block;
-  }
-  /* de tekst positie van de h1 */
+
   h1 {
     position: absolute;
     float: left;
@@ -162,18 +112,12 @@ h1 {
   #headline {
     top: 70px;
   }
-  /* hier komt de foto van mijn portolio dien staat nu zo ver mogelijk naar rechts  */
-  #portfoliofoto {
-    position: absolute;
-    float: right;
-  }
 }
 
 /* voor als je de telefoon schuin houdt */
-@media screen and (max-width: 892px) and (orientation: landscape) {
+@media screen and (max-width: 792px) and (orientation: landscape) {
   /* nu haalt hij de margins en de padding weg  */
-  body nav,
-  ul {
+  body {
     margin: 0px;
     padding: 0px;
     background-color: whitesmoke;
@@ -187,58 +131,13 @@ h1 {
     left: 30px;
   }
   /* nu wordt de navbar zo wijt vanaf de linker kant */
-  nav,
-  header {
-    width: 18vw;
-  }
-  /* hiermee laat ik de navbar zien  */
-  ul {
-    list-style-type: none;
-    background-color: #00616e;
-    height: 200vh;
-    width: 18vw;
-  }
-  /* voor de nav bar zijn positie */
-  ul li {
-    position: relative;
-  }
 
-  /* nu wordt de tekst wit */
-  ul li a {
-    display: block;
-    padding: 14px 14px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-  }
-  /* nu heb je een dropdow menu */
-  ul li ul.dropdown li {
-    display: block;
-  }
-  /* hiermee maak ik het dropdown menu */
-  ul li ul.dropdown {
-    top: 105px;
-    height: 100vh;
-    background: #00616e;
-    position: relative;
-    z-index: 1;
-    display: none;
-  }
-  /* nu laat hij hem zien  */
-  ul li a:hover {
-    background-color: #00616e;
-    color: black;
-  }
-  /* hiermee blijft hij staan */
-  ul li:hover ul.dropdown {
-    display: block;
-  }
   /* nu wordt de tekst van h1 blijft links staan */
   h1 {
     position: absolute;
     float: left;
     font-size: 14px;
+    top: 100px;
   }
   /* hiermee wordt de main tekst niet in de navbar getoont */
   #test {
@@ -250,20 +149,14 @@ h1 {
   }
   /* nu blijft de tekst normaal */
   p {
+    position: relative;
     font-weight: normal;
-    font-size: 14x;
+    font-size: 14px;
     width: 513px;
+    top: 40px;
   }
   /* hiermee maak ik de footer */
-  footer {
-    bottom: 0;
-    position: fixed;
-    height: 6vh;
-    width: 100vw;
-    background-color: brown;
-    text-align: center;
-    color: whitesmoke;
-  }
+
   /* hier heb je de opmaak voor de resultaten tabel */
   table {
     position: relative;
@@ -279,13 +172,7 @@ h1 {
     left: 10px;
   }
   /* hier bepaal ik waar de main begint  */
-  main {
-    position: absolute;
-    top: 0px;
-    left: 18%;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
+
   /* de letter groote van de a  */
   a {
     font-size: 20px;
