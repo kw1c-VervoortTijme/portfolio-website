@@ -3,9 +3,9 @@ body html main footer {
   width: 100%;
   overflow-y: hidden;
 }
+
 /* zorgt voor het randje van de tabel */
-table,
-td {
+table {
   border: 1px solid black;
   border-collapse: collapse;
 }
@@ -15,11 +15,7 @@ c-img {
   object-fit: cover;
   filter: brightness(0.6);
 }
-/* zorgt voor de kleur binnen de tabel */
-td {
-  width: 30px;
-  height: 25px;
-}
+
 
 /* Zorgt voor de tekstkleur en tabel van de tabel */
 table {
@@ -30,9 +26,7 @@ table {
 }
 
 /* zorgt voor de kleur van 'resultaten'  */
-h1 {
-  color: black;
-}
+
 /* nu komt er geen rand onder de linkjes */
 
 .hobby {
@@ -45,21 +39,4 @@ footer {
   bottom: 0;
   position: fixed;
   width: 100%;
-}
-
-/* voor als je de telefoon schuin houdt */
-@media screen and (max-width: 792px) and (orientation: landscape) {
-  table {
-    position: relative;
-    top: 100px;
-    left: 20px;
-    color: black;
-  }
-  /* hiermee bepaal ik de postie van de tekst mijn resultaten */
-  #headline {
-    position: absolute;
-    font-size: 30px;
-    top: 15px;
-    left: 10px;
-  }
 }
