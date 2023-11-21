@@ -10,11 +10,6 @@ c-img {
   filter: brightness(0.6);
 }
 
-.hobby {
-  width: 300px;
-  height: 300px;
-}
-
 footer {
   z-index: 99999;
   bottom: 0;
