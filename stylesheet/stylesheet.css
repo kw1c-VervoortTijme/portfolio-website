@@ -4,30 +4,11 @@ body html main footer {
   overflow-y: hidden;
 }
 
-/* zorgt voor het randje van de tabel */
-table {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
 c-img {
   height: 480px;
   object-fit: cover;
   filter: brightness(0.6);
 }
-
-
-/* Zorgt voor de tekstkleur en tabel van de tabel */
-table {
-  position: relative;
-  top: 50px;
-  left: 20px;
-  color: black;
-}
-
-/* zorgt voor de kleur van 'resultaten'  */
-
-/* nu komt er geen rand onder de linkjes */
 
 .hobby {
   width: 300px;
