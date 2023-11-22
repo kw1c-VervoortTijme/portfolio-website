@@ -1,5 +1,4 @@
 {
-  "editor.defaultFormatter": null,
   "editor.formatOnSave": true,
   "prettier.bracketSpacing": false,
   "prettier.bracketSameLine": true,
@@ -9,5 +8,8 @@
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
