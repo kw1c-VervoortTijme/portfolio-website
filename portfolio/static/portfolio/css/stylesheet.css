@@ -221,3 +221,50 @@ p {
 .c-item {
   height: 500px;
 }
+/* Make footer stick to bottom */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1 0 auto; /* This makes the container take available space */
+}
+
+#footer {
+  flex-shrink: 0; /* Prevents the footer from shrinking */
+  width: 100%;
+  background: #f7f7f7;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+/* Style for captions below carousel images */
+.caption-below {
+  text-align: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.caption-below h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.carousel-item {
+  margin-bottom: 20px;
+}
+
+/* Adjust carousel height */
+.c-img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
