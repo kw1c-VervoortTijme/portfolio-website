@@ -1,3 +1,10 @@
+/* Reset and Base Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #ffffff;
   color: #898989;
@@ -7,17 +14,24 @@ body {
   line-height: 20px;
   letter-spacing: 0.02em;
   overflow-x: hidden;
-  margin: 0 auto;
-  padding: 0;
   box-sizing: border-box;
+  
+  /* Flex layout for sticky footer */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+/* Make the main content area expand to push footer down */
+.container {
+  /* Remove conflicting display: table - this was causing the issue */
+  position: relative;
+  width: 100%;
+  flex: 1 0 auto; /* This makes it fill available space */
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -32,6 +46,7 @@ h4 {
   font-weight: 600;
 }
 
+/* Link Styles */
 a {
   color: #292929;
   text-decoration: none !important;
@@ -46,10 +61,11 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #000000;
   line-height: 28px;
 }
 
+/* Selection Styles */
 ::-moz-selection {
   background: #b8a07e;
   color: #fff;
@@ -60,6 +76,7 @@ p {
   color: #fff;
 }
 
+/* Button Styles */
 .btn {
   background: #333;
   border: medium none;
@@ -77,6 +94,7 @@ p {
   color: #fff;
 }
 
+/* Utility Classes */
 .padDiv {
   padding: 30px 20px;
 }
@@ -133,31 +151,21 @@ p {
   margin-bottom: 30px;
 }
 
-.main-content {
-  padding-top: 140px;
-}
-
-
-
-
+/* Specific Element Styles */
 #test {
   width: 90px;
   height: 90px;
-  border-radius: 50%
+  border-radius: 50%;
 }
 
-.container {
-  display: table;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  table-layout: fixed;
-}
-
+/* Footer Styles - FIXED */
 #footer {
   background: #f7f7f7;
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 100%;
+  flex-shrink: 0; /* Prevents the footer from shrinking */
+  margin-top: auto; /* This is the key to push it to the bottom */
 }
 
 #footer .socials-media {
@@ -203,6 +211,7 @@ p {
   font-size: 13px;
 }
 
+/* Spacing Elements */
 #gevoel {
   margin-top: 100px;
 }
@@ -212,59 +221,38 @@ p {
   margin-bottom: 100px;
 }
 
-/* For the carousel on the portfolio page */
-.c-img {
-  height: 500px;
-  object-fit: cover;
-}
-
-.c-item {
-  height: 500px;
-}
-/* Make footer stick to bottom */
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.container {
-  flex: 1 0 auto; /* This makes the container take available space */
-}
-
-#footer {
-  flex-shrink: 0; /* Prevents the footer from shrinking */
-  width: 100%;
-  background: #f7f7f7;
-  margin-top: auto; /* Pushes footer to the bottom */
-}
-/* Style for captions below carousel images */
-.caption-below {
-  text-align: center;
-  padding: 15px;
-  background-color: #f8f9fa;
-  margin-bottom: 20px;
-  border-radius: 0 0 5px 5px;
-}
-
-.caption-below h5 {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.carousel-item {
-  margin-bottom: 20px;
-}
-
-/* Adjust carousel height */
+/* Carousel Styles */
 .c-img {
   height: 500px;
   object-fit: cover;
   border-radius: 5px 5px 0 0;
 }
 
+.c-item {
+  height: 500px;
+}
+
+/* Caption Styles - FIXED */
+.caption-below {
+  text-align: center;
+  padding: 15px;
+  background-color: #f8f9fa; /* Changed from black to light gray for better readability */
+  margin-bottom: 20px;
+  border-radius: 0 0 5px 5px;
+  color: #333; /* Added to ensure text is visible */
+}
+
+.caption-below h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #292929; /* Added for consistency */
+}
+
+.carousel-item {
+  margin-bottom: 20px;
+}
+
+/* Ensure carousel items don't break the layout */
+#carouselExampleRide {
+  margin-bottom: 30px;
+}
