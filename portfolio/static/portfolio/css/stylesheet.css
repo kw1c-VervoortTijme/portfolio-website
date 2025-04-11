@@ -236,7 +236,7 @@ p {
 .caption-below {
   text-align: center;
   padding: 15px;
-  background-color: #f8f9fa;
+  background-color: #f8f9fa; /* Changed from black to light gray for better readability */
   margin-bottom: 20px;
   border-radius: 0 0 5px 5px;
   color: #333; /* Added to ensure text is visible */
@@ -255,4 +255,59 @@ p {
 /* Ensure carousel items don't break the layout */
 #carouselExampleRide {
   margin-bottom: 30px;
+}
+/* Fixed caption styles for portfolio carousel */
+.custom-caption {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  margin-bottom: 30px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: relative; /* Ensures the caption stays in the document flow */
+  z-index: 10; /* Gives the caption a higher z-index */
+  color: #333 !important; /* Ensures text is visible */
+  display: block; /* Ensures the element is visible */
+  width: 100%; /* Full width */
+}
+
+.custom-caption h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #292929 !important; /* Forces color for headings */
+  font-size: 1.2rem;
+}
+
+.custom-caption p {
+  color: #555 !important; /* Forces darker text color for better readability */
+  margin: 0 0 10px;
+  line-height: 1.5;
+}
+
+/* Reset any Bootstrap carousel caption styles that might interfere */
+.carousel-caption {
+  position: static;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Make sure carousel items have proper spacing */
+.carousel-item {
+  margin-bottom: 40px; /* Give extra space below each item */
+  position: relative;
+}
+
+/* Ensure carousel controls don't interfere with captions */
+.carousel-control-next, .carousel-control-prev {
+  z-index: 20;
+}
+
+/* Carousel height adjustments */
+.c-img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
 }
