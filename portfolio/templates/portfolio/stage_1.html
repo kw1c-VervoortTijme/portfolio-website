@@ -1,0 +1,41 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block title %}Internship 1 - Portfolio Website{% endblock %}
+
+{% block content %}
+<div id="margin">
+  <div class="lightbox">
+    <div class="row">
+      <h1>Ispconfig</h1>
+      <div class="col-lg-6">
+        <img src="{% static 'portfolio/images/ispconfig.PNG' %}" data-mdb-img="{% static 'portfolio/images/ispconfig.PNG' %}" alt="Table Full of Spices" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
+        <p>dit is de hoofdpagina van ispconfig</p>
+        <img src="{% static 'portfolio/images/email.png' %}" data-mdb-img="{% static 'portfolio/images/email.png' %}" alt="Coconut with Strawberries" class="w-100 shadow-1-strong rounded" />
+        <p>hier kun je een email domein aanmaken voor emailadressen die gelinkd zijn aan jou website</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="{% static 'portfolio/images/email-hoe.png' %}" data-mdb-img="{% static 'portfolio/images/email-hoe.png' %}" alt="Dark Roast Iced Coffee" class="w-100 shadow-1-strong rounded" />
+        <p>hier kun je een email adress aanmaken voor het domein van jou website</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="gevoel2">
+  <div class="lightbox">
+    <div class="row">
+      <h1>Rememberz</h1>
+      <div class="col-lg-6">
+        <img src="{% static 'portfolio/images/rememberzhoofdmenu.PNG' %}" data-mdb-img="{% static 'portfolio/images/rememberzhoofdmenu.PNG' %}" alt="rememberz" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
+        <p>dit is het hoofdmenu van een gebruiker van rememberz</p>
+        <img src="{% static 'portfolio/images/milight.PNG' %}" data-mdb-img="{% static 'portfolio/images/milight.PNG' %}" alt="milgiht" class="w-100 shadow-1-strong rounded" />
+        <p>dit zijn de settings van een gebruiker waar je de verlichting kan instellen en de kleuren van het licht kan aanpassen dit zie je vooral links in beeld</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="{% static 'portfolio/images/rememberz.PNG' %}" data-mdb-img="{% static 'portfolio/images/rememberz.PNG' %}" alt="hoofdmenurememberz" class="w-100 shadow-1-strong rounded" />
+        <p>dit is het hoofd menu van rememberz</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

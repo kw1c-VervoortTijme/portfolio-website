@@ -211,3 +211,13 @@ p {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+
+/* For the carousel on the portfolio page */
+.c-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.c-item {
+  height: 500px;
+}
