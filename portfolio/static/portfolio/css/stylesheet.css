@@ -236,7 +236,7 @@ p {
 .caption-below {
   text-align: center;
   padding: 15px;
-  background-color: #000000;
+  background-color: #f8f9fa;
   margin-bottom: 20px;
   border-radius: 0 0 5px 5px;
   color: #333; /* Added to ensure text is visible */
