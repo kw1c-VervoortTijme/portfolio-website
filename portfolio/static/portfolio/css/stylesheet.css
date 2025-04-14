@@ -121,7 +121,6 @@ p {
   padding-left: 10px;
   margin: 0 0 25px 0;
   line-height: 14px;
-  text-transform: uppercase;
 }
 
 .form-control:focus {
@@ -359,5 +358,102 @@ p {
   /* Make container responsive */
   .container {
     padding: 0 15px;
+  }
+}
+/* Form styling */
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: none;
+  margin-bottom: 30px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.form-text {
+  color: #6c757d;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+  margin-top: 0.25rem;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #b8a07e;
+  border-color: #b8a07e;
+}
+
+.btn-primary:hover {
+  background-color: #a89070;
+  border-color: #a89070;
+}
+
+.btn-outline-primary {
+  color: #b8a07e;
+  border-color: #b8a07e;
+}
+
+.btn-outline-primary:hover {
+  background-color: #b8a07e;
+  color: white;
+}
+/* Login page styles */
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: none;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-text {
+  color: #333;
+  font-size: 14px;
+}
+/* Styling for auth links in navbar */
+.navbar-nav .nav-link:last-child {
+  margin-right: 0;
+}
+
+/* User greeting text */
+.nav-text {
+  padding: 0.5rem 0;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin-bottom: 10px;
+  }
+  
+  .ms-auto {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+  }
+}
+
+
+
+
+/* Make navbar accommodate login controls */
+@media (max-width: 991px) {
+  .ms-auto {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
   }
 }

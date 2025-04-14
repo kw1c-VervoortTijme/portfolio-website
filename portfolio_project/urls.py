@@ -16,8 +16,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.contrib.auth import views as auth_views
+from portfolio import views as portfolio_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('register/', portfolio_views.register, name='register'),
+    path('login/', auth_views.LoginView.as_view(
+        template_name='portfolio/login.html', 
+        redirect_authenticated_user=True
+    ), name='login'),
+    # Use the custom logout view
+    path('logout/', portfolio_views.logout_view, name='logout'),
     path('', include('portfolio.urls')),
 ]
+
+
