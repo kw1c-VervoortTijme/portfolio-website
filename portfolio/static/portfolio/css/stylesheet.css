@@ -311,3 +311,53 @@ p {
   object-fit: cover;
   border-radius: 5px 5px 0 0;
 }
+/* Mobile Nav Styling */
+@media (max-width: 991px) {
+  /* Fixed position for header on mobile */
+  header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  /* Fix profile picture positioning on mobile */
+  #test {
+    margin-left: 15px;
+  }
+  
+  /* Fix navbar width on mobile */
+  .navbar {
+    width: auto !important;
+    float: none !important;
+    margin-right: 15px;
+  }
+  
+  /* Make collapsed navbar go below header */
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Center nav links in mobile view */
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  /* Add some spacing to nav links */
+  .nav-link {
+    padding: 10px 0 !important;
+  }
+  
+  /* Make container responsive */
+  .container {
+    padding: 0 15px;
+  }
+}

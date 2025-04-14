@@ -19,10 +19,7 @@
     <div class="container">
       <header>
         <!-- Navbar -->
-        <img
-          id="test"
-          src="{% static 'portfolio/images/IMG_6126.JPG' %}"
-          alt="Profile Picture" />
+        <img id="test" src="{% static 'portfolio/images/IMG_6126.JPG' %}" alt="Profile Picture" />
         <nav class="navbar navbar-expand-lg bg-body-tertiary float-end">
           <div class="container-fluid">
             <a class="navbar-brand" href="{% url 'home' %}"></a>
@@ -36,7 +33,8 @@
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <!-- Added the ID here to match data-bs-target -->
               <div class="navbar-nav">
                 <a
                   class="nav-link {% if request.path == '/' %}active{% endif %}"
@@ -44,21 +42,9 @@
                   href="{% url 'home' %}"
                   >Home</a
                 >
-                <a
-                  class="nav-link {% if 'stage_1' in request.path %}active{% endif %}"
-                  href="{% url 'stage_1' %}"
-                  >Internship 1</a
-                >
-                <a
-                  class="nav-link {% if 'stage_2' in request.path %}active{% endif %}"
-                  href="{% url 'stage_2' %}"
-                  >Internship 2</a
-                >
-                <a
-                  class="nav-link {% if 'portfolio' in request.path %}active{% endif %}"
-                  href="{% url 'portfolio_page' %}"
-                  >Portfolio</a
-                >
+                <a class="nav-link {% if 'stage_1' in request.path %}active{% endif %}" href="{% url 'stage_1' %}">Internship 1</a>
+                <a class="nav-link {% if 'stage_2' in request.path %}active{% endif %}" href="{% url 'stage_2' %}">Internship 2</a>
+                <a class="nav-link {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">Portfolio</a>
               </div>
             </div>
           </div>
@@ -116,4 +102,13 @@
       crossorigin="anonymous"></script>
     {% block extra_js %}{% endblock %}
   </body>
+  <script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+  crossorigin="anonymous"></script>
+
 </html>
