@@ -5,13 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}Portfolio Website{% endblock %}</title>
-    <link
-      rel="stylesheet"
-      href="{% static 'portfolio/bootstrap-icons/bootstrap-icons.css' %}" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap and Bootstrap Icons -->
+    <link rel="stylesheet" href="{% static 'portfolio/bootstrap-icons/bootstrap-icons.css' %}" />
+    <link rel="stylesheet" href="{% static 'portfolio/css/bootstrap.min.css' %}" />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static 'portfolio/css/stylesheet.css' %}" />
-    <link
-      rel="stylesheet"
-      href="{% static 'portfolio/css/bootstrap.min.css' %}" />
     {% block extra_css %}{% endblock %}
   </head>
 
