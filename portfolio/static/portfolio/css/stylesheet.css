@@ -447,6 +447,14 @@ p {
   }
 }
 
+/* Make this rule VERY specific and use !important */
+.card-body .form-control,
+.auth-form .form-control,
+input.form-control,
+textarea.form-control,
+select.form-control {
+  text-transform: none !important;
+}
 
 
 
