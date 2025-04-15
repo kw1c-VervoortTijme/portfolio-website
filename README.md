@@ -1,45 +1,131 @@
-# Portfolio Website
+# Portfolio Website - Django Project
 
-A personal portfolio website for Tijme Vervoort.
-
-## Description
-
-This website serves as a portfolio to showcase Tijme Vervoort's background, education, and internship experiences. The site includes a home page with personal information and separate pages for three internship experiences and a portfolio showcase.
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- Bootstrap 5.3.2
-- Bootstrap Icons
-
-## Pages
-
-- **Home**: Introduction and personal information
-- **Internship 1**: Details about first internship experience
-- **Internship 2**: Details about second internship experience
-- **Internship 3**: Details about third internship experience
-- **Portfolio**: Showcase of projects and work
-
-## Setup
-
-Simply open `index.html` in any modern web browser to view the website.
+## Overview
+This project is a Django-based portfolio website that showcases internship experiences and portfolio items. It includes user authentication to restrict access to content, ensuring that only authenticated users can view detailed portfolio and internship information.
 
 ## Features
 
-- Responsive design for various screen sizes
-- Navigation menu with links to all pages
-- Social media integration in the footer
-- Bootstrap-based layout and styling
+- **Responsive Design**: Works on mobile, tablet, and desktop devices
+- **User Authentication**: 
+  - Login/Registration system
+  - Protected content for authenticated users only
+  - Home page is publicly accessible
+- **Portfolio Showcase**: Grid-based display of portfolio projects
+- **Internship Documentation**: Organized documentation of internship experiences
+- **Django Framework**: Leverages Django for robust backend functionality
 
-## Contact
+## Technical Changes
 
-Connect with Tijme Vervoort through:
-- [Facebook](https://www.facebook.com/tijme.vervoort)
-- [Twitter](https://twitter.com/VervoortTijme)
-- [Instagram](https://www.instagram.com/tijme_prive69420/)
-- [LinkedIn](https://www.linkedin.com/in/tijme-vervoort-529406204/)
+This project has been converted from a static HTML5 site to a dynamic Django web application. Key changes include:
 
-## Copyright
+- **Django Architecture**: Implemented proper Django project structure with apps
+- **Template System**: Converted static HTML to Django templates with inheritance
+- **Authentication**: Added user registration and login functionality
+- **Static Files**: Reorganized CSS, JS, and images to follow Django conventions
+- **URL Routing**: Implemented Django URL patterns for better navigation
+- **Security**: Protected routes with login_required decorators
 
-© 2024 Tijme Vervoort. All Rights Reserved.
+## Setup Instructions
+
+### Prerequisites
+- Python 3.8+
+- pip (Python package manager)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/kw1c-VervoortTijme/portfolio-website.git
+   cd portfolio-website
+   ```
+
+2. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+   
+   # Activate the virtual environment
+   # On Windows:
+   venv\Scripts\activate
+   # On macOS/Linux:
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run migrations**
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Create a superuser (admin)**
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+6. **Start the development server**
+   ```bash
+   python manage.py runserver
+   ```
+
+7. **Access the website**
+   - Visit http://127.0.0.1:8000/ in your browser
+   - Login with the superuser account or register a new account
+
+## Project Structure
+
+```
+portfolio_project/
+├── portfolio/                 # Main Django app
+│   ├── static/
+│   │   └── portfolio/         # Static files (CSS, images)
+│   │       ├── css/
+│   │       ├── images/
+│   │       └── bootstrap-icons/
+│   ├── templates/
+│   │   └── portfolio/         # HTML templates
+│   │       ├── base.html      # Base template with header/footer
+│   │       ├── index.html     # Home page
+│   │       ├── login.html     # Login page
+│   │       ├── register.html  # Registration page
+│   │       ├── portfolio_page.html
+│   │       ├── stage_1.html   # Internship pages
+│   │       ├── stage_2.html
+│   ├── forms.py               # User registration form
+│   ├── views.py               # View functions
+│   └── urls.py                # App URL patterns
+├── portfolio_project/         # Project configuration
+│   ├── settings.py
+│   └── urls.py                # Project URL patterns
+├── manage.py                  # Django management script
+├── requirements.txt           # Project dependencies
+└── README.md                  # Project documentation
+```
+
+## Technologies Used
+
+- **Django**: Web framework for Python
+- **Bootstrap**: Frontend framework for responsive design
+- **JavaScript**: For interactive elements
+- **HTML5/CSS3**: Standard web technologies
+- **SQLite**: Database (default for development)
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## User Guide
+
+- **Home Page**: Publicly accessible
+- **Login/Register**: Create an account or sign in
+- **Internship Pages**: View details of internship experiences (requires login)
+- **Portfolio**: View portfolio projects and descriptions (requires login)
+
+## License
+
+This project is for educational purposes. All rights reserved.
