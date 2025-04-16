@@ -38,34 +38,33 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <!-- Main navigation links -->
+                <!-- Home link always visible -->
                 <a
                   class="nav-link {% if request.path == '/' %}active{% endif %}"
                   aria-current="page"
                   href="{% url 'home' %}">Home</a>
                 
                 {% if user.is_authenticated %}
+                  <!-- Regular content links visible to all authenticated users -->
                   <a class="nav-link {% if 'stage_1' in request.path %}active{% endif %}" href="{% url 'stage_1' %}">Internship 1</a>
                   <a class="nav-link {% if 'stage_2' in request.path %}active{% endif %}" href="{% url 'stage_2' %}">Internship 2</a>
                   <a class="nav-link {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">Portfolio</a>
-                {% endif %}
-                
-                <!-- Authentication links -->
-                {% if user.is_authenticated %}
-                  <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+                  
+                  <!-- Admin only links -->
+                  {% if user.groups.all.0.name == 'Administrators' or user.is_superuser %}
+                    <a class="nav-link" href="{% url 'admin:index' %}">Admin Panel</a>
+                  {% endif %}
+                  
+                  <!-- Logout form -->
+                  <form method="post" action="{% url 'logout' %}" class="d-inline">
+                    {% csrf_token %}
+                    <button type="submit" class="nav-link btn btn-link">Logout</button>
+                  </form>
                 {% else %}
                   <a class="nav-link {% if 'login' in request.path %}active{% endif %}" href="{% url 'login' %}">Login</a>
                   <a class="nav-link {% if 'register' in request.path %}active{% endif %}" href="{% url 'register' %}">Register</a>
                 {% endif %}
               </div>
-              
-              <!-- User greeting - optional -->
-              {% if user.is_authenticated %}
-                <div class="ms-auto">
-                  <span class="nav-text">Welcome, {{ user.username }}</span>
-                </div>
-              {% endif %}
-            </div>
           </div>
         </nav>
         

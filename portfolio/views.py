@@ -5,6 +5,8 @@ from .form import RegistrationForm
 from django.contrib.auth import logout
 from django.shortcuts import redirect
 from django.contrib import messages
+from .decorators import in_editor_group, group_required
+
 
 
 # Home page is accessible to everyone
@@ -48,3 +50,15 @@ def logout_view(request):
     logout(request)
     messages.success(request, "You have been successfully logged out.")
     return redirect('home')
+
+# Accessible only to Editors and Administrators
+@login_required
+@group_required(['Editors', 'Administrators'])
+def portfolio_page(request):
+    return render(request, 'portfolio/portfolio_page.html')
+
+# Example of using the simpler in_editor_group check
+@login_required
+@user_passes_test(in_editor_group)
+def stage_1(request):
+    return render(request, 'portfolio/stage_1.html')
