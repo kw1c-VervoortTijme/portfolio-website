@@ -1,6 +1,30 @@
-{% extends 'portfolio/base.html' %} 
-{% block title %}Home - Portfolio Website{% endblock %} 
+{% extends 'portfolio/base.html' %}
+{% load static %}
 
+{% block title %}Home - Portfolio Website{% endblock %}
+
+{% block extra_css %}
+<style>
+  .hero-section {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    padding: 120px 0;
+    position: relative;
+  }
+  
+  .hero-section h1 {
+    color: var(--light-text);
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    color: #ccc;
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
+</style>
+{% endblock %}
 {% block content %}
 <h1>Welkom. Hier vindt u informatie over Tijme</h1>
 <p>

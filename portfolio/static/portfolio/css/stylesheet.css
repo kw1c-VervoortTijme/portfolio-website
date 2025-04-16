@@ -466,3 +466,13 @@ select.form-control {
     width: 100%;
   }
 }
+#footer .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--light-text);
+  margin-bottom: 20px;
+}
