@@ -6,6 +6,8 @@ from django.contrib.auth import logout
 from django.shortcuts import redirect
 from django.contrib import messages
 from .decorators import in_editor_group, group_required
+from django.contrib.auth.decorators import user_passes_test
+
 
 
 
