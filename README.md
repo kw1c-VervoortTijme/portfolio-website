@@ -3,6 +3,13 @@
 ## Overview
 This project is a Django-based portfolio website that showcases internship experiences and portfolio items. It includes user authentication to restrict access to content, ensuring that only authenticated users can view detailed portfolio and internship information.
 
+## Live Website
+
+The portfolio website is now accessible online at:
+**[GamingWithToimen.pythonanywhere.com](https://GamingWithToimen.pythonanywhere.com)**
+
+Feel free to visit the live site to see the project in action!
+
 ## Features
 
 - **Responsive Design**: Works on mobile, tablet, and desktop devices
@@ -24,6 +31,7 @@ This project has been converted from a static HTML5 site to a dynamic Django web
 - **Static Files**: Reorganized CSS, JS, and images to follow Django conventions
 - **URL Routing**: Implemented Django URL patterns for better navigation
 - **Security**: Protected routes with login_required decorators
+- **Deployment**: Successfully deployed to PythonAnywhere hosting platform
 
 ## Setup Instructions
 
@@ -71,7 +79,8 @@ This project has been converted from a static HTML5 site to a dynamic Django web
    ```
 
 7. **Access the website**
-   - Visit http://127.0.0.1:8000/ in your browser
+   - Visit the live site at [GamingWithToimen.pythonanywhere.com](https://GamingWithToimen.pythonanywhere.com)
+   - Or access your local development server at http://127.0.0.1:8000/
    - Login with the superuser account or register a new account
 
 ## Project Structure
@@ -111,6 +120,7 @@ portfolio_project/
 - **JavaScript**: For interactive elements
 - **HTML5/CSS3**: Standard web technologies
 - **SQLite**: Database (default for development)
+- **PythonAnywhere**: Hosting platform for the live site
 
 ## Browser Support
 
