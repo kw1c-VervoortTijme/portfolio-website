@@ -1,7 +1,7 @@
 {% extends 'portfolio/base.html' %}
 {% load static %}
 
-{% block title %}Home - Portfolio Website{% endblock %}
+{% block title %}{{ t('home_title') }}{% endblock %}
 
 {% block extra_css %}
 <style>
@@ -26,31 +26,12 @@
 </style>
 {% endblock %}
 {% block content %}
-<h1>Welkom. Hier vindt u informatie over Tijme</h1>
+<h1>{{ t('welcome_message') }}</h1>
 <p>
-  Ik ben 21 jaar. Ik woon met mijn ouders, 1 broer en 1 zus in Nistelrode. Ik
-  heb al meerdere scholen doorlopen. In het jaar 2007 begon ik op de basisschool
-  De Beekgraaf in Nistelrode. In groep 8 ben ik naar De Brinck gegaan om daar
-  mijn basisschool af te maken. Daarna ben ik doorgestroomd naar het Udens
-  College in Uden op het niveau kader-theoretisch om uiteindelijk op het KW1C in
-  's-Hertogenbosch uit te komen, waar ik eerst de opleiding Bouwkunde
-  Architectuur heb gevolgd en nu de opleiding Software Developer volg.
-  dit is mijn 3e jaar van de opleiding Software Developer. Ik heb al een
-  stage gelopen bij een bedrijf genaamd omnilan. Dit was een leuk bedrijf
-  en ik loop nu stage bij abtransport dit is een transport bedrijf die voor beddrijven 
-  dingen naar de klanten brengen en ophalen. Dit is een leuk bedrijf omdat ik hier veel kan leren
-  ik zit hierbij op de afdeling IT en ik leer hier veel over hoe de taal python en django werkt.
+  {{ t('home_bio_p1') }}
 </p>
 
 <p>
-  Tijdens deze opleiding heb ik al veel ervaring opgedaan door te werken aan
-  projecten, zoals een website over een sportclub, en nu gaan we onze portfolio
-  website maken. ik heb ondertussen veelmeer geleerd gehad over c# en hoe je dit kan gebruiken
-  in een project. Ook heb ik al veel ervaring opgedaan met het maken van websites door middel van opdrachten
-  en mijn stage. Dit is erg leuk omdat ik nu ook weet hoe ik een website moet maken en hoe ik dit kan gebruiken in de toekomst.
-  Ook heb ik op mijn andere opleiding leuke projecten mogen doen,
-  zoals het maken van een restaurant met staalconstructie, een jaren 30 huis en
-  een hangplek voor jongeren. De meeste heb ik met goed resultaat afgesloten!
-  Deze ervaring kan me later in de praktijk goed van pas komen.
+  {{ t('home_bio_p2') }}
 </p>
 {% endblock %}

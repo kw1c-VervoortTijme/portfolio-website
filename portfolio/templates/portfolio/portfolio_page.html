@@ -1,26 +1,26 @@
 {% extends 'portfolio/base.html' %}
 {% load static %}
 
-{% block title %}Portfolio - Portfolio Website{% endblock %}
+{% block title %}{{ t('portfolio_title') }}{% endblock %}
 
 {% block content %}
 <div id="margin">
   <div class="lightbox">
     <div class="row">
-      <h1>Portfolio Projects</h1>
+      <h1>{{ t('portfolio_projects') }}</h1>
       <div class="col-lg-6">
-        <img src="{% static 'portfolio/images/regennboog.png' %}" data-mdb-img="{% static 'portfolio/images/regennboog.png' %}" alt="Regenboog project" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
-        <p>Regenboog: dit is opdracht 3.2 van thema 1 en ik vond dit een leuke opdracht om te maken omdat we toen met span classes moesten werken en ik niet wist of dat mogelijk was en over het algemeen vind ik dit goed gelukt.</p>
+        <img src="{% static 'portfolio/images/regennboog.png' %}" data-mdb-img="{% static 'portfolio/images/regennboog.png' %}" alt="{{ t('rainbow_project') }}" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
+        <p>{{ t('rainbow_desc') }}</p>
         
-        <img src="{% static 'portfolio/images/tabelwedstrijden.png' %}" data-mdb-img="{% static 'portfolio/images/tabelwedstrijden.png' %}" alt="Wedstrijdtabel" class="w-100 shadow-1-strong rounded" />
-        <p>Wedstrijdtabel: deze foto komt uit het 1e project en ik vind hem goed gelukt omdat ik moest uitvogelen hoe ik alle wedstrijden van den bosch kon laten zien en uiteindlijk kwamik bij een tabel uit die hadden destijds nog niet gebruikt en dus was dit voor mij de 1e keer dat ik dit met een tabel opgelost had.</p>
+        <img src="{% static 'portfolio/images/tabelwedstrijden.png' %}" data-mdb-img="{% static 'portfolio/images/tabelwedstrijden.png' %}" alt="{{ t('match_table') }}" class="w-100 shadow-1-strong rounded" />
+        <p>{{ t('match_table_desc') }}</p>
       </div>
       <div class="col-lg-6">
-        <img src="{% static 'portfolio/images/oefening1.6.png' %}" data-mdb-img="{% static 'portfolio/images/oefening1.6.png' %}" alt="Oefening 1.6" class="w-100 shadow-1-strong rounded" />
-        <p>Oefening 1.6: deze opdracht vond ik redelijk te doen dit komt omdat we eenn html bestand kregen die helemaal door elkaar stond en geen css had hierdoor moesten wij zelf er voor zorgen dat het er weer goed uit kwam te zien door middle van table en rows te gebruiken</p>
+        <img src="{% static 'portfolio/images/oefening1.6.png' %}" data-mdb-img="{% static 'portfolio/images/oefening1.6.png' %}" alt="{{ t('exercise_1_6') }}" class="w-100 shadow-1-strong rounded" />
+        <p>{{ t('exercise_1_6_desc') }}</p>
         
-        <img src="{% static 'portfolio/images/oefening2.1.png' %}" data-mdb-img="{% static 'portfolio/images/oefening2.1.png' %}" alt="Oefening 2.1" class="w-100 mt-md-4 shadow-1-strong rounded" />
-        <p>Oefening 2.1: dit was een leuke opdracht om te maken vooral omdat we met row-span en collem-span mochten werken. het eindresultaat is erg goed gelukt omdat je kan zien dat je met classes en id moet werken om verschillende kleuren in de tabel te krijgen.</p>
+        <img src="{% static 'portfolio/images/oefening2.1.png' %}" data-mdb-img="{% static 'portfolio/images/oefening2.1.png' %}" alt="{{ t('exercise_2_1') }}" class="w-100 mt-md-4 shadow-1-strong rounded" />
+        <p>{{ t('exercise_2_1_desc') }}</p>
       </div>
     </div>
   </div>

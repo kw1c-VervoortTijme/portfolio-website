@@ -1,7 +1,7 @@
 {% extends 'portfolio/base.html' %}
 {% load static %}
 
-{% block title %}Register - Portfolio Website{% endblock %}
+{% block title %}{{ t('register_title') }}{% endblock %}
 
 {% block content %}
 <div class="container mt-5">
@@ -9,7 +9,7 @@
     <div class="col-md-8">
       <div class="card">
         <div class="card-header">
-          <h3 class="text-center">Create an Account</h3>
+          <h3 class="text-center">{{ t('create_account') }}</h3>
         </div>
         <div class="card-body">
             <form method="post" class="auth-form">
@@ -25,16 +25,16 @@
             {% endif %}
             
             <div class="mb-3">
-              <label for="id_username" class="form-label">Username</label>
+              <label for="id_username" class="form-label">{{ t('username') }}</label>
               <input type="text" name="username" class="form-control" id="id_username" required>
-              <div class="form-text">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</div>
+              <div class="form-text">{{ t('username_requirements') }}</div>
               {% if form.username.errors %}
                 <div class="invalid-feedback d-block">{{ form.username.errors }}</div>
               {% endif %}
             </div>
             
             <div class="mb-3">
-              <label for="id_email" class="form-label">Email</label>
+              <label for="id_email" class="form-label">{{ t('email') }}</label>
               <input type="email" name="email" class="form-control" id="id_email" required>
               {% if form.email.errors %}
                 <div class="invalid-feedback d-block">{{ form.email.errors }}</div>
@@ -43,23 +43,23 @@
             
             <div class="row">
               <div class="col-md-6 mb-3">
-                <label for="id_first_name" class="form-label">First Name</label>
+                <label for="id_first_name" class="form-label">{{ t('first_name') }}</label>
                 <input type="text" name="first_name" class="form-control" id="id_first_name">
               </div>
               <div class="col-md-6 mb-3">
-                <label for="id_last_name" class="form-label">Last Name</label>
+                <label for="id_last_name" class="form-label">{{ t('last_name') }}</label>
                 <input type="text" name="last_name" class="form-control" id="id_last_name">
               </div>
             </div>
             
             <div class="mb-3">
-              <label for="id_password1" class="form-label">Password</label>
+              <label for="id_password1" class="form-label">{{ t('password') }}</label>
               <input type="password" name="password1" class="form-control" id="id_password1" required>
               <div class="form-text">
-                Your password can't be too similar to your other personal information.
-                Your password must contain at least 8 characters.
-                Your password can't be a commonly used password.
-                Your password can't be entirely numeric.
+                {{ t('password_req1') }}<br>
+                {{ t('password_req2') }}<br>
+                {{ t('password_req3') }}<br>
+                {{ t('password_req4') }}
               </div>
               {% if form.password1.errors %}
                 <div class="invalid-feedback d-block">{{ form.password1.errors }}</div>
@@ -67,20 +67,20 @@
             </div>
             
             <div class="mb-3">
-              <label for="id_password2" class="form-label">Confirm Password</label>
+              <label for="id_password2" class="form-label">{{ t('confirm_password') }}</label>
               <input type="password" name="password2" class="form-control" id="id_password2" required>
-              <div class="form-text">Enter the same password as before, for verification.</div>
+              <div class="form-text">{{ t('password_confirm_help') }}</div>
               {% if form.password2.errors %}
                 <div class="invalid-feedback d-block">{{ form.password2.errors }}</div>
               {% endif %}
             </div>
             
             <div class="d-grid">
-              <button type="submit" class="btn btn-primary">Register</button>
+              <button type="submit" class="btn btn-primary">{{ t('register_button') }}</button>
             </div>
             
             <div class="text-center mt-3">
-              Already have an account? <a href="{% url 'login' %}">Login</a>
+              {{ t('already_account') }} <a href="{% url 'login' %}">{{ t('login') }}</a>
             </div>
           </form>
         </div>

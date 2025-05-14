@@ -6,4 +6,5 @@ urlpatterns = [
     path('stage_1/', views.stage_1, name='stage_1'),
     path('stage_2/', views.stage_2, name='stage_2'),
     path('portfolio/', views.portfolio_page, name='portfolio_page'),
+     path('switch-language/', views.switch_language, name='switch_language'),
 ]
