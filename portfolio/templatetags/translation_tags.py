@@ -10,11 +10,9 @@ def t(context, key):
     Usage: {% t 'home_title' %}
     """
     request = context.get('request')
-    if request:
-        language = request.session.get('language', 'en')
-    else:
-        language = 'en'
+    language = request.session.get('language', 'en') if request else 'en'
     return translate(key, language)
+
 
 @register.simple_tag
 def get_language_name(code):
