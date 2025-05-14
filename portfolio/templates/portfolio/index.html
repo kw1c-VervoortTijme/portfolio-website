@@ -1,7 +1,7 @@
 {% extends 'portfolio/base.html' %}
-{% load static %}
+{% load static translation_tags %}
 
-{% block title %}{{ t('home_title') }}{% endblock %}
+{% block title %}{% t 'home_title' %}{% endblock %}
 
 {% block extra_css %}
 <style>
@@ -26,12 +26,12 @@
 </style>
 {% endblock %}
 {% block content %}
-<h1>{{ t('welcome_message') }}</h1>
+<h1>{% t 'welcome_message' %}</h1>
 <p>
-  {{ t('home_bio_p1') }}
+  {% t 'home_bio_p1' %}
 </p>
 
 <p>
-  {{ t('home_bio_p2') }}
+  {% t 'home_bio_p2' %}
 </p>
 {% endblock %}

@@ -1,10 +1,10 @@
-{% load static %}
+{% load static translation_tags %}
 <!DOCTYPE html>
 <html lang="{{ current_language }}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% block title %}{{ t('portfolio_website') }}{% endblock %}</title>
+    <title>{% block title %}{% t 'portfolio_website' %}{% endblock %}</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
   <body>
     <header>
       <!-- Navbar -->
-      <img id="test" src="{% static 'portfolio/images/IMG_6126.JPG' %}" alt="{{ t('profile_picture') }}" />
+      <img id="test" src="{% static 'portfolio/images/IMG_6126.JPG' %}" alt="{% t 'profile_picture' %}" />
       <nav class="navbar navbar-expand-lg bg-body-tertiary float-end">
         <div class="container-fluid">
           <a class="navbar-brand" href="{% url 'home' %}"></a>
@@ -32,7 +32,7 @@
             data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
-            aria-label="{{ t('toggle_navigation') }}">
+            aria-label="{% t 'toggle_navigation' %}">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -41,33 +41,33 @@
               <a
                 class="nav-link {% if request.path == '/' %}active{% endif %}"
                 aria-current="page"
-                href="{% url 'home' %}">{{ t('home') }}</a>
+                href="{% url 'home' %}">{% t 'home' %}</a>
               
               {% if user.is_authenticated %}
                 <!-- Regular content links visible to all authenticated users -->
-                <a class="nav-link {% if 'stage_1' in request.path %}active{% endif %}" href="{% url 'stage_1' %}">{{ t('internship_1') }}</a>
-                <a class="nav-link {% if 'stage_2' in request.path %}active{% endif %}" href="{% url 'stage_2' %}">{{ t('internship_2') }}</a>
-                <a class="nav-link {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">{{ t('portfolio') }}</a>
+                <a class="nav-link {% if 'stage_1' in request.path %}active{% endif %}" href="{% url 'stage_1' %}">{% t 'internship_1' %}</a>
+                <a class="nav-link {% if 'stage_2' in request.path %}active{% endif %}" href="{% url 'stage_2' %}">{% t 'internship_2' %}</a>
+                <a class="nav-link {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">{% t 'portfolio' %}</a>
                 
                 <!-- Admin only links -->
                 {% if user.groups.all.0.name == 'Administrators' or user.is_superuser %}
-                  <a class="nav-link" href="{% url 'admin:index' %}">{{ t('admin_panel') }}</a>
+                  <a class="nav-link" href="{% url 'admin:index' %}">{% t 'admin_panel' %}</a>
                 {% endif %}
                 
                 <!-- Logout form -->
                 <form method="post" action="{% url 'logout' %}" class="d-inline">
                   {% csrf_token %}
-                  <button type="submit" class="nav-link btn btn-link">{{ t('logout') }}</button>
+                  <button type="submit" class="nav-link btn btn-link">{% t 'logout' %}</button>
                 </form>
               {% else %}
-                <a class="nav-link {% if 'login' in request.path %}active{% endif %}" href="{% url 'login' %}">{{ t('login') }}</a>
-                <a class="nav-link {% if 'register' in request.path %}active{% endif %}" href="{% url 'register' %}">{{ t('register') }}</a>
+                <a class="nav-link {% if 'login' in request.path %}active{% endif %}" href="{% url 'login' %}">{% t 'login' %}</a>
+                <a class="nav-link {% if 'register' in request.path %}active{% endif %}" href="{% url 'register' %}">{% t 'register' %}</a>
               {% endif %}
               
               <!-- Improved Language Selector -->
               <li class="nav-item dropdown ms-2">
                 <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  {{ t('language') }}: {{ current_language|upper }}
+                  {% t 'language' %}: {{ current_language|upper }}
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
                   {% for lang_code in available_languages %}
@@ -96,7 +96,7 @@
             {% for message in messages %}
               <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
                 {{ message }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="{{ t('close') }}"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="{% t 'close' %}"></button>
               </div>
             {% endfor %}
           </div>
@@ -137,7 +137,7 @@
           </ul>
         </div>
 
-        <p>&copy; {% now "Y" %} {{ t('copyright') }}</p>
+        <p>&copy; {% now "Y" %} {% t 'copyright' %}</p>
 
         <div class="credits"></div>
       </div>
