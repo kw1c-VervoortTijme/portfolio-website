@@ -53,3 +53,18 @@ def logout_view(request):
     messages.success(request, "You have been successfully logged out.")
     return redirect('home')
 
+# Add to portfolio/views.py
+from django.shortcuts import redirect
+
+def switch_language(request):
+    """
+    Switch the language based on the POST request and redirect back.
+    """
+    if request.method == 'POST':
+        language = request.POST.get('language', 'en')
+        request.session['language'] = language
+        
+        # Get the next URL or default to home
+        next_url = request.POST.get('next', '/')
+        
+    return redirect(next_url)
