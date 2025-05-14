@@ -475,19 +475,19 @@ select.form-control {
   margin-bottom: 20px;
 }
 /* Add this to your stylesheet.css */
-.dropdown-menu.bg-body-tertiary {
-  background-color: var(--bs-tertiary-bg) !important;
+.dropdown-menu.dropdown-menu-dark {
+  background-color: #000 !important;
 }
 
-.dropdown-menu .dropdown-item {
-  color: var(--bs-body-color);
+.dropdown-menu-dark .dropdown-item {
+  color: #fff;
 }
 
-.dropdown-menu .dropdown-item:hover {
-  background-color: rgba(var(--bs-tertiary-bg-rgb), 0.8);
+.dropdown-menu-dark .dropdown-item:hover {
+  background-color: #333;
 }
 
-.dropdown-menu .dropdown-item.active {
-  background-color: var(--bs-primary);
+.dropdown-menu-dark .dropdown-item.active {
+  background-color: #0d6efd; /* Bootstrap primary color */
   color: white;
 }

@@ -64,26 +64,26 @@
                 <a class="nav-link {% if 'register' in request.path %}active{% endif %}" href="{% url 'register' %}">{% t 'register' %}</a>
               {% endif %}
               
-                <!-- Improved Language Selector with matching background color -->
-                <li class="nav-item dropdown ms-2">
-                  <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    {% t 'language' %}: {{ current_language|upper }}
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-end bg-body-tertiary" aria-labelledby="languageDropdown">
-                    {% for lang_code in available_languages %}
-                      <li>
-                        <form action="{% url 'switch_language' %}" method="post" class="m-0">
-                          {% csrf_token %}
-                          <input name="next" type="hidden" value="{{ request.path }}">
-                          <input name="language" type="hidden" value="{{ lang_code }}">
-                          <button type="submit" class="dropdown-item {% if lang_code == current_language %}active{% endif %} nav-link">
-                            {{ lang_code|upper }}
-                          </button>
-                        </form>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                </li>
+                <!-- Language Selector with black background -->
+              <li class="nav-item dropdown ms-2">
+                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {% t 'language' %}: {{ current_language|upper }}
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="languageDropdown">
+                  {% for lang_code in available_languages %}
+                    <li>
+                      <form action="{% url 'switch_language' %}" method="post" class="m-0">
+                        {% csrf_token %}
+                        <input name="next" type="hidden" value="{{ request.path }}">
+                        <input name="language" type="hidden" value="{{ lang_code }}">
+                        <button type="submit" class="dropdown-item {% if lang_code == current_language %}active{% endif %}">
+                          {{ lang_code|upper }}
+                        </button>
+                      </form>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
             </div>
         </div>
       </nav>
