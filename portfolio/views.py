@@ -41,7 +41,7 @@ def stage_2(request):
 def stage_3(request):
     return render(request, 'portfolio/stage_3.html')
     
-@login_required
+
 def portfolio_page(request):
     return render(request, 'portfolio/portfolio_page.html')
 
