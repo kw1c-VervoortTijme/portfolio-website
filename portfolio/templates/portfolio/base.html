@@ -42,12 +42,13 @@
                 class="nav-link {% if request.path == '/' %}active{% endif %}"
                 aria-current="page"
                 href="{% url 'home' %}">{% t 'home' %}</a>
+                <a class="nav-link {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">{% t 'portfolio' %}</a>
               
               {% if user.is_authenticated %}
                 <!-- Regular content links visible to all authenticated users -->
                 <a class="nav-link {% if 'stage_1' in request.path %}active{% endif %}" href="{% url 'stage_1' %}">{% t 'internship_1' %}</a>
                 <a class="nav-link {% if 'stage_2' in request.path %}active{% endif %}" href="{% url 'stage_2' %}">{% t 'internship_2' %}</a>
-                <a class="nav-link {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">{% t 'portfolio' %}</a>
+                
                 
                 <!-- Admin only links -->
                 {% if user.groups.all.0.name == 'Administrators' or user.is_superuser %}
