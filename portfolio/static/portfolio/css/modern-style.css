@@ -7,9 +7,9 @@
     --dark-text: #333333;
     --gray-medium: #666666;
     --section-padding: 100px 0;
-  }
+}
   
-  body {
+body {
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
     color: var(--dark-text);
     line-height: 1.6;
@@ -17,20 +17,32 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-  }
+}
   
-  /* Header styling */
-  header {
+/* Header styling */
+header {
     background-color: var(--dark-bg);
-    padding: 20px 0;
+    padding: 15px 0;
     position: relative;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Site title styling - aligned with navbar */
+.site-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--light-text) !important;
+    margin: 0;
+    padding-left: 20px;
+}
   
-  .navbar {
+.navbar {
     background-color: transparent !important;
-  }
+}
   
-  .navbar-nav .nav-link {
+.navbar-nav .nav-link {
     color: var(--light-text) !important;
     font-weight: 500;
     text-transform: uppercase;
@@ -38,36 +50,37 @@
     letter-spacing: 1px;
     padding: 10px 16px !important;
     transition: all 0.3s ease;
-  }
+}
   
-  .navbar-nav .nav-link:hover,
-  .navbar-nav .nav-link.active {
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
     color: var(--accent-color) !important;
-  }
+}
   
-  /* Main content styling */
-  .container {
+/* Main content styling */
+.container {
     max-width: 1400px;
     padding: 0 20px;
-  }
+}
   
-  main {
+main {
     padding: 80px 0;
-  }
+}
   
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
-    
+    margin-bottom: 20px;
     color: var(--dark-text);
-  }
+}
   
-  h1 {
+h1 {
     font-size: 2.5rem;
     position: relative;
-
-  }
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
   
-  h1:after {
+h1:after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -75,54 +88,45 @@
     width: 80px;
     height: 3px;
     background-color: var(--accent-color);
-  }
+}
   
-  p {
+p {
     font-size: 16px;
     line-height: 1.8;
-  }
+}
   
-  /* Card styling for portfolio/internship items */
-  .lightbox {
+/* Card styling for portfolio/internship items */
+.lightbox {
     margin-bottom: 80px;
-  }
+}
   
-  .lightbox img {
+.lightbox img {
     border-radius: 0 !important;
     transition: transform 0.4s ease;
-  }
+}
   
-  .lightbox img:hover {
+.lightbox img:hover {
     transform: scale(1.02);
-  }
+}
   
-  /* Dark section styling */
-  #gevoel2 {
+/* Dark section styling */
+#gevoel2 {
     background-color: var(--dark-bg);
     padding: var(--section-padding);
     margin-top: 0;
     margin-bottom: 0;
-  }
+}
   
-  #gevoel2 h1, #gevoel2 p {
+#gevoel2 h1, #gevoel2 p {
     color: var(--light-text);
-  }
+}
   
-  #gevoel2 h1:after {
+#gevoel2 h1:after {
     background-color: var(--accent-color);
-  }
+}
   
-  /* Profile image styling */
-  #test {
-    width: 120px;
-    height: 120px;
-    border-radius: 0;
-    border: 3px solid var(--accent-color);
-    transition: all 0.3s ease;
-  }
-  
-  /* Button styling */
-  .btn-primary {
+/* Button styling */
+.btn-primary {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     border-radius: 0;
@@ -131,202 +135,181 @@
     font-weight: 600;
     letter-spacing: 1px;
     transition: all 0.3s ease;
-  }
+}
   
-  .btn-primary:hover {
+.btn-primary:hover {
     background-color: transparent;
     color: var(--accent-color);
-  }
+}
   
-  /* Footer styling */
-  #footer {
+/* Footer styling */
+#footer {
     background-color: var(--dark-bg);
     padding: 60px 0 30px;
     color: var(--light-text);
-  }
+}
   
-  #footer p {
+#footer p {
     color: #999;
-  }
+}
   
-  #footer .socials-media ul li a {
+#footer .socials-media ul li a {
     color: var(--light-text);
     font-size: 20px;
     transition: all 0.3s ease;
-  }
+}
   
-  #footer .socials-media ul li a:hover {
+#footer .socials-media ul li a:hover {
     color: var(--accent-color);
-  }
+}
   
-  /* Auth forms styling */
-  .card {
+/* Auth forms styling */
+.card {
     border: none;
     border-radius: 0;
     box-shadow: 0 5px 30px rgba(0,0,0,0.1);
-  }
+}
   
-  .card-header {
+.card-header {
     background-color: var(--dark-bg);
     color: var(--light-text);
     border-radius: 0 !important;
     padding: 25px;
-  }
+}
   
-  .card-body {
+.card-body {
     padding: 30px;
-  }
+}
   
-  .form-control {
+.form-control {
     border-radius: 0;
     padding: 12px 15px;
     height: auto;
     border: 1px solid #ddd;
-    text-transform: none;
-  }
+}
   
-  /* Responsive adjustments */
-  @media (max-width: 991px) {
+/* Responsive adjustments */
+@media (max-width: 991px) {
     h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
     
     .navbar-collapse {
-      background-color: var(--dark-bg);
-      padding: 20px;
-    }
-    
-    .ms-auto {
-      margin-top: 10px;
+        background-color: var(--dark-bg);
+        padding: 20px;
     }
     
     main {
-      padding: 50px 0;
+        padding: 50px 0;
     }
-  }
-  /* Mobile Navigation Improvements */
 
-/* Make burger icon more visible */
+    /* Site title on mobile */
+    .site-title {
+        font-size: 1.5rem;
+        padding-left: 15px;
+    }
+}
+
+/* Mobile Navigation Improvements */
 .navbar-toggler {
     background-color: var(--accent-color) !important;
     padding: 8px 10px;
     border: none;
     margin-right: 15px;
-  }
+}
   
-  .navbar-toggler-icon {
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-  }
+}
   
-  /* Fix collapsed navbar on mobile */
-  @media (max-width: 991px) {
-    /* Proper positioning of the collapsed menu */
+/* Fix collapsed navbar on mobile */
+@media (max-width: 991px) {
     .navbar-collapse {
-      position: absolute;
-      top: 100%;
-      right: 0;
-      left: 0;
-      background-color: var(--dark-bg);
-      padding: 20px;
-      z-index: 1000;
-      box-shadow: 0 10px 15px rgba(0,0,0,0.1);
-      border-top: 2px solid var(--accent-color);
-      max-height: calc(100vh - 100px);
-      overflow-y: auto;
-      width: 100%;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background-color: var(--dark-bg);
+        padding: 20px;
+        z-index: 1000;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        border-top: 2px solid var(--accent-color);
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
+        width: 100%;
     }
   
-    /* Fix menu width on mobile */
     .navbar-expand-lg .navbar-nav {
-      width: 100%;
+        width: 100%;
     }
     
-    /* Ensure each nav item is properly styled */
     .navbar-nav .nav-link {
-      padding: 12px 20px !important;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-      margin: 0;
-      display: block;
-      width: 100%;
-      text-align: center;
+        padding: 12px 20px !important;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        margin: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
     
-    /* Remove border from last item */
     .navbar-nav .nav-link:last-child {
-      border-bottom: none;
+        border-bottom: none;
     }
     
-    /* Align the container properly */
     header .container-fluid {
-      padding-left: 15px;
-      padding-right: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     
-    /* Logout button styling in mobile view */
     .navbar-nav form {
-      width: 100%;
-      display: block;
+        width: 100%;
+        display: block;
     }
     
     .navbar-nav form button {
-      width: 100%;
-      text-align: center;
-      padding: 12px 20px !important;
-      background: transparent;
-      border: none;
-      color: var(--light-text) !important;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
+        width: 100%;
+        text-align: center;
+        padding: 12px 20px !important;
+        background: transparent;
+        border: none;
+        color: var(--light-text) !important;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
     }
     
-    /* Properly position the navbar */
     .navbar {
-      width: 100% !important;
-      float: none !important;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+        width: 100% !important;
+        float: none !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     
-    /* Ensure the logo/profile pic is properly positioned */
-    #test {
-      margin-left: 15px;
-      width: 60px;
-      height: 60px;
-    }
-    
-    /* Make sure header allows for absolute positioning of dropdown */
     header {
-      position: relative;
-      z-index: 100;
-      padding: 10px 0;
+        position: relative;
+        z-index: 100;
+        padding: 10px 0;
     }
-  }
-/* Styling for the profile section */
-.site-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-
-  color: var(--light-text) !important;
 }
 
+/* Profile image styling */
 .profile-image {
-  max-width: 300px;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* Login prompt styling */
 .login-prompt, 
 .login-prompt-footer {
-  background-color: #f8f9fa;
-  border-left: 4px solid #0d6efd;
-  margin-bottom: 1.5rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #0d6efd;
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
 }
 
 .login-prompt h3,
 .login-prompt-footer h3 {
-  color: #0d6efd;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+    color: #0d6efd;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
-

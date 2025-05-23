@@ -24,7 +24,6 @@ body {
 
 /* Make the main content area expand to push footer down */
 .container {
-  /* Remove conflicting display: table - this was causing the issue */
   position: relative;
   width: 100%;
   flex: 1 0 auto; /* This makes it fill available space */
@@ -78,7 +77,6 @@ p {
 
 /* Button Styles */
 .btn {
-
   border: medium none;
   border-radius: 0;
   color: #fff;
@@ -119,7 +117,6 @@ p {
   padding-left: 10px;
   margin: 0 0 25px 0;
   line-height: 14px;
-
 }
 
 .form-control:focus {
@@ -149,14 +146,7 @@ p {
   margin-bottom: 30px;
 }
 
-/* Specific Element Styles */
-#test {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-}
-
-/* Footer Styles - FIXED */
+/* Footer Styles */
 #footer {
   background: #f7f7f7;
   padding-top: 50px;
@@ -230,20 +220,20 @@ p {
   height: 500px;
 }
 
-/* Caption Styles - FIXED */
+/* Caption Styles */
 .caption-below {
   text-align: center;
   padding: 15px;
-  background-color: #f8f9fa; /* Changed from black to light gray for better readability */
+  background-color: #f8f9fa;
   margin-bottom: 20px;
   border-radius: 0 0 5px 5px;
-  color: #333; /* Added to ensure text is visible */
+  color: #333;
 }
 
 .caption-below h5 {
   font-weight: bold;
   margin-bottom: 10px;
-  color: #292929; /* Added for consistency */
+  color: #292929;
 }
 
 .carousel-item {
@@ -254,6 +244,7 @@ p {
 #carouselExampleRide {
   margin-bottom: 30px;
 }
+
 /* Fixed caption styles for portfolio carousel */
 .custom-caption {
   text-align: center;
@@ -262,22 +253,22 @@ p {
   margin-bottom: 30px;
   border-radius: 0 0 5px 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: relative; /* Ensures the caption stays in the document flow */
-  z-index: 10; /* Gives the caption a higher z-index */
-  color: #333 !important; /* Ensures text is visible */
-  display: block; /* Ensures the element is visible */
-  width: 100%; /* Full width */
+  position: relative;
+  z-index: 10;
+  color: #333 !important;
+  display: block;
+  width: 100%;
 }
 
 .custom-caption h5 {
   font-weight: bold;
   margin-bottom: 10px;
-  color: #292929 !important; /* Forces color for headings */
+  color: #292929 !important;
   font-size: 1.2rem;
 }
 
 .custom-caption p {
-  color: #555 !important; /* Forces darker text color for better readability */
+  color: #555 !important;
   margin: 0 0 10px;
   line-height: 1.5;
 }
@@ -292,73 +283,6 @@ p {
   padding-bottom: 0;
 }
 
-/* Make sure carousel items have proper spacing */
-.carousel-item {
-  margin-bottom: 40px; /* Give extra space below each item */
-  position: relative;
-}
-
-/* Ensure carousel controls don't interfere with captions */
-.carousel-control-next, .carousel-control-prev {
-  z-index: 20;
-}
-
-/* Carousel height adjustments */
-.c-img {
-  height: 500px;
-  object-fit: cover;
-  border-radius: 5px 5px 0 0;
-}
-/* Mobile Nav Styling */
-@media (max-width: 991px) {
-  /* Fixed position for header on mobile */
-  header {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-  }
-  
-  /* Fix profile picture positioning on mobile */
-  #test {
-    margin-left: 15px;
-  }
-  
-  /* Fix navbar width on mobile */
-  .navbar {
-    width: auto !important;
-    float: none !important;
-    margin-right: 15px;
-  }
-  
-  /* Make collapsed navbar go below header */
-  .navbar-collapse {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    left: 0;
-    background-color: #f8f9fa;
-    padding: 10px;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  
-  /* Center nav links in mobile view */
-  .navbar-nav {
-    text-align: center;
-  }
-  
-  /* Add some spacing to nav links */
-  .nav-link {
-    padding: 10px 0 !important;
-  }
-  
-  /* Make container responsive */
-  .container {
-    padding: 0 15px;
-  }
-}
 /* Form styling */
 .card {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -383,68 +307,6 @@ p {
   margin-top: 0.25rem;
 }
 
-/* Button styling */
-.btn-primary {
-  background-color: #b8a07e;
-  border-color: #b8a07e;
-}
-
-.btn-primary:hover {
-  background-color: #a89070;
-  border-color: #a89070;
-}
-
-.btn-outline-primary {
-  color: #b8a07e;
-  border-color: #b8a07e;
-}
-
-.btn-outline-primary:hover {
-  background-color: #b8a07e;
-  color: white;
-}
-/* Login page styles */
-.card {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border: none;
-}
-
-.card-header {
-  background-color: #f8f9fa;
-  padding: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.nav-text {
-  color: #333;
-  font-size: 14px;
-}
-/* Styling for auth links in navbar */
-.navbar-nav .nav-link:last-child {
-  margin-right: 0;
-}
-
-/* User greeting text */
-.nav-text {
-  padding: 0.5rem 0;
-  color: #6c757d;
-  font-size: 0.9rem;
-}
-
-/* Responsive adjustments */
-@media (max-width: 991px) {
-  .navbar-nav {
-    margin-bottom: 10px;
-  }
-  
-  .ms-auto {
-    display: block;
-    text-align: center;
-    padding-top: 10px;
-    border-top: 1px solid #eee;
-  }
-}
-
 /* Make this rule VERY specific and use !important */
 .card-body .form-control,
 .auth-form .form-control,
@@ -454,27 +316,7 @@ select.form-control {
   text-transform: none !important;
 }
 
-
-
-/* Make navbar accommodate login controls */
-@media (max-width: 991px) {
-  .ms-auto {
-    margin-top: 15px;
-    text-align: center;
-    width: 100%;
-  }
-}
-#footer .footer-info {
-  margin-bottom: 30px;
-}
-
-#footer .footer-title {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--light-text);
-  margin-bottom: 20px;
-}
-/* Add this to your stylesheet.css */
+/* Dropdown menu styling */
 .dropdown-menu.dropdown-menu-dark {
   background-color: #000 !important;
 }
@@ -488,6 +330,6 @@ select.form-control {
 }
 
 .dropdown-menu-dark .dropdown-item.active {
-  background-color: #0d6efd; /* Bootstrap primary color */
+  background-color: #0d6efd;
   color: white;
 }

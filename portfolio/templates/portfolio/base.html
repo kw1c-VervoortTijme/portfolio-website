@@ -19,72 +19,73 @@
   </head>
 
   <body>
-    <header>
-      <!-- Navbar -->
-        <h1 class="site-title">Tijme Vervoort</h1>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary float-end">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="{% url 'home' %}"></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="{% t 'toggle_navigation' %}">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <!-- All links visible without login requirement -->
-              <a class="nav-link {% if request.path == '/' %}active{% endif %}" aria-current="page" href="{% url 'home' %}">{% t 'home' %}</a>
-              <a class="nav-link {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">{% t 'portfolio' %}</a>
-              <a class="nav-link {% if 'stage_1' in request.path %}active{% endif %}" href="{% url 'stage_1' %}">{% t 'internship_1' %}</a>
-              <a class="nav-link {% if 'stage_2' in request.path %}active{% endif %}" href="{% url 'stage_2' %}">{% t 'internship_2' %}</a>
-              
-                
-                {% if user.is_authenticated %}
-                <!-- Admin only links -->
-                {% if user.groups.all.0.name == 'Administrators' or user.is_superuser %}
-                  <a class="nav-link" href="{% url 'admin:index' %}">{% t 'admin_panel' %}</a>
-                {% endif %}
-                
-                <!-- Logout form -->
-                <form method="post" action="{% url 'logout' %}" class="d-inline">
-                  {% csrf_token %}
-                  <button type="submit" class="nav-link btn btn-link">{% t 'logout' %}</button>
-                </form>
-              {% else %}
-                <a class="nav-link {% if 'login' in request.path %}active{% endif %}" href="{% url 'login' %}">{% t 'login' %}</a>
-                <a class="nav-link {% if 'register' in request.path %}active{% endif %}" href="{% url 'register' %}">{% t 'register' %}</a>
-              {% endif %}
-              
-                <!-- Language Selector with black background -->
-              <li class="nav-item dropdown ms-2">
-                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  {% t 'language' %}: {{ current_language|upper }}
-                </a>
-                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="languageDropdown">
-                  {% for lang_code in available_languages %}
-                    <li>
-                      <form action="{% url 'switch_language' %}" method="post" class="m-0">
-                        {% csrf_token %}
-                        <input name="next" type="hidden" value="{{ request.path }}">
-                        <input name="language" type="hidden" value="{{ lang_code }}">
-                        <button type="submit" class="dropdown-item {% if lang_code == current_language %}active{% endif %}">
-                          {{ lang_code|upper }}
-                        </button>
-                      </form>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </li>
-            </div>
+<header class="d-flex align-items-center justify-content-between">
+  <!-- Site title aligned with navbar, slightly off left side -->
+  <h1 class="site-title ms-3 mb-0">Tijme Vervoort</h1>
+  
+  <!-- Navbar with white text -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="{% t 'toggle_navigation' %}">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- All links visible without login requirement with white text -->
+          <a class="nav-link text-white {% if request.path == '/' %}active{% endif %}" aria-current="page" href="{% url 'home' %}">{% t 'home' %}</a>
+          <a class="nav-link text-white {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">{% t 'portfolio' %}</a>
+          <a class="nav-link text-white {% if 'stage_1' in request.path %}active{% endif %}" href="{% url 'stage_1' %}">{% t 'internship_1' %}</a>
+          <a class="nav-link text-white {% if 'stage_2' in request.path %}active{% endif %}" href="{% url 'stage_2' %}">{% t 'internship_2' %}</a>
+          
+          {% if user.is_authenticated %}
+            <!-- Admin links and logout with white text -->
+            {% if user.groups.all.0.name == 'Administrators' or user.is_superuser %}
+              <a class="nav-link text-white" href="{% url 'admin:index' %}">{% t 'admin_panel' %}</a>
+            {% endif %}
+            
+            <!-- Logout form -->
+            <form method="post" action="{% url 'logout' %}" class="d-inline">
+              {% csrf_token %}
+              <button type="submit" class="nav-link btn btn-link text-white">{% t 'logout' %}</button>
+            </form>
+          {% else %}
+            <a class="nav-link text-white {% if 'login' in request.path %}active{% endif %}" href="{% url 'login' %}">{% t 'login' %}</a>
+            <a class="nav-link text-white {% if 'register' in request.path %}active{% endif %}" href="{% url 'register' %}">{% t 'register' %}</a>
+          {% endif %}
+          
+          <!-- Language Selector with white text -->
+          <li class="nav-item dropdown ms-2">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {% t 'language' %}: {{ current_language|upper }}
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="languageDropdown">
+              {% for lang_code in available_languages %}
+                <li>
+                  <form action="{% url 'switch_language' %}" method="post" class="m-0">
+                    {% csrf_token %}
+                    <input name="next" type="hidden" value="{{ request.path }}">
+                    <input name="language" type="hidden" value="{{ lang_code }}">
+                    <button type="submit" class="dropdown-item {% if lang_code == current_language %}active{% endif %}">
+                      {{ lang_code|upper }}
+                    </button>
+                  </form>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
         </div>
-      </nav>
-      
-    </header>
+      </div>
+    </div>
+  </nav>
+</header>
+
     <div class="container">
       <main>
         {% if messages %}
