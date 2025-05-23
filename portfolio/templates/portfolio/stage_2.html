@@ -8,20 +8,36 @@
   <div class="lightbox">
     <div class="row">
       <h1>{% t 'second_internship' %}</h1>
+      
+      <!-- Preview content - visible to everyone -->
       <div class="col-lg-6">
         <img src="{% static 'portfolio/images/wagtail_logo.png' %}" data-mdb-img="{% static 'portfolio/images/wagtail_logo.png' %}" alt="{% t 'blog_editor' %}" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
         <p>{% t 'wagtail_desc' %}</p>
-        
-        <img src="{% static 'portfolio/images/blog_editor.png' %}" data-mdb-img="{% static 'portfolio/images/blog_editor.png' %}" alt="{% t 'learn_wagtail' %}" class="w-100 shadow-1-strong rounded" />
-        <p>{% t 'cms_desc' %}</p>
       </div>
+      
+      {% if not user.is_authenticated %}
+      <!-- Login prompt for non-logged in users -->
       <div class="col-lg-6">
-        <img src="{% static 'portfolio/images/bootstrap_email.png' %}" data-mdb-img="{% static 'portfolio/images/bootstrap_email.png' %}" alt="{% t 'bootstrap_email' %}" class="w-100 mt-md-4 shadow-1-strong rounded" />
+        <div class="login-prompt p-4 bg-light rounded shadow-sm">
+          <h3>Preview Mode</h3>
+          <p>This is a preview of my second internship. Log in to see the full details and projects I worked on.</p>
+          <a href="{% url 'login' %}" class="btn btn-primary">Log in</a>
+          <a href="{% url 'register' %}" class="btn btn-outline-secondary ms-2">Register</a>
+        </div>
+      </div>
+      {% else %}
+      <!-- Additional preview content for logged-in users -->
+      <div class="col-lg-6">
+        <img src="{% static 'portfolio/images/bootstrap_email.png' %}" data-mdb-img="{% static 'portfolio/images/bootstrap_email.png' %}" alt="{% t 'bootstrap_email' %}" class="w-100 shadow-1-strong rounded" />
         <p>{% t 'bootstrap_email_desc' %}</p>
       </div>
+      {% endif %}
     </div>
   </div>
 </div>
+
+<!-- Full content section - only visible to logged-in users -->
+{% if user.is_authenticated %}
 <div id="gevoel2">
   <div class="container">
     <h1>{% t 'programming_skills' %}</h1>
@@ -33,8 +49,20 @@
       <div class="col-lg-6">
         <img src="{% static 'portfolio/images/codecademy_certificaten.png' %}" data-mdb-img="{% static 'portfolio/images/codecademy_certificaten.png' %}" alt="{% t 'codecademy_courses' %}" class="w-100 shadow-1-strong rounded" />
         <p>{% t 'codecademy_desc' %}</p>
+        <img src="{% static 'portfolio/images/blog_editor.png' %}" data-mdb-img="{% static 'portfolio/images/blog_editor.png' %}" alt="{% t 'learn_wagtail' %}" class="w-100 shadow-1-strong rounded mt-4" />
+        <p>{% t 'cms_desc' %}</p>
       </div>
     </div>
   </div>
 </div>
+{% else %}
+<!-- Message for non-logged in users -->
+<div class="container mt-4 mb-5">
+  <div class="login-prompt-footer text-center p-4 bg-light rounded shadow-sm">
+    <h3>Want to see more?</h3>
+    <p>Log in to access detailed information about my second internship, including programming skills development and completed certifications.</p>
+    <a href="{% url 'login' %}" class="btn btn-primary">Log in now</a>
+  </div>
+</div>
+{% endif %}
 {% endblock %}

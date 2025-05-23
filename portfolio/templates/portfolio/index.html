@@ -26,12 +26,16 @@
 </style>
 {% endblock %}
 {% block content %}
-<h1>{% t 'welcome_message' %}</h1>
-<p>
-  {% t 'home_bio_p1' %}
-</p>
-
-<p>
-  {% t 'home_bio_p2' %}
-</p>
+<!-- Add profile image to the content area -->
+<div class="row mb-4 mt-4">
+  <div class="col-md-4">
+    <!-- LinkedIn profile picture -->
+    <img class="profile-image img-fluid" src="{% static 'portfolio/images/linkedin_profile.jpg' %}" alt="{% t 'profile_picture' %}" />
+  </div>
+  <div class="col-md-8">
+    <h1>{% t 'welcome_message' %}</h1>
+    <p>{% t 'home_bio_p1' %}</p>
+    <p>{% t 'home_bio_p2' %}</p>
+  </div>
+</div>
 {% endblock %}

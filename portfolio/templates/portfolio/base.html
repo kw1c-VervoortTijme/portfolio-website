@@ -21,7 +21,7 @@
   <body>
     <header>
       <!-- Navbar -->
-      <img id="test" src="{% static 'portfolio/images/IMG_6126.JPG' %}" alt="{% t 'profile_picture' %}" />
+        <h1 class="site-title">Tijme Vervoort</h1>
       <nav class="navbar navbar-expand-lg bg-body-tertiary float-end">
         <div class="container-fluid">
           <a class="navbar-brand" href="{% url 'home' %}"></a>
@@ -37,19 +37,14 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <!-- Home link always visible -->
-              <a
-                class="nav-link {% if request.path == '/' %}active{% endif %}"
-                aria-current="page"
-                href="{% url 'home' %}">{% t 'home' %}</a>
-                <a class="nav-link {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">{% t 'portfolio' %}</a>
+              <!-- All links visible without login requirement -->
+              <a class="nav-link {% if request.path == '/' %}active{% endif %}" aria-current="page" href="{% url 'home' %}">{% t 'home' %}</a>
+              <a class="nav-link {% if 'portfolio' in request.path %}active{% endif %}" href="{% url 'portfolio_page' %}">{% t 'portfolio' %}</a>
+              <a class="nav-link {% if 'stage_1' in request.path %}active{% endif %}" href="{% url 'stage_1' %}">{% t 'internship_1' %}</a>
+              <a class="nav-link {% if 'stage_2' in request.path %}active{% endif %}" href="{% url 'stage_2' %}">{% t 'internship_2' %}</a>
               
-              {% if user.is_authenticated %}
-                <!-- Regular content links visible to all authenticated users -->
-                <a class="nav-link {% if 'stage_1' in request.path %}active{% endif %}" href="{% url 'stage_1' %}">{% t 'internship_1' %}</a>
-                <a class="nav-link {% if 'stage_2' in request.path %}active{% endif %}" href="{% url 'stage_2' %}">{% t 'internship_2' %}</a>
                 
-                
+                {% if user.is_authenticated %}
                 <!-- Admin only links -->
                 {% if user.groups.all.0.name == 'Administrators' or user.is_superuser %}
                   <a class="nav-link" href="{% url 'admin:index' %}">{% t 'admin_panel' %}</a>

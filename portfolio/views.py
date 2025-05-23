@@ -29,17 +29,15 @@ def register(request):
     return render(request, 'portfolio/register.html', {'form': form})
 
 # All other pages require login
-@login_required
+
 def stage_1(request):
     return render(request, 'portfolio/stage_1.html')
     
-@login_required
+
 def stage_2(request):
     return render(request, 'portfolio/stage_2.html')
     
-@login_required
-def stage_3(request):
-    return render(request, 'portfolio/stage_3.html')
+
     
 
 def portfolio_page(request):

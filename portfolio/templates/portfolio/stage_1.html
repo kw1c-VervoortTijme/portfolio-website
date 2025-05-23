@@ -8,20 +8,37 @@
   <div class="lightbox">
     <div class="row">
       <h1>{% t 'omnilan' %}</h1>
+      
+      <!-- Preview content - visible to everyone -->
       <div class="col-lg-6">
         <h2>{% t 'ispconfig' %}</h2>
         <img src="{% static 'portfolio/images/ispconfig.PNG' %}" data-mdb-img="{% static 'portfolio/images/ispconfig.PNG' %}" alt="{% t 'ispconfig' %}" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
         <p>{% t 'ispconfig_desc' %}</p>
-        <img src="{% static 'portfolio/images/email.png' %}" data-mdb-img="{% static 'portfolio/images/email.png' %}" alt="{% t 'email_domain' %}" class="w-100 shadow-1-strong rounded" />
-        <p>{% t 'email_domain_desc' %}</p>
       </div>
+      
+      {% if not user.is_authenticated %}
+      <!-- Login prompt for non-logged in users -->
+      <div class="col-lg-6">
+        <div class="login-prompt p-4 bg-light rounded shadow-sm">
+          <h3>Preview Mode</h3>
+          <p>This is a preview of my internship at Omnilan. Log in to see the full details and additional projects.</p>
+          <a href="{% url 'login' %}" class="btn btn-primary">Log in</a>
+          <a href="{% url 'register' %}" class="btn btn-outline-secondary ms-2">Register</a>
+        </div>
+      </div>
+      {% else %}
+      <!-- Additional preview content for logged-in users -->
       <div class="col-lg-6">
         <img src="{% static 'portfolio/images/email-hoe.png' %}" data-mdb-img="{% static 'portfolio/images/email-hoe.png' %}" alt="{% t 'email_address' %}" class="w-100 shadow-1-strong rounded" />
         <p>{% t 'email_address_desc' %}</p>
       </div>
+      {% endif %}
     </div>
   </div>
 </div>
+
+<!-- Full content section - only visible to logged-in users -->
+{% if user.is_authenticated %}
 <div id="gevoel2">
   <div class="container">
     <h1>{% t 'rememberz' %}</h1>
@@ -35,8 +52,20 @@
       <div class="col-lg-6">
         <img src="{% static 'portfolio/images/rememberz.PNG' %}" data-mdb-img="{% static 'portfolio/images/rememberz.PNG' %}" alt="{% t 'rememberz_main' %}" class="w-100 shadow-1-strong rounded" />
         <p>{% t 'rememberz_main_desc' %}</p>
+        <img src="{% static 'portfolio/images/email.png' %}" data-mdb-img="{% static 'portfolio/images/email.png' %}" alt="{% t 'email_domain' %}" class="w-100 shadow-1-strong rounded" />
+        <p>{% t 'email_domain_desc' %}</p>
       </div>
     </div>
   </div>
 </div>
+{% else %}
+<!-- Message for non-logged in users -->
+<div class="container mt-4 mb-5">
+  <div class="login-prompt-footer text-center p-4 bg-light rounded shadow-sm">
+    <h3>Want to see more?</h3>
+    <p>Log in to access detailed information about my internship experience, including my work with Rememberz and detailed email configuration setup.</p>
+    <a href="{% url 'login' %}" class="btn btn-primary">Log in now</a>
+  </div>
+</div>
+{% endif %}
 {% endblock %}
