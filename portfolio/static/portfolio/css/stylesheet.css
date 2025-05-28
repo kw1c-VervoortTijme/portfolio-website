@@ -103,6 +103,7 @@ p {
   font-size: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: var(--light-text);
 }
 
 .form-control {
