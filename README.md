@@ -1,7 +1,7 @@
 # Portfolio Website - Django Project
 
 ## Overview
-This project is a Django-based portfolio website that showcases internship experiences and portfolio items. It includes user authentication to restrict access to content, ensuring that only authenticated users can view detailed portfolio and internship information.
+This project is a Django-based portfolio website that showcases internship experiences and portfolio items. It features a preview mode for internship content, with detailed information available to authenticated users. The site is designed to be visually appealing, accessible, and available in multiple languages.
 
 ## Live Website
 
@@ -13,24 +13,30 @@ Feel free to visit the live site to see the project in action!
 ## Features
 
 - **Responsive Design**: Works on mobile, tablet, and desktop devices
+- **Content Preview System**: 
+  - All pages are accessible to visitors
+  - Preview mode for internship content
+  - Full details available after authentication
+- **Multi-language Support**: 
+  - Available in English, Dutch, French, German, Spanish, Italian
+  - Nordic language support (Norwegian, Swedish, Danish, Finnish)
+  - Language detection based on browser settings
 - **User Authentication**: 
   - Login/Registration system
-  - Protected content for authenticated users only
-  - Home page is publicly accessible
+  - Enhanced content for authenticated users
 - **Portfolio Showcase**: Grid-based display of portfolio projects
 - **Internship Documentation**: Organized documentation of internship experiences
-- **Django Framework**: Leverages Django for robust backend functionality
 
-## Technical Changes
+## Technical Implementation
 
-This project has been converted from a static HTML5 site to a dynamic Django web application. Key changes include:
+This project has been converted from a static HTML5 site to a dynamic Django web application. Key elements include:
 
 - **Django Architecture**: Implemented proper Django project structure with apps
-- **Template System**: Converted static HTML to Django templates with inheritance
-- **Authentication**: Added user registration and login functionality
-- **Static Files**: Reorganized CSS, JS, and images to follow Django conventions
+- **Template System**: Django templates with inheritance for consistent layout
+- **Authentication**: User registration and login functionality with content privileges
+- **Internationalization**: Custom translation system for multi-language support
+- **Static Files**: Organized CSS, JS, and images following Django conventions
 - **URL Routing**: Implemented Django URL patterns for better navigation
-- **Security**: Protected routes with login_required decorators
 - **Deployment**: Successfully deployed to PythonAnywhere hosting platform
 
 ## Setup Instructions
@@ -81,7 +87,7 @@ This project has been converted from a static HTML5 site to a dynamic Django web
 7. **Access the website**
    - Visit the live site at [GamingWithToimen.pythonanywhere.com](https://GamingWithToimen.pythonanywhere.com)
    - Or access your local development server at http://127.0.0.1:8000/
-   - Login with the superuser account or register a new account
+   - Login for enhanced content access
 
 ## Project Structure
 
@@ -100,8 +106,9 @@ portfolio_project/
 │   │       ├── login.html     # Login page
 │   │       ├── register.html  # Registration page
 │   │       ├── portfolio_page.html
-│   │       ├── stage_1.html   # Internship pages
+│   │       ├── stage_1.html   # Internship pages with preview
 │   │       ├── stage_2.html
+│   ├── translations.py        # Multi-language support
 │   ├── forms.py               # User registration form
 │   ├── views.py               # View functions
 │   └── urls.py                # App URL patterns
@@ -131,10 +138,11 @@ portfolio_project/
 
 ## User Guide
 
-- **Home Page**: Publicly accessible
-- **Login/Register**: Create an account or sign in
-- **Internship Pages**: View details of internship experiences (requires login)
-- **Portfolio**: View portfolio projects and descriptions (requires login)
+- **Home Page**: Introduction with professional profile photo
+- **Portfolio**: View portfolio projects and descriptions
+- **Internship Pages**: Preview internship information, with detailed content available after login
+- **Login/Register**: Create an account or sign in for enhanced content access
+- **Language Selection**: Choose your preferred language from the navbar dropdown
 
 ## License
 
