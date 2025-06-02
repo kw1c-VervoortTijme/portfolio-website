@@ -33,7 +33,7 @@ header {
 .site-title {
     font-size: 1.75rem;
     font-weight: 600;
-    color: var(--light-text) !important;
+    color: white !important;
     margin: 0;
     padding-left: 20px;
 }
