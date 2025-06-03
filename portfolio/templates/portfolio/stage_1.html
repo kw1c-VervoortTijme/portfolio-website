@@ -15,27 +15,14 @@
         <img src="{% static 'portfolio/images/ispconfig.PNG' %}" data-mdb-img="{% static 'portfolio/images/ispconfig.PNG' %}" alt="{% t 'ispconfig' %}" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
         <p>{% t 'ispconfig_desc' %}</p>
       </div>
-      
-      {% if not user.is_authenticated %}
-      <!-- Login prompt for non-logged in users -->
-      <div class="col-lg-6">
-        <div class="login-prompt p-4 bg-light rounded shadow-sm">
-          <h3>Preview Mode</h3>
-          <p>This is a preview of my internship at Omnilan. Log in to see the full details and additional projects.</p>
-          <a href="{% url 'login' %}" class="btn btn-primary">Log in</a>
-          <a href="{% url 'register' %}" class="btn btn-outline-secondary ms-2">Register</a>
-        </div>
-      </div>
-      {% else %}
-      <!-- Additional preview content for logged-in users -->
       <div class="col-lg-6">
         <img src="{% static 'portfolio/images/email-hoe.png' %}" data-mdb-img="{% static 'portfolio/images/email-hoe.png' %}" alt="{% t 'email_address' %}" class="w-100 shadow-1-strong rounded" />
         <p>{% t 'email_address_desc' %}</p>
       </div>
-      {% endif %}
     </div>
   </div>
 </div>
+
 
 <!-- Full content section - only visible to logged-in users -->
 {% if user.is_authenticated %}
