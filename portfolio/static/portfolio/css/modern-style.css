@@ -313,3 +313,59 @@ p {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+/* Fix for homepage text overlap between 750px and 950px */
+@media (min-width: 750px) and (max-width: 950px) {
+  /* Stack the profile image and text vertically on medium screens */
+  .row.mt-4 {
+    flex-direction: column;
+  }
+  
+  .row.mt-4 .col-md-4,
+  .row.mt-4 .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Center the profile image */
+  .row.mt-4 .col-md-4 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Ensure proper spacing for text content */
+  .row.mt-4 .col-md-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Adjust profile image size for this breakpoint */
+  .profile-image {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Additional fix for tablets in landscape mode */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .row.mt-4 {
+    align-items: flex-start;
+  }
+  
+  .row.mt-4 .col-md-4 {
+    flex: 0 0 35%;
+    max-width: 35%;
+    padding-right: 20px;
+  }
+  
+  .row.mt-4 .col-md-8 {
+    flex: 0 0 65%;
+    max-width: 65%;
+  }
+  
+  .profile-image {
+    max-width: 200px;
+  }
+}
+/* Fix for text overflow in the profile section */
