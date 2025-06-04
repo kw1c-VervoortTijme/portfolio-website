@@ -27,6 +27,11 @@ TRANSLATIONS = {
         'internship1_title': 'Internship 1 - Portfolio Website',
         'internship2_title': 'Internship 2 - Portfolio Website',
         
+        # Demo Notice
+        'demo_notice_title': 'Demo Notice:',
+        'demo_notice_register': 'This registration form is for demonstration purposes only. No actual account will be created and no data is stored permanently.',
+        'demo_notice_login': 'This login form is for demonstration purposes only. The authentication system showcases my Django development capabilities.',
+        
         # Home Page
         'welcome_message': 'Welcome. Here you can find information about Tijme',
         'home_bio_p1': 'I am 21 years old. I live with my parents, 1 brother and 1 sister in Nistelrode. I have been through several schools. In 2007 I started at De Beekgraaf elementary school in Nistelrode. In group 8 I went to De Brinck to finish my primary school there. After that I moved on to the Udens College in Uden at the level kader-theoretisch to eventually end up at KW1C in \'s-Hertogenbosch, where I first followed the Architecture Construction program and now follow the Software Developer program. This is my 3rd year of the Software Developer program. I have already completed an internship at a company called Omnilan. This was a nice company and I am now doing an internship at AB Transport, which is a transport company that delivers and picks up things for companies to customers. This is a nice company because I can learn a lot here I am in the IT department and I am learning a lot about how the Python language and Django work.',
@@ -107,6 +112,11 @@ TRANSLATIONS = {
         'internship1_title': 'Stage 1 - Portfolio Website',
         'internship2_title': 'Stage 2 - Portfolio Website',
         
+        # Demo Notice
+        'demo_notice_title': 'Demo Kennisgeving:',
+        'demo_notice_register': 'Dit registratieformulier is alleen voor demonstratiedoeleinden. Er wordt geen echte account aangemaakt en er worden geen gegevens permanent opgeslagen.',
+        'demo_notice_login': 'Dit inlogformulier is alleen voor demonstratiedoeleinden. Het authenticatiesysteem toont mijn Django-ontwikkelingsmogelijkheden.',
+        
         # Home Page
         'welcome_message': 'Welkom. Hier vindt u informatie over Tijme',
         'home_bio_p1': 'Ik ben 21 jaar. Ik woon met mijn ouders, 1 broer en 1 zus in Nistelrode. Ik heb al meerdere scholen doorlopen. In het jaar 2007 begon ik op de basisschool De Beekgraaf in Nistelrode. In groep 8 ben ik naar De Brinck gegaan om daar mijn basisschool af te maken. Daarna ben ik doorgestroomd naar het Udens College in Uden op het niveau kader-theoretisch om uiteindelijk op het KW1C in \'s-Hertogenbosch uit te komen, waar ik eerst de opleiding Bouwkunde Architectuur heb gevolgd en nu de opleiding Software Developer volg. Dit is mijn 3e jaar van de opleiding Software Developer. Ik heb al een stage gelopen bij een bedrijf genaamd Omnilan. Dit was een leuk bedrijf en ik loop nu stage bij AB Transport, dit is een transportbedrijf die voor bedrijven dingen naar de klanten brengen en ophalen. Dit is een leuk bedrijf omdat ik hier veel kan leren, ik zit hierbij op de afdeling IT en ik leer hier veel over hoe de taal Python en Django werkt.',
@@ -138,7 +148,7 @@ TRANSLATIONS = {
         # Portfolio Page
         'portfolio_projects': 'Portfolio Projecten',
         'rainbow_desc': 'Regenboog: dit is opdracht 3.2 van thema 1 en ik vond dit een leuke opdracht om te maken omdat we toen met span classes moesten werken en ik niet wist of dat mogelijk was en over het algemeen vind ik dit goed gelukt.',
-        'match_table_desc': 'Wedstrijdtabel: deze foto komt uit het 1e project en ik vind hem goed gelukt omdat ik moest uitvogelen hoe ik alle wedstrijden van Den Bosch kon laten zien en uiteindlijk kwam ik bij een tabel uit die we destijds nog niet gebruikt hadden en dus was dit voor mij de 1e keer dat ik dit met een tabel opgelost had.',
+        'match_table_desc': 'Wedstrijdtabel: deze foto komt uit het 1e project en ik vind hem goed gelukt omdat ik moest uitvogelen hoe ik alle wedstrijden van Den Bosch kon laten zien en uiteindelijk kwam ik bij een tabel uit die we destijds nog niet gebruikt hadden en dus was dit voor mij de 1e keer dat ik dit met een tabel opgelost had.',
         'exercise_1_6_desc': 'Oefening 1.6: deze opdracht vond ik redelijk te doen dit komt omdat we een html bestand kregen die helemaal door elkaar stond en geen css had hierdoor moesten wij zelf er voor zorgen dat het er weer goed uit kwam te zien door middel van table en rows te gebruiken.',
         'exercise_2_1_desc': 'Oefening 2.1: dit was een leuke opdracht om te maken vooral omdat we met row-span en column-span mochten werken. Het eindresultaat is erg goed gelukt omdat je kan zien dat je met classes en id moet werken om verschillende kleuren in de tabel te krijgen.',
         
@@ -186,6 +196,11 @@ TRANSLATIONS = {
         'portfolio_title': 'Portfolio - Site de Portfolio',
         'internship1_title': 'Stage 1 - Site de Portfolio',
         'internship2_title': 'Stage 2 - Site de Portfolio',
+        
+        # Demo Notice
+        'demo_notice_title': 'Avis de Démonstration:',
+        'demo_notice_register': 'Ce formulaire d\'inscription est uniquement à des fins de démonstration. Aucun compte réel ne sera créé et aucune donnée ne sera stockée de manière permanente.',
+        'demo_notice_login': 'Ce formulaire de connexion est uniquement à des fins de démonstration. Le système d\'authentification présente mes capacités de développement Django.',
         
         # Home Page
         'welcome_message': 'Bienvenue. Ici vous pouvez trouver des informations sur Tijme',
@@ -267,6 +282,11 @@ TRANSLATIONS = {
         'internship1_title': 'Praktikum 1 - Portfolio-Website',
         'internship2_title': 'Praktikum 2 - Portfolio-Website',
         
+        # Demo Notice
+        'demo_notice_title': 'Demo-Hinweis:',
+        'demo_notice_register': 'Dieses Registrierungsformular dient nur zu Demonstrationszwecken. Es wird kein echtes Konto erstellt und keine Daten werden dauerhaft gespeichert.',
+        'demo_notice_login': 'Dieses Anmeldeformular dient nur zu Demonstrationszwecken. Das Authentifizierungssystem zeigt meine Django-Entwicklungsfähigkeiten.',
+        
         # Home Page
         'welcome_message': 'Willkommen. Hier finden Sie Informationen über Tijme',
         'home_bio_p1': 'Ich bin 21 Jahre alt. Ich wohne mit meinen Eltern, 1 Bruder und 1 Schwester in Nistelrode. Ich habe mehrere Schulen besucht. Im Jahr 2007 begann ich an der Grundschule De Beekgraaf in Nistelrode. In Gruppe 8 ging ich zur De Brinck, um dort meine Grundschule abzuschließen. Danach wechselte ich zum Udens College in Uden auf dem Niveau kader-theoretisch, um schließlich am KW1C in \'s-Hertogenbosch zu landen, wo ich zunächst den Studiengang Architektur Konstruktion und jetzt den Studiengang Software-Entwickler absolvierte. Dies ist mein 3. Jahr im Studiengang Software-Entwickler. Ich habe bereits ein Praktikum bei einem Unternehmen namens Omnilan absolviert. Das war ein schönes Unternehmen und jetzt mache ich ein Praktikum bei AB Transport, einem Transportunternehmen, das für Unternehmen Dinge zu Kunden bringt und abholt. Es ist ein schönes Unternehmen, weil ich dort viel lernen kann. Ich bin in der IT-Abteilung und lerne viel darüber, wie die Sprache Python und Django funktionieren.',
@@ -347,6 +367,11 @@ TRANSLATIONS = {
         'internship1_title': 'Prácticas 1 - Sitio Web de Portafolio',
         'internship2_title': 'Prácticas 2 - Sitio Web de Portafolio',
         
+        # Demo Notice
+        'demo_notice_title': 'Aviso de Demostración:',
+        'demo_notice_register': 'Este formulario de registro es solo para fines de demostración. No se creará ninguna cuenta real y no se almacenarán datos de forma permanente.',
+        'demo_notice_login': 'Este formulario de inicio de sesión es solo para fines de demostración. El sistema de autenticación muestra mis capacidades de desarrollo en Django.',
+        
         # Home Page
         'welcome_message': 'Bienvenido. Aquí puede encontrar información sobre Tijme',
         'home_bio_p1': 'Tengo 21 años. Vivo con mis padres, 1 hermano y 1 hermana en Nistelrode. He pasado por varias escuelas. En 2007 comencé en la escuela primaria De Beekgraaf en Nistelrode. En el grupo 8 fui a De Brinck para terminar allí mi escuela primaria. Después de eso, pasé al Udens College en Uden en el nivel kader-theoretisch para finalmente terminar en KW1C en \'s-Hertogenbosch, donde primero seguí el programa de Construcción de Arquitectura y ahora sigo el programa de Desarrollador de Software. Este es mi tercer año del programa Desarrollador de Software. Ya he completado una práctica en una empresa llamada Omnilan. Esta fue una buena empresa y ahora estoy haciendo prácticas en AB Transport, que es una empresa de transporte que entrega y recoge cosas para empresas a clientes. Esta es una buena empresa porque puedo aprender mucho aquí, estoy en el departamento de TI y estoy aprendiendo mucho sobre cómo funcionan el lenguaje Python y Django.',
@@ -426,6 +451,11 @@ TRANSLATIONS = {
         'portfolio_title': 'Portfolio - Sito Web del Portfolio',
         'internship1_title': 'Tirocinio 1 - Sito Web del Portfolio',
         'internship2_title': 'Tirocinio 2 - Sito Web del Portfolio',
+        
+        # Demo Notice
+        'demo_notice_title': 'Avviso Demo:',
+        'demo_notice_register': 'Questo modulo di registrazione è solo a scopo dimostrativo. Non verrà creato alcun account reale e nessun dato verrà memorizzato permanentemente.',
+        'demo_notice_login': 'Questo modulo di accesso è solo a scopo dimostrativo. Il sistema di autenticazione mostra le mie capacità di sviluppo Django.',
         
         # Home Page
         'welcome_message': 'Benvenuto. Qui puoi trovare informazioni su Tijme',
@@ -510,6 +540,11 @@ TRANSLATIONS = {
     'internship1_title': 'Praksis 1 - Porteføljenettsted',
     'internship2_title': 'Praksis 2 - Porteføljenettsted',
     
+    # Demo Notice
+    'demo_notice_title': 'Demo Varsel:',
+    'demo_notice_register': 'Dette registreringsskjemaet er kun for demonstrasjonsformål. Ingen ekte konto vil bli opprettet og ingen data lagres permanent.',
+    'demo_notice_login': 'Dette påloggingsskjemaet er kun for demonstrasjonsformål. Autentiseringssystemet viser mine Django-utviklingsferdigheter.',
+    
     # Home Page
     'welcome_message': 'Velkommen. Her finner du informasjon om Tijme',
     'home_bio_p1': 'Jeg er 21 år gammel. Jeg bor med foreldrene mine, 1 bror og 1 søster i Nistelrode. Jeg har gått på flere skoler. I 2007 begynte jeg på barneskolen De Beekgraaf i Nistelrode. I gruppe 8 gikk jeg til De Brinck for å fullføre barneskolen der. Deretter gikk jeg videre til Udens College i Uden på nivået kader-theoretisch for til slutt å havne på KW1C i \'s-Hertogenbosch, hvor jeg først fulgte Architecture Construction-programmet og nå følger Software Developer-programmet. Dette er mitt 3. år på Software Developer-programmet. Jeg har allerede fullført en praksisperiode hos et selskap kalt Omnilan. Dette var et fint selskap, og jeg er nå i praksis hos AB Transport, som er et transportselskap som leverer og henter ting for bedrifter til kunder. Dette er et fint selskap fordi jeg kan lære mye her. Jeg er i IT-avdelingen og lærer mye om hvordan Python-språket og Django fungerer.',
@@ -591,6 +626,11 @@ TRANSLATIONS = {
     'portfolio_title': 'Portfolio - Portfoliowebbplats',
     'internship1_title': 'Praktik 1 - Portfoliowebbplats',
     'internship2_title': 'Praktik 2 - Portfoliowebbplats',
+    
+    # Demo Notice
+    'demo_notice_title': 'Demo Meddelande:',
+    'demo_notice_register': 'Detta registreringsformulär är endast för demonstrationsändamål. Inget verkligt konto kommer att skapas och inga data lagras permanent.',
+    'demo_notice_login': 'Detta inloggningsformulär är endast för demonstrationsändamål. Autentiseringssystemet visar mina Django-utvecklingsfärdigheter.',
     
     # Home Page
     'welcome_message': 'Välkommen. Här hittar du information om Tijme',
@@ -674,6 +714,11 @@ TRANSLATIONS = {
     'internship1_title': 'Praktik 1 - Porteføljewebsite',
     'internship2_title': 'Praktik 2 - Porteføljewebsite',
     
+    # Demo Notice
+    'demo_notice_title': 'Demo Meddelelse:',
+    'demo_notice_register': 'Denne registreringsformular er kun til demonstrationsformål. Der vil ikke blive oprettet en rigtig konto og ingen data gemmes permanent.',
+    'demo_notice_login': 'Denne login-formular er kun til demonstrationsformål. Autentiseringssystemet viser mine Django-udviklingsevner.',
+    
     # Home Page
     'welcome_message': 'Velkommen. Her finder du information om Tijme',
     'home_bio_p1': 'Jeg er 21 år gammel. Jeg bor med mine forældre, 1 bror og 1 søster i Nistelrode. Jeg har gået på flere skoler. I 2007 begyndte jeg på grundskolen De Beekgraaf i Nistelrode. I 8. klasse gik jeg til De Brinck for at afslutte min grundskole der. Derefter fortsatte jeg til Udens College i Uden på niveauet kader-theoretisch for til sidst at ende på KW1C i \'s-Hertogenbosch, hvor jeg først fulgte programmet Arkitektur Konstruktion og nu følger programmet Softwareudvikler. Dette er mit 3. år på programmet Softwareudvikler. Jeg har allerede gennemført en praktik hos en virksomhed kaldet Omnilan. Det var en god virksomhed og jeg er nu i praktik hos AB Transport, som er en transportvirksomhed, der leverer og afhenter ting for virksomheder til kunder. Dette er en god virksomhed, fordi jeg kan lære meget her. Jeg er i IT-afdelingen og jeg lærer meget om, hvordan Python-sproget og Django fungerer.',
@@ -755,6 +800,11 @@ TRANSLATIONS = {
     'portfolio_title': 'Portfolio - Portfolio-sivusto',
     'internship1_title': 'Harjoittelu 1 - Portfolio-sivusto',
     'internship2_title': 'Harjoittelu 2 - Portfolio-sivusto',
+    
+    # Demo Notice
+    'demo_notice_title': 'Demo Ilmoitus:',
+    'demo_notice_register': 'Tämä rekisteröintilomake on vain esittelytarkoituksiin. Todellista tiliä ei luoda ja tietoja ei tallenneta pysyvästi.',
+    'demo_notice_login': 'Tämä kirjautumislomake on vain esittelytarkoituksiin. Tunnistautumisjärjestelmä esittelee Django-kehitystaitojani.',
     
     # Home Page
     'welcome_message': 'Tervetuloa. Täältä löydät tietoa Tijmesta',

@@ -22,10 +22,6 @@
     </div>
   </div>
 </div>
-
-
-<!-- Full content section - only visible to logged-in users -->
-{% if user.is_authenticated %}
 <div id="gevoel2">
   <div class="container">
     <h1>{% t 'rememberz' %}</h1>
@@ -45,14 +41,4 @@
     </div>
   </div>
 </div>
-{% else %}
-<!-- Message for non-logged in users -->
-<div class="container mt-4 mb-5">
-  <div class="login-prompt-footer text-center p-4 bg-light rounded shadow-sm">
-    <h3>Want to see more?</h3>
-    <p>Log in to access detailed information about my internship experience, including my work with Rememberz and detailed email configuration setup.</p>
-    <a href="{% url 'login' %}" class="btn btn-primary">Log in now</a>
-  </div>
-</div>
-{% endif %}
 {% endblock %}
