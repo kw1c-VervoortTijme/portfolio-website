@@ -2,7 +2,7 @@
 
 # Dictionary of translations for each language
 TRANSLATIONS = {
-    'en': {
+'en': {
         # Navigation & Common Elements
         'portfolio_website': 'Portfolio Website',
         'home': 'Home',
@@ -29,64 +29,65 @@ TRANSLATIONS = {
         
         # Demo Notice
         'demo_notice_title': 'Demo Notice:',
-        'demo_notice_register': 'This registration form is for demonstration purposes only. No actual account will be created and no data is stored permanently.',
-        'demo_notice_login': 'This login form is for demonstration purposes only. The authentication system showcases my Django development capabilities.',
+        'demo_notice_register': 'This registration form serves demonstration purposes exclusively. No authentic account will be established, and no data will be permanently stored.',
+        'demo_notice_login': 'This login form is designed purely for demonstration purposes. The authentication system exemplifies my Django development expertise.',
         
         # Home Page
-        'welcome_message': 'Welcome. Here you can find information about Tijme',
-        'home_bio_p1': 'I am 21 years old. I live with my parents, 1 brother and 1 sister in Nistelrode. I have been through several schools. In 2007 I started at De Beekgraaf elementary school in Nistelrode. In group 8 I went to De Brinck to finish my primary school there. After that I moved on to the Udens College in Uden at the level kader-theoretisch to eventually end up at KW1C in \'s-Hertogenbosch, where I first followed the Architecture Construction program and now follow the Software Developer program. This is my 3rd year of the Software Developer program. I have already completed an internship at a company called Omnilan. This was a nice company and I am now doing an internship at AB Transport, which is a transport company that delivers and picks up things for companies to customers. This is a nice company because I can learn a lot here. I am in the IT department and I am learning a lot about how the Python language and Django work.',
-        'home_bio_p2': 'During this training I have already gained a lot of experience by working on projects, such as a website about a sports club, and now we are going to make our portfolio website. I have meanwhile learned much more about c# and how you can use it in a project. I have also gained a lot of experience in making websites through assignments and my internship. This is very nice because I now also know how to make a website and how I can use this in the future. I was also able to do fun projects in my other training program, such as making a restaurant with steel construction, a 1930s house and a hangout for young people. I completed most of them with good results! This experience can come in handy later in practice.',
+        'welcome_message': 'Welcome. Here you can discover comprehensive information about Tijme',
+        'home_bio_p1': 'I am 21 years old and currently reside with my parents and two siblings—one brother and one sister—in Nistelrode. Throughout my educational journey, I have attended multiple institutions. In 2007, I commenced my primary education at De Beekgraaf elementary school in Nistelrode. During my eighth year, I transferred to De Brinck to complete my primary education. Subsequently, I progressed to Udens College in Uden, pursuing studies at the kader-theoretisch level, which ultimately led me to KW1C in \'s-Hertogenbosch. Initially, I enrolled in the Architecture Construction program before transitioning to my current Software Developer program. I am presently in my third year of the Software Developer curriculum. I have successfully completed an internship with Omnilan, a company that provided valuable learning opportunities. Currently, I am undertaking an internship at AB Transport, a logistics company specializing in delivery and collection services for corporate clients. This position has proven exceptionally beneficial, as I am stationed within the IT department, where I am acquiring extensive knowledge about Python programming language and Django framework implementation.',
+        'home_bio_p2': 'Throughout this educational program, I have accumulated substantial experience through various project-based assignments, including the development of a comprehensive website for a sports club. Currently, we are embarking on the creation of our portfolio website. During this period, I have significantly enhanced my understanding of C# and its practical application in project development. Additionally, I have gained considerable expertise in web development through both academic assignments and hands-on internship experience. This knowledge acquisition has been particularly rewarding, as I now possess the technical competency to construct websites and understand how to leverage these skills professionally in the future. Furthermore, during my previous educational program, I had the opportunity to engage in diverse and stimulating projects, including the design and construction of a restaurant featuring steel framework, a 1930s-era residential building, and a recreational facility for young people. I successfully completed the majority of these projects with commendable results. This comprehensive experience will undoubtedly prove invaluable in my future professional endeavors.',
         
         # Login Page
-        'login_header': 'Login',
+        'login_header': 'User Authentication',
         'username': 'Username',
         'password': 'Password',
-        'login_error': 'Your username and password didn\'t match. Please try again.',
-        'dont_have_account': 'Don\'t have an account?',
-        'register_here': 'Register here',
+        'login_error': 'The provided username and password combination is invalid. Please verify your credentials and attempt again.',
+        'dont_have_account': 'Don\'t have an account yet?',
+        'register_here': 'Create an account here',
         
         # Register Page
-        'create_account': 'Create an Account',
-        'email': 'Email',
+        'create_account': 'Create a New Account',
+        'email': 'Email Address',
         'first_name': 'First Name',
         'last_name': 'Last Name',
         'confirm_password': 'Confirm Password',
-        'username_requirements': 'Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.',
-        'password_req1': 'Your password can\'t be too similar to your other personal information.',
-        'password_req2': 'Your password must contain at least 8 characters.',
-        'password_req3': 'Your password can\'t be a commonly used password.',
-        'password_req4': 'Your password can\'t be entirely numeric.',
-        'password_confirm_help': 'Enter the same password as before, for verification.',
-        'register_button': 'Register',
-        'already_account': 'Already have an account?',
+        'username_requirements': 'Required field. Maximum 150 characters. Accepts letters, digits, and the following symbols: @/./+/-/_ only.',
+        'password_req1': 'Your password must not closely resemble your other personal information.',
+        'password_req2': 'Your password must comprise a minimum of 8 characters.',
+        'password_req3': 'Your password cannot be a commonly utilized password.',
+        'password_req4': 'Your password cannot consist entirely of numeric characters.',
+        'password_confirm_help': 'Re-enter the identical password as specified above for verification purposes.',
+        'register_button': 'Create Account',
+        'already_account': 'Already possess an account?',
         
         # Portfolio Page
         'portfolio_projects': 'Portfolio Projects',
-        'rainbow_desc': 'Rainbow: this is assignment 3.2 of theme 1 and I found this a fun assignment to make because we had to work with span classes and I didn\'t know if that was possible and overall I think this worked out well.',
-        'match_table_desc': 'Match table: this photo comes from the 1st project and I think it turned out well because I had to figure out how to show all the matches of Den Bosch and eventually I came up with a table that we hadn\'t used at the time so this was the 1st time for me that I solved this with a table.',
-        'exercise_1_6_desc': 'Exercise 1.6: I found this assignment reasonably doable because we got an html file that was completely jumbled up and had no css, so we had to make sure it looked good again by using table and rows',
-        'exercise_2_1_desc': 'Exercise 2.1: this was a fun assignment to make especially because we could work with row-span and column-span. The end result is very successful because you can see that you have to work with classes and id to get different colors in the table.',
+        'rainbow_desc': 'Rainbow Project: This represents assignment 3.2 from the first theme, which I found particularly engaging to develop. The challenge involved implementing span classes, a technique I was initially uncertain about. Overall, I believe the execution was highly successful.',
+        'match_table_desc': 'Match Table: This screenshot originates from my inaugural project and demonstrates effective problem-solving. The objective was to display all Den Bosch matches comprehensively. After careful consideration, I implemented a table-based solution—a methodology we had not previously utilized. This marked my first successful application of tabular data presentation for this type of challenge.',
+        'exercise_1_6_desc': 'realign tables using css I found this assignment reasonably manageable, as we received an HTML file that was completely disorganized and lacked CSS styling. The challenge required us to restore its visual appeal through strategic implementation of table structures and row organization.',
+        'exercise_2_1_desc': 'working with rows and colums This proved to be an exceptionally enjoyable assignment, particularly because it allowed us to experiment with row-span and column-span properties. The final outcome was remarkably successful, clearly demonstrating the necessity of utilizing classes and IDs to achieve varied color schemes within the table structure.',
         
         # Stage 1 Page
         'omnilan': 'Omnilan',
-        'ispconfig': 'Ispconfig',
-        'ispconfig_desc': 'this is the main page of ispconfig',
-        'email_domain_desc': 'here you can create an email domain for email addresses that are linked to your website',
-        'email_address_desc': 'here you can create an email address for the domain of your website',
+        'ispconfig': 'ISPConfig',
+        'ispconfig_desc': 'This represents the primary dashboard interface of ISPConfig',
+        'email_domain_desc': 'This interface enables the creation of email domains for addresses associated with your website',
+        'email_address_desc': 'This section facilitates the establishment of email addresses for your website\'s domain',
         'rememberz': 'Rememberz',
-        'rememberz_menu_desc': 'this is the main menu of a rememberz user',
-        'milight_desc': 'these are the settings of a user where you can set the lighting and adjust the colors of the light, you can see this especially on the left side of the screen',
-        'rememberz_main_desc': 'this is the main menu of rememberz',
+        'rememberz_menu_desc': 'This displays the primary navigation interface for Rememberz users',
+        'milight_desc': 'These represent user configuration settings for lighting control, including color adjustment capabilities. These features are particularly prominent in the left-hand section of the interface.',
+        'rememberz_main_desc': 'This constitutes the central navigation hub of the Rememberz platform',
         
         # Stage 2 Page
-        'second_internship': 'Second Internship: Web Development & Online Learning',
-        'wagtail_desc': 'Explored the Wagtail CMS through online courses, learning how to build dynamic content systems for websites.',
-        'cms_desc': 'Worked with a content management system to create interactive blog posts including FAQs and carousel blocks.',
-        'bootstrap_email_desc': 'Designed professional email templates using Bootstrap Email for AB Transport, creating responsive email signatures and layouts.',
-        'programming_skills': 'Programming Skills Development',
-        'coding_topics_desc': 'Explored various programming topics including Python, JavaScript, HTML & CSS, SQL and more through structured online learning.',
-        'codecademy_desc': 'Completed several Python courses on Codecademy, including intermediate and advanced Python, as well as Django web development.',
+        'second_internship': 'AB Transport Internship: Web Development & Online Learning',
+        'wagtail_desc': 'Conducted comprehensive exploration of the Wagtail CMS through structured online coursework, mastering the development of sophisticated dynamic content management systems for web applications.',
+        'cms_desc': 'Collaborated extensively with content management systems to architect interactive blog publications, incorporating advanced features such as FAQ sections and dynamic carousel components.',
+        'bootstrap_email_desc': 'Designed and implemented professional email template solutions utilizing Bootstrap Email framework for AB Transport, creating responsive email signatures and sophisticated layout designs.',
+        'programming_skills': 'Advanced Programming Competency Development',
+        'coding_topics_desc': 'Conducted in-depth exploration of diverse programming disciplines including Python, JavaScript, HTML & CSS, SQL, and additional technologies through methodically structured online learning programs.',
+        'codecademy_desc': 'Successfully completed multiple comprehensive Python courses on Codecademy, encompassing intermediate and advanced Python programming concepts, as well as specialized Django web development frameworks.',
     },
+
     'nl': {
         # Navigation & Common Elements
         'portfolio_website': 'Portfolio Website',
