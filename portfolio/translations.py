@@ -513,7 +513,356 @@ TRANSLATIONS = {
         'coding_topics_desc': 'Ho condotto esplorazione approfondita di diverse discipline di programmazione includendo Python, JavaScript, HTML & CSS, SQL, e tecnologie aggiuntive attraverso programmi di apprendimento online metodicamente strutturati.',
         'codecademy_desc': 'Ho completato con successo molteplici corsi Python esaustivi su Codecademy, comprendendo concetti di programmazione Python intermedi e avanzati, così come framework specializzati di sviluppo web Django.',
     },
+    # Norwegian (no) translations
+'no': {
+    # Navigation & Common Elements
+    'portfolio_website': 'Porteføljenettsted',
+    'home': 'Hjem',
+    'internship_1': 'Praksis 1',
+    'internship_2': 'Praksis 2',
+    'portfolio': 'Portefølje',
+    'admin_panel': 'Administrasjonspanel',
+    'login': 'Logg inn',
+    'register': 'Registrer',
+    'logout': 'Logg ut',
+    'close': 'Lukk',
+    'profile_picture': 'Profilbilde',
+    'toggle_navigation': 'Bytt navigasjon',
+    'copyright': 'Tijme Vervoort.',
+    'language': 'Språk',
+    
+    # Page Titles
+    'home_title': 'Hjem - Porteføljenettsted',
+    'login_title': 'Logg inn - Porteføljenettsted',
+    'register_title': 'Registrer - Porteføljenettsted',
+    'portfolio_title': 'Portefølje - Porteføljenettsted',
+    'internship1_title': 'Praksis 1 - Porteføljenettsted',
+    'internship2_title': 'Praksis 2 - Porteføljenettsted',
+    
+    # Demo Notice
+    'demo_notice_title': 'Demonstrasjonsvarsel:',
+    'demo_notice_register': 'Dette registreringsskjemaet tjener utelukkende demonstrasjonsformål. Ingen autentisk konto vil bli etablert, og ingen data vil bli permanent lagret.',
+    'demo_notice_login': 'Dette påloggingsskjemaet er eksklusivt designet for demonstrasjonsformål. Autentiseringssystemet eksemplifiserer min Django-utviklingsekspertise.',
+    
+    # Home Page
+    'welcome_message': 'Velkommen. Her kan du oppdage omfattende informasjon angående Tijme',
+    'home_bio_p1': 'Jeg er 21 år gammel og residerer for øyeblikket hos mine foreldre og to søsken—en bror og en søster—i Nistelrode. Gjennom min utdannelsesmessige bane har jeg besøkt flere utdanningsinstitusjoner. I 2007 initierte jeg min primærutdanning ved De Beekgraaf barneskole i Nistelrode. I løpet av mitt åttende år overførte jeg til De Brinck for å fullføre min grunnskoleutdanning der. Påfølgende progredierte jeg til Udens College i Uden, hvor jeg forfulgte studier på kader-theoretisch nivå, noe som til slutt førte meg til KW1C i \'s-Hertogenbosch. Opprinnelig immatrikulerte jeg meg i Arkitektur Konstruksjon-programmet før jeg transisjonerte til mitt nåværende Programvareutvikler-program. For øyeblikket befinner jeg meg i mitt tredje år av Programvareutvikler-pensumet. Jeg har vellykket fullført en praksisperiode hos Omnilan, et selskap som tilbød verdifulle læringsmuligheter. Presently, jeg gjennomfører en praksisperiode hos AB Transport, et logistikkselskap spesialisert i leverings- og hentingstjenester for bedriftskunder. Denne posisjonen har vist seg å være eksepsjonelt fordelaktig, ettersom jeg er stasjonert innenfor IT-avdelingen, hvor jeg tilegner meg omfattende kunnskap angående Python-programmeringsspråket og Django-rammeverk implementering.',
+    'home_bio_p2': 'Gjennom dette utdanningsprogrammet har jeg akkumulert substansiell erfaring via diverse prosjektbaserte oppgaver, inkludert utviklingen av et omfattende nettsted for en sportsklubb. For øyeblikket embarkerer vi på skapelsen av vårt porteføljenettsted. I løpet av denne perioden har jeg betydelig forsterket min forståelse av C# samt dens praktiske anvendelse i prosjektutvikling. Ytterligere har jeg tilegnet meg betydelig ekspertise innen webutvikling gjennom både akademiske oppgaver og praktisk praksiserfaring. Denne kunnskapstilegnelsen har vært særlig givende, ettersom jeg nå besitter den tekniske kompetansen til å konstruere nettsteder og forstår hvordan å utnytte disse ferdighetene profesjonelt i fremtiden. Videre hadde jeg under mitt foregående utdanningsprogram anledningen til å engasjere meg i diversifiserte og stimulerende prosjekter, inkludert design og konstruksjon av en restaurant med stålramme, en residensiell bygning fra 1930-tallet, og en rekreasjonsfasilitet for ungdom. Jeg fullførte majoriteten av disse prosjektene med rosverdig resultater. Denne omfattende erfaringen vil utvilsomt vise seg uvurderlig i mine fremtidige profesjonelle foretak.',
+    
+    # Login Page
+    'login_header': 'Brukerautentisering',
+    'username': 'Brukernavn',
+    'password': 'Passord',
+    'login_error': 'Den oppgitte brukernavn-passord kombinasjonen er ugyldig. Vennligst verifiser dine legitimasjoner og forsøk på nytt.',
+    'dont_have_account': 'Besitter du ikke en konto ennå?',
+    'register_here': 'Opprett en konto her',
+    
+    # Register Page
+    'create_account': 'Opprett en Ny Konto',
+    'email': 'E-postadresse',
+    'first_name': 'Fornavn',
+    'last_name': 'Etternavn',
+    'confirm_password': 'Bekreft Passord',
+    'username_requirements': 'Obligatorisk felt. Maksimum 150 tegn. Aksepterer bokstaver, sifre, og følgende symboler: @/./+/-/_ eksklusivt.',
+    'password_req1': 'Ditt passord må ikke ligne nært på din andre personlige informasjon.',
+    'password_req2': 'Ditt passord må omfatte minimum 8 tegn.',
+    'password_req3': 'Ditt passord kan ikke være et vanlig benyttet passord.',
+    'password_req4': 'Ditt passord kan ikke bestå utelukkende av numeriske tegn.',
+    'password_confirm_help': 'Gjeninntast det identiske passordet som spesifisert ovenfor for verifikasjonsformål.',
+    'register_button': 'Opprett Konto',
+    'already_account': 'Besitter du allerede en konto?',
+    
+    # Portfolio Page
+    'portfolio_projects': 'Porteføljeprosjekter',
+    'rainbow_desc': 'Regnbueprosjekt: Dette representerer oppgave 3.2 fra det første temaet, som jeg fant særlig fengslende å utvikle. Utfordringen involverte implementering av span-klasser, en teknikk jeg opprinnelig var usikker på. Overordnet mener jeg at gjennomføringen var høyst vellykket.',
+    'match_table_desc': 'Kamptabell: Dette skjermbildet stammer fra mitt inaugurale prosjekt og demonstrerer effektiv problemløsning. Målet var å vise alle Den Bosch-kamper omfattende. Etter nøye overveielse implementerte jeg en tabellbasert løsning—en metodologi vi tidligere ikke hadde benyttet. Dette markerte min første vellykkede anvendelse av tabulær datapresentasjon for denne typen utfordring.',
+    'exercise_1_6_desc': 'Øvelse 1.6: Jeg fant denne oppgaven rimelig håndterbar, ettersom vi mottok en HTML-fil som var fullstendig desorganisert og manglet CSS-styling. Utfordringen krevde at vi gjenopprettet dens visuelle appell gjennom strategisk implementering av tabellstrukturer og radorganisering.',
+    'exercise_2_1_desc': 'Øvelse 2.1: Dette viste seg å være en eksepsjonelt fornøyelig oppgave, særlig fordi den tillot oss å eksperimentere med row-span og column-span egenskaper. Det endelige resultatet var bemerkelsesverdig vellykket, og demonstrerte tydelig nødvendigheten av å benytte klasser og ID-er for å realisere varierte fargeskjemaer innenfor tabellstrukturen.',
+    
+    # Stage 1 Page
+    'omnilan': 'Omnilan',
+    'ispconfig': 'ISPConfig',
+    'ispconfig_desc': 'Dette representerer det primære dashbord-grensesnittet til ISPConfig',
+    'email_domain_desc': 'Dette grensesnittet fasiliterer opprettelsen av e-postdomener for adresser assosiert med ditt nettsted',
+    'email_address_desc': 'Denne seksjonen fasiliterer etablering av e-postadresser for ditt nettstedsdomene',
+    'rememberz': 'Rememberz',
+    'rememberz_menu_desc': 'Dette viser det primære navigasjonsgrensesnittet for Rememberz-brukere',
+    'milight_desc': 'Disse representerer brukerkonfigurasjonsinnstillinger for belysningskontroll, inkludert fargetilpasningskapasiteter. Disse funksjonene er særlig fremtredende i venstre seksjon av grensesnittet.',
+    'rememberz_main_desc': 'Dette konstituerer det sentrale navigasjonssenteret til Rememberz-plattformen',
+    
+    # Stage 2 Page
+    'second_internship': 'Andre Praksis: Avansert Webutvikling & Strukturert Online Læring',
+    'wagtail_desc': 'Gjennomførte omfattende utforskning av Wagtail CMS gjennom strukturerte online kurs, hvor jeg mestret utviklingen av sofistikerte dynamiske innholdsstyringssystemer for webapplikasjoner.',
+    'cms_desc': 'Kollaborerte omfattende med innholdsstyringssystemer for å arkitekturere interaktive bloggpublikasjoner, inkorporerende avanserte funksjoner som FAQ-seksjoner og dynamiske karusellkomponenter.',
+    'bootstrap_email_desc': 'Designet og implementerte profesjonelle e-postmal-løsninger ved bruk av Bootstrap Email-rammeverket for AB Transport, skapende responsive e-postsignaturer og sofistikerte layout-design.',
+    'programming_skills': 'Avansert Programmeringskompetanse Utvikling',
+    'coding_topics_desc': 'Gjennomførte dybdegående utforskning av diverse programmeringsdisipliner inkludert Python, JavaScript, HTML & CSS, SQL, og tilleggsteknologier gjennom metodisk strukturerte online læringsprogrammer.',
+    'codecademy_desc': 'Fullførte vellykket flere omfattende Python-kurs på Codecademy, omfattende mellomliggende og avanserte Python-programmeringskonsepter, samt spesialiserte Django webutviklingsrammeverk.',
+},
+
+# Swedish (sv) translations
+'sv': {
+    # Navigation & Common Elements
+    'portfolio_website': 'Portfoliowebbplats',
+    'home': 'Hem',
+    'internship_1': 'Praktik 1',
+    'internship_2': 'Praktik 2',
+    'portfolio': 'Portfolio',
+    'admin_panel': 'Adminpanel',
+    'login': 'Logga in',
+    'register': 'Registrera',
+    'logout': 'Logga ut',
+    'close': 'Stäng',
+    'profile_picture': 'Profilbild',
+    'toggle_navigation': 'Växla navigering',
+    'copyright': 'Tijme Vervoort.',
+    'language': 'Språk',
+    
+    # Page Titles
+    'home_title': 'Hem - Portfoliowebbplats',
+    'login_title': 'Logga in - Portfoliowebbplats',
+    'register_title': 'Registrera - Portfoliowebbplats',
+    'portfolio_title': 'Portfolio - Portfoliowebbplats',
+    'internship1_title': 'Praktik 1 - Portfoliowebbplats',
+    'internship2_title': 'Praktik 2 - Portfoliowebbplats',
+    
+    # Demo Notice
+    'demo_notice_title': 'Demonstrationsmeddelande:',
+    'demo_notice_register': 'Detta registreringsformulär tjänar uteslutande demonstrationssyften. Inget autentiskt konto kommer att etableras och inga data kommer att lagras permanent.',
+    'demo_notice_login': 'Detta inloggningsformulär är exklusivt designat för demonstrationssyften. Autentiseringssystemet exemplifierar min Django-utvecklingsexpertis.',
+    
+    # Home Page
+    'welcome_message': 'Välkommen. Här kan du upptäcka omfattande information angående Tijme',
+    'home_bio_p1': 'Jag är 21 år gammal och residerar för närvarande hos mina föräldrar och två syskon—en bror och en syster—i Nistelrode. Genom min utbildningsbana har jag besökt flera utbildningsinstitutioner. År 2007 initierade jag min primärutbildning vid De Beekgraaf grundskola i Nistelrode. Under mitt åttonde år överförde jag till De Brinck för att fullborda min grundskoleutbildning där. Påföljande progrederade jag till Udens College i Uden, där jag bedrev studier på kader-theoretisch nivå, vilket slutligen ledde mig till KW1C i \'s-Hertogenbosch. Ursprungligen immatrikulerade jag mig i Arkitektur Konstruktion-programmet innan jag övergick till mitt nuvarande Mjukvaruutvecklare-program. För närvarande befinner jag mig i mitt tredje år av Mjukvaruutvecklare-läroplanen. Jag har framgångsrikt fullbordat en praktikperiod hos Omnilan, ett företag som erbjöd värdefulla lärandemöjligheter. För närvarande genomför jag en praktikperiod hos AB Transport, ett logistikföretag specialiserat på leverans- och upphämtningstjänster för företagskunder. Denna position har visat sig vara exceptionellt fördelaktig, eftersom jag är stationerad inom IT-avdelningen, där jag tillägnar mig omfattande kunskap angående Python-programmeringsspråket och Django-ramverksimplementering.',
+    'home_bio_p2': 'Genom detta utbildningsprogram har jag ackumulerat substantiell erfarenhet via diverse projektbaserade uppgifter, inklusive utvecklingen av en omfattande webbplats för en sportsklubb. För närvarande embarkar vi på skapandet av vår portfoliowebbplats. Under denna period har jag betydligt förstärkt min förståelse av C# samt dess praktiska tillämpning inom projektutveckling. Ytterligare har jag förvärvat betydande expertis inom webbutveckling genom både akademiska uppgifter och praktisk praktikexperience. Denna kunskapsförvärv har varit särskilt givande, eftersom jag nu besitter den tekniska kompetensen att konstruera webbplatser och förstår hur att utnyttja dessa färdigheter professionellt i framtiden. Vidare hade jag under mitt föregående utbildningsprogram tillfället att engagera mig i diversifierade och stimulerande projekt, inklusive design och konstruktion av en restaurang med stålram, en residentiell byggnad från 1930-talet, och en rekreationsanläggning för ungdomar. Jag fullbordade majoriteten av dessa projekt med berömvärda resultat. Denna omfattande erfarenhet kommer otvivelaktigt att visa sig ovärderlig i mina framtida professionella företag.',
+    
+    # Login Page
+    'login_header': 'Användarautentisering',
+    'username': 'Användarnamn',
+    'password': 'Lösenord',
+    'login_error': 'Den angivna användarnamn-lösenord kombinationen är ogiltig. Vänligen verifiera dina legitimationer och försök igen.',
+    'dont_have_account': 'Besitter du inte ett konto ännu?',
+    'register_here': 'Skapa ett konto här',
+    
+    # Register Page
+    'create_account': 'Skapa ett Nytt Konto',
+    'email': 'E-postadress',
+    'first_name': 'Förnamn',
+    'last_name': 'Efternamn',
+    'confirm_password': 'Bekräfta Lösenord',
+    'username_requirements': 'Obligatoriskt fält. Maximum 150 tecken. Accepterar bokstäver, siffror, och följande symboler: @/./+/-/_ exklusivt.',
+    'password_req1': 'Ditt lösenord får inte likna nära din andra personliga information.',
+    'password_req2': 'Ditt lösenord måste omfatta minimum 8 tecken.',
+    'password_req3': 'Ditt lösenord kan inte vara ett vanligt använt lösenord.',
+    'password_req4': 'Ditt lösenord kan inte bestå uteslutande av numeriska tecken.',
+    'password_confirm_help': 'Återinmatning av det identiska lösenordet som specificerat ovan för verifieringssyften.',
+    'register_button': 'Skapa Konto',
+    'already_account': 'Besitter du redan ett konto?',
+    
+    # Portfolio Page
+    'portfolio_projects': 'Portfolioprojekt',
+    'rainbow_desc': 'Regnbågsprojekt: Detta representerar uppgift 3.2 från det första temat, vilket jag fann särskilt fängslande att utveckla. Utmaningen involverade implementering av span-klasser, en teknik jag ursprungligen var osäker på. Övergripande anser jag att genomförandet var högst framgångsrikt.',
+    'match_table_desc': 'Matchtabell: Denna skärmbild härstammar från mitt inaugurala projekt och demonstrerar effektiv problemlösning. Målet var att visa alla Den Bosch-matcher omfattande. Efter noggrann övervägande implementerade jag en tabellbaserad lösning—en metodologi vi tidigare inte hade utnyttjat. Detta markerade min första framgångsrika tillämpning av tabulär datapresentation för denna typ av utmaning.',
+    'exercise_1_6_desc': 'Övning 1.6: Jag fann denna uppgift rimligt hanterbar, eftersom vi erhöll en HTML-fil som var fullständigt desorganiserad och saknade CSS-styling. Utmaningen krävde att vi återställde dess visuella attraktion genom strategisk implementering av tabellstrukturer och radorganisering.',
+    'exercise_2_1_desc': 'Övning 2.1: Detta visade sig vara en exceptionellt njutbar uppgift, särskilt eftersom den tillät oss att experimentera med row-span och column-span egenskaper. Det slutliga resultatet var anmärkningsvärt framgångsrikt, tydligt demonstrerande nödvändigheten av att utnyttja klasser och ID:n för att realisera varierade färgscheman inom tabellstrukturen.',
+    
+    # Stage 1 Page
+    'omnilan': 'Omnilan',
+    'ispconfig': 'ISPConfig',
+    'ispconfig_desc': 'Detta representerar det primära dashboard-gränssnittet för ISPConfig',
+    'email_domain_desc': 'Detta gränssnitt faciliterar skapandet av e-postdomäner för adresser associerade med din webbplats',
+    'email_address_desc': 'Denna sektion faciliterar etablering av e-postadresser för din webbplatsdomän',
+    'rememberz': 'Rememberz',
+    'rememberz_menu_desc': 'Detta visar det primära navigationsgränssnittet för Rememberz-användare',
+    'milight_desc': 'Dessa representerar användarkonfigurationsinställningar för belysningskontroll, inklusive färgjusteringskapaciteter. Dessa funktioner är särskilt framträdande i vänstra sektionen av gränssnittet.',
+    'rememberz_main_desc': 'Detta konstituerar det centrala navigationscentret för Rememberz-plattformen',
+    
+    # Stage 2 Page
+    'second_internship': 'Andra Praktik: Avancerad Webbutveckling & Strukturerad Online Lärande',
+    'wagtail_desc': 'Genomförde omfattande utforskning av Wagtail CMS genom strukturerade online kurser, där jag bemästrade utvecklingen av sofistikerade dynamiska innehållshanteringssystem för webbapplikationer.',
+    'cms_desc': 'Kollaborerade omfattande med innehållshanteringssystem för att arkitekturera interaktiva bloggpublikationer, inkorporerande avancerade funktioner såsom FAQ-sektioner och dynamiska karusellkomponenter.',
+    'bootstrap_email_desc': 'Designade och implementerade professionella e-postmall-lösningar genom användning av Bootstrap Email-ramverket för AB Transport, skapande responsiva e-postsignaturer och sofistikerade layout-design.',
+    'programming_skills': 'Avancerad Programmeringskompetens Utveckling',
+    'coding_topics_desc': 'Genomförde djupgående utforskning av diverse programmeringsdiscipliner inklusive Python, JavaScript, HTML & CSS, SQL, och ytterligare teknologier genom metodiskt strukturerade online lärandeprogrammer.',
+    'codecademy_desc': 'Fullbordade framgångsrikt flera omfattande Python-kurser på Codecademy, omfattande mellanliggande och avancerade Python-programmeringskoncept, samt specialiserade Django webbutvecklingsramverk.',
+},
+
+# Danish (da) translations
+'da': {
+    # Navigation & Common Elements
+    'portfolio_website': 'Porteføljewebsite',
+    'home': 'Hjem',
+    'internship_1': 'Praktik 1',
+    'internship_2': 'Praktik 2',
+    'portfolio': 'Portefølje',
+    'admin_panel': 'Adminpanel',
+    'login': 'Log ind',
+    'register': 'Tilmeld',
+    'logout': 'Log ud',
+    'close': 'Luk',
+    'profile_picture': 'Profilbillede',
+    'toggle_navigation': 'Skift navigation',
+    'copyright': 'Tijme Vervoort.',
+    'language': 'Sprog',
+    
+    # Page Titles
+    'home_title': 'Hjem - Porteføljewebsite',
+    'login_title': 'Log ind - Porteføljewebsite',
+    'register_title': 'Tilmeld - Porteføljewebsite',
+    'portfolio_title': 'Portefølje - Porteføljewebsite',
+    'internship1_title': 'Praktik 1 - Porteføljewebsite',
+    'internship2_title': 'Praktik 2 - Porteføljewebsite',
+    
+    # Demo Notice
+    'demo_notice_title': 'Demonstrationsmeddelelse:',
+    'demo_notice_register': 'Denne registreringsformular tjener udelukkende demonstrationsformål. Ingen autentisk konto vil blive etableret, og ingen data vil blive permanent lagret.',
+    'demo_notice_login': 'Denne login-formular er eksklusivt designet til demonstrationsformål. Autentiseringssystemet eksemplificerer min Django-udviklingsekspertise.',
+    
+    # Home Page
+    'welcome_message': 'Velkommen. Her kan du opdage omfattende information angående Tijme',
+    'home_bio_p1': 'Jeg er 21 år gammel og residerer for øjeblikket hos mine forældre og to søskende—en bror og en søster—i Nistelrode. Gennem min uddannelsesmæssige bane har jeg besøgt flere uddannelsesinstitutioner. I 2007 initierede jeg min primæruddannelse ved De Beekgraaf grundskole i Nistelrode. Under mit ottende år overførte jeg til De Brinck for at fuldføre min grundskoleuddannelse der. Efterfølgende progrederede jeg til Udens College i Uden, hvor jeg forfulgte studier på kader-theoretisch niveau, hvilket ultimativt førte mig til KW1C i \'s-Hertogenbosch. Oprindeligt immatrikulerede jeg mig i Arkitektur Konstruktion-programmet før jeg overgik til mit nuværende Softwareudvikler-program. For øjeblikket befinder jeg mig i mit tredje år af Softwareudvikler-pensumet. Jeg har succesfuldt fuldført en praktikperiode hos Omnilan, et selskab der tilbød værdifulde læringsmuligheder. Præsentement gennemfører jeg en praktikperiode hos AB Transport, et logistikselskab specialiseret i leverings- og afhentningsservice for erhvervskunder. Denne position har vist sig at være exceptionelt fordelagtig, eftersom jeg er stationeret inden for IT-afdelingen, hvor jeg tilegner mig omfattende viden angående Python-programmeringssproget og Django-framework implementering.',
+    'home_bio_p2': 'Gennem dette uddannelsesprogram har jeg akkumuleret substantiel erfaring via diverse projektbaserede opgaver, inklusive udviklingen af et omfattende website for en sportsklubb. For øjeblikket embarker vi på skabelsen af vores porteføljewebsite. Under denne periode har jeg betydeligt forstærket min forståelse af C# samt dets praktiske anvendelse inden for projektudvikling. Yderligere har jeg erhvervet betydelig ekspertise inden for webudvikling gennem både akademiske opgaver og praktisk praktikerfaring. Denne videnstilegnelse har været særligt givende, eftersom jeg nu besidder den tekniske kompetence til at konstruere websites og forstår hvordan at udnytte disse færdigheder professionelt i fremtiden. Endvidere havde jeg under mit foregående uddannelsesprogram lejligheden til at engagere mig i diversificerede og stimulerende projekter, inklusive design og konstruktion af en restaurant med stålramme, en residentiell bygning fra 1930\'erne, og en rekreationsfacilitet for unge. Jeg fuldførte majoriteten af disse projekter med rosværdige resultater. Denne omfattende erfaring vil utvivlsomt vise sig uvurderlig i mine fremtidige professionelle foretagender.',
+    
+    # Login Page
+    'login_header': 'Brugerautentificering',
+    'username': 'Brugernavn',
+    'password': 'Adgangskode',
+    'login_error': 'Den angivne brugernavn-adgangskode kombination er ugyldig. Venligst verificer dine legitimationsoplysninger og forsøg igen.',
+    'dont_have_account': 'Besidder du ikke en konto endnu?',
+    'register_here': 'Opret en konto her',
+    
+    # Register Page
+    'create_account': 'Opret en Ny Konto',
+    'email': 'E-mailadresse',
+    'first_name': 'Fornavn',
+    'last_name': 'Efternavn',
+    'confirm_password': 'Bekræft Adgangskode',
+    'username_requirements': 'Obligatorisk felt. Maksimum 150 tegn. Accepterer bogstaver, cifre, og følgende symboler: @/./+/-/_ eksklusivt.',
+    'password_req1': 'Din adgangskode må ikke ligne tæt på dine andre personlige informationer.',
+    'password_req2': 'Din adgangskode skal omfatte minimum 8 tegn.',
+    'password_req3': 'Din adgangskode kan ikke være en almindeligt anvendt adgangskode.',
+    'password_req4': 'Din adgangskode kan ikke bestå udelukkende af numeriske tegn.',
+    'password_confirm_help': 'Geninput den identiske adgangskode som specificeret ovenfor til verificeringsformål.',
+    'register_button': 'Opret Konto',
+    'already_account': 'Besidder du allerede en konto?',
+    
+    # Portfolio Page
+    'portfolio_projects': 'Porteføljeprojekter',
+    'rainbow_desc': 'Regnbueprojekt: Dette repræsenterer opgave 3.2 fra det første tema, hvilket jeg fandt særligt fængslende at udvikle. Udfordringen involverede implementering af span-klasser, en teknik jeg oprindeligt var usikker på. Overordnet mener jeg at gennemførelsen var højst vellykket.',
+    'match_table_desc': 'Kamptabel: Dette skærmbillede stammer fra mit inaugurale projekt og demonstrerer effektiv problemløsning. Målet var at vise alle Den Bosch-kampe omfattende. Efter omhyggelig overvejelse implementerede jeg en tabelbaseret løsning—en metodologi vi tidligere ikke havde udnyttet. Dette markerede min første vellykkede anvendelse af tabulær datapræsentation for denne type udfordring.',
+    'exercise_1_6_desc': 'Øvelse 1.6: Jeg fandt denne opgave rimeligt håndterbar, eftersom vi modtog en HTML-fil der var fuldstændigt desorganiseret og manglede CSS-styling. Udfordringen krævede at vi genoprettede dens visuelle appel gennem strategisk implementering af tabelstrukturer og rækkeorganisering.',
+    'exercise_2_1_desc': 'Øvelse 2.1: Dette viste sig at være en exceptionelt fornøjelig opgave, særligt fordi den tillod os at eksperimentere med row-span og column-span egenskaber. Det endelige resultat var bemærkelsesværdigt vellykket, tydeligt demonstrerende nødvendigheden af at udnytte klasser og ID\'er for at realisere varierede farveskemaer inden for tabelstrukturen.',
+    
+    # Stage 1 Page
+    'omnilan': 'Omnilan',
+    'ispconfig': 'ISPConfig',
+    'ispconfig_desc': 'Dette repræsenterer det primære dashboard-interface for ISPConfig',
+    'email_domain_desc': 'Dette interface faciliterer oprettelsen af e-maildomæner for adresser associeret med dit website',
+    'email_address_desc': 'Denne sektion faciliterer etablering af e-mailadresser for dit websitedomæne',
+    'rememberz': 'Rememberz',
+    'rememberz_menu_desc': 'Dette viser det primære navigationsinterface for Rememberz-brugere',
+    'milight_desc': 'Disse repræsenterer brugerkonfigurationsindstillinger for belysningskontrol, inklusive farvetilpasningskapaciteter. Disse funktioner er særligt fremtrædende i venstre sektion af interfacet.',
+    'rememberz_main_desc': 'Dette konstituerer det centrale navigationscenter for Rememberz-platformen',
+    
+    # Stage 2 Page
+    'second_internship': 'Anden Praktik: Avanceret Webudvikling & Struktureret Online Læring',
+    'wagtail_desc': 'Gennemførte omfattende udforskning af Wagtail CMS gennem strukturerede online kurser, hvor jeg mestrede udviklingen af sofistikerede dynamiske indholdsstyringssystemer for webapplikationer.',
+    'cms_desc': 'Kollaborerede omfattende med indholdsstyringssystemer for at arkitekturere interaktive blogpublikationer, inkorporerende avancerede funktioner såsom FAQ-sektioner og dynamiske karruselkomponenter.',
+    'bootstrap_email_desc': 'Designede og implementerede professionelle e-mailskabelon-løsninger ved anvendelse af Bootstrap Email-frameworket for AB Transport, skabende responsive e-mailsignaturer og sofistikerede layout-design.',
+    'programming_skills': 'Avanceret Programmeringskompetence Udvikling',
+    'coding_topics_desc': 'Gennemførte dybdegående udforskning af diverse programmeringsdiscipliner inklusive Python, JavaScript, HTML & CSS, SQL, og yderligere teknologier gennem metodisk strukturerede online læringsprogrammer.',
+    'codecademy_desc': 'Fuldførte succesfuldt flere omfattende Python-kurser på Codecademy, omfattende mellemliggende og avancerede Python-programmeringskoncepter, samt specialiserede Django webudviklingsframeworks.',
+},
+
+# Finnish (fi) translations
+'fi': {
+    # Navigation & Common Elements
+    'portfolio_website': 'Portfolio-sivusto',
+    'home': 'Koti',
+    'internship_1': 'Harjoittelu 1',
+    'internship_2': 'Harjoittelu 2',
+    'portfolio': 'Portfolio',
+    'admin_panel': 'Hallintapaneeli',
+    'login': 'Kirjaudu sisään',
+    'register': 'Rekisteröidy',
+    'logout': 'Kirjaudu ulos',
+    'close': 'Sulje',
+    'profile_picture': 'Profiilikuva',
+    'toggle_navigation': 'Vaihda navigointia',
+    'copyright': 'Tijme Vervoort.',
+    'language': 'Kieli',
+    
+    # Page Titles
+    'home_title': 'Koti - Portfolio-sivusto',
+    'login_title': 'Kirjaudu sisään - Portfolio-sivusto',
+    'register_title': 'Rekisteröidy - Portfolio-sivusto',
+    'portfolio_title': 'Portfolio - Portfolio-sivusto',
+    'internship1_title': 'Harjoittelu 1 - Portfolio-sivusto',
+    'internship2_title': 'Harjoittelu 2 - Portfolio-sivusto',
+    
+    # Demo Notice
+    'demo_notice_title': 'Demonstraatio-ilmoitus:',
+    'demo_notice_register': 'Tämä rekisteröintilomake palvelee yksinomaan demonstraatiotarkoituksia. Mitään autenttista tiliä ei tulla perustamaan eikä mitään tietoja tallenneta pysyvästi.',
+    'demo_notice_login': 'Tämä kirjautumislomake on suunniteltu eksklusiivisesti demonstraatiotarkoituksiin. Autentikointijärjestelmä eksemplifoi Django-kehitysasiantuntemustani.',
+    
+    # Home Page
+    'welcome_message': 'Tervetuloa. Täältä voitte löytää kattavaa tietoa Tijmesta',
+    'home_bio_p1': 'Olen 21-vuotias ja asun tällä hetkellä vanhempieni ja kahden sisaruksen—yhden veljen ja yhden sisaren—kanssa Nistelrodessa. Koulutuspolkuni aikana olen käynyt useita oppilaitoksia. Vuonna 2007 aloitin perusopetukseni De Beekgraaf-peruskoulussa Nistelrodessa. Kahdeksannen vuoden aikana siirrin De Brinckiin suorittaakseni peruskoulutukseni siellä. Myöhemmin edistyin Udens Collegeen Udenissa, jossa harjoitin opintoja kader-theoretisch-tasolla, mikä lopulta johti minut KW1C:hen \'s-Hertogenboschissa. Alun perin ilmoittauduin Arkkitehtuuri Rakentaminen -ohjelmaan ennen siirtymistäni nykyiseen Ohjelmistokehittäjä-ohjelmaani. Tällä hetkellä olen kolmannella vuodellani Ohjelmistokehittäjä-opetussuunnitelmassa. Olen menestyksekkäästi suorittanut harjoittelujakson Omnilanissa, yrityksessä joka tarjosi arvokkaita oppimismahdollisuuksia. Tällä hetkellä suoritan harjoittelua AB Transportissa, logistiikkayrityksessä joka erikoistuu toimitus- ja noutamispalveluihin yritysasiakkaille. Tämä asema on osoittautunut poikkeuksellisen edulliseksi, koska olen sijoitettuna IT-osastolla, jossa hankin laajaa tietämystä Python-ohjelmointikielestä ja Django-kehyksen implementoinnista.',
+    'home_bio_p2': 'Tämän koulutusohjelma aikana olen kerännyt merkittävää kokemusta erilaisten projektipohjaisien tehtävien kautta, mukaan lukien kattavan verkkosivuston kehittäminen urheiluseuralle. Tällä hetkellä ryhdymme portfolio-verkkosivustomme luomiseen. Tämän ajanjakson aikana olen merkittävästi vahvistanut C#-ymmärrystäni sekä sen käytännöllistä soveltamista projektikehityksessä. Lisäksi olen hankkinut huomattavaa asiantuntemusta web-kehityksessä sekä akateemisten tehtävien että käytännön harjoittelukokemuksen kautta. Tämä tiedonhankinta on ollut erityisen palkitsevaa, koska minulla on nyt tekninen pätevyys rakentaa verkkosivustoja ja ymmärrän kuinka hyödyntää näitä taitoja ammatillisesti tulevaisuudessa. Edelleen minulla oli edellisen koutusohjelmani aikana tilaisuus osallistua monipuolisiin ja stimuloiviin projekteihin, mukaan lukien ravintolan suunnittelu ja rakentaminen teräsrungolla, 1930-luvun asuinrakennus, ja virkistyslaitos nuorille. Suoritin suurimman osan näistä projekteista kiitettävin tuloksin. Tämä kattava kokemus tulee epäilemättä osoittautumaan korvaamattomaksi tulevissa ammatillisissa yrityksissäni.',
+    
+    # Login Page
+    'login_header': 'Käyttäjäautentikointi',
+    'username': 'Käyttäjätunnus',
+    'password': 'Salasana',
+    'login_error': 'Annettu käyttäjätunnus-salasana yhdistelmä on virheellinen. Olkaa hyvä ja varmistakaa tunnistetietonne ja yrittäkää uudelleen.',
+    'dont_have_account': 'Eikö teillä ole vielä tiliä?',
+    'register_here': 'Luokaa tili tässä',
+    
+    # Register Page
+    'create_account': 'Luo Uusi Tili',
+    'email': 'Sähköpostiosoite',
+    'first_name': 'Etunimi',
+    'last_name': 'Sukunimi',
+    'confirm_password': 'Vahvista Salasana',
+    'username_requirements': 'Pakollinen kenttä. Enintään 150 merkkiä. Hyväksyy kirjaimet, numerot, ja seuraavat symbolit: @/./+/-/_ yksinomaan.',
+    'password_req1': 'Salasananne ei saa muistuttaa läheisesti muita henkilökohtaisia tietojanne.',
+    'password_req2': 'Salasananne tulee käsittää vähintään 8 merkkiä.',
+    'password_req3': 'Salasananne ei voi olla yleisesti käytetty salasana.',
+    'password_req4': 'Salasananne ei voi koostua yksinomaan numeerisista merkeistä.',
+    'password_confirm_help': 'Syöttäkää uudelleen identtinen salasana kuten yllä määritelty varmistustarkoituksiin.',
+    'register_button': 'Luo Tili',
+    'already_account': 'Omistatko jo tilin?',
+    
+    # Portfolio Page
+    'portfolio_projects': 'Portfolio-projektit',
+    'rainbow_desc': 'Sateenkaari-projekti: Tämä edustaa tehtävää 3.2 ensimmäisestä teemasta, jonka koin erityisen kiehtovaksi kehittää. Haaste sisälsi span-luokkien implementoinnin, tekniikka josta olin alun perin epävarma. Kokonaisuudessaan uskon että toteutus oli erittäin menestyksekas.',
+    'match_table_desc': 'Ottelutaulukko: Tämä kuvakaappaus on peräisin ensimmäisestä projektistani ja demonstroi tehokasta ongelmanratkaisua. Tavoite oli näyttää kaikki Den Boschin ottelut kattavasti. Huolellisen harkinnan jälkeen implementoin taulukkopohjaisen ratkaisun—metodologian jota emme olleet aiemmin hyödyntäneet. Tämä merkitsi ensimmäistä menestyksellistä soveltamistani taulukkomuotoisen datan esittämisestä tämäntyyppiseen haasteeseen.',
+    'exercise_1_6_desc': 'Harjoitus 1.6: Koin tämän tehtävän kohtuullisen hallittavaksi, koska saimme HTML-tiedoston joka oli täysin järjestäytymätön ja puuttui CSS-tyylittely. Haaste vaati että palautimme sen visuaalisen vetovoiman strategisen taulukkorakenteiden ja riviorganisaation implementoinnin kautta.',
+    'exercise_2_1_desc': 'Harjoitus 2.1: Tämä osoittautui poikkeuksellisen nautinnolliseksi tehtäväksi, erityisesti koska se salli meidän kokeilla row-span ja column-span ominaisuuksia. Lopullinen tulos oli huomattavan menestyksekas, selvästi demonstroiden tarvetta hyödyntää luokkia ja ID:itä vaihtelevien väriteemojen toteuttamiseksi taulukkorakenteen sisällä.',
+    
+    # Stage 1 Page
+    'omnilan': 'Omnilan',
+    'ispconfig': 'ISPConfig',
+    'ispconfig_desc': 'Tämä edustaa ISPConfigin ensisijaista hallintapaneeli-käyttöliittymää',
+    'email_domain_desc': 'Tämä käyttöliittymä helpottaa sähköpostidomainien luomista osoitteille jotka liittyvät verkkosivustoonne',
+    'email_address_desc': 'Tämä osio helpottaa sähköpostiosoitteiden perustamista verkkosivustonne domainille',
+    'rememberz': 'Rememberz',
+    'rememberz_menu_desc': 'Tämä näyttää ensisijaisen navigointikäyttöliittymän Rememberz-käyttäjille',
+    'milight_desc': 'Nämä edustavat käyttäjäkonfiguraatioasetuksia valaistuksen hallintaan, mukaan lukien värisäätökapasiteetit. Nämä ominaisuudet ovat erityisen näkyviä käyttöliittymän vasemmassa osiossa.',
+    'rememberz_main_desc': 'Tämä muodostaa Rememberz-alustan keskusnavigointikeskuksen',
+    
+    # Stage 2 Page
+    'second_internship': 'Toinen Harjoittelu: Edistynyt Web-kehitys & Strukturoitu Verkko-oppiminen',
+    'wagtail_desc': 'Suoritin kattavan tutkimuksen Wagtail CMS:stä strukturoitujen verkkokurssien kautta, jossa hallitsin kehittyneiden dynaamisten sisällönhallintajärjestelmien kehittämisen web-sovelluksille.',
+    'cms_desc': 'Tein laajaa yhteistyötä sisällönhallintajärjestelmien kanssa interaktiivisten blogijulkaisujen arkkitehtuurin luomiseksi, sisällyttäen edistyneitä ominaisuuksia kuten FAQ-osiot ja dynaamiset karuselli-komponentit.',
+    'bootstrap_email_desc': 'Suunnittelin ja implementoin ammattimaisia sähköpostimalli-ratkaisuja käyttäen Bootstrap Email -kehystä AB Transportille, luoden responsiivisia sähköpostiallekirjoituksia ja kehittyneitä layout-suunnitteluja.',
+    'programming_skills': 'Edistynyt Ohjelmointikompetenssien Kehittäminen',
+    'coding_topics_desc': 'Suoritin syvällistä tutkimusta erilaisista ohjelmointidisipliineistä mukaan lukien Python, JavaScript, HTML & CSS, SQL, ja lisäteknologioita metodisesti strukturoitujen verkko-oppimisohjelmien kautta.',
+    'codecademy_desc': 'Suoritin menestyksekkäästi useita kattavia Python-kursseja Codecademyssa, käsittäen keskitason ja edistyneet Python-ohjelmointikonseptit, sekä erikoistuneet Django web-kehityskehykset.',
 }
+
+}
+
 
 # Default language
 DEFAULT_LANGUAGE = 'en'
