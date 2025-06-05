@@ -23,9 +23,19 @@
     font-size: 1.2rem;
     max-width: 600px;
   }
+  
+  .about-section h1 {
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
 </style>
 {% endblock %}
+
 {% block content %}
+<!-- About Section with heading -->
+
+
 <!-- Add profile image to the content area -->
 <div class="row mb-4 mt-4">
   <div class="col-md-4">
@@ -34,7 +44,9 @@
   </div>
   <div class="col-md-8">
     <h1>{% t 'welcome_message' %}</h1>
+    <h2>{% t 'about_tijme_heading' %}</h2>
     <p>{% t 'home_bio_p1' %}</p>
+    <h2>{% t 'skills_and_learning' %}</h2>
     <p>{% t 'home_bio_p2' %}</p>
   </div>
 </div>
