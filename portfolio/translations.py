@@ -68,10 +68,10 @@ TRANSLATIONS = {
         'match_table': 'Match Table Project',
         'exercise_1_6': 'CSS Table Alignment Exercise',
         'exercise_2_1': 'Row and Column Span Project',
-        'rainbow_desc': 'Rainbow Project: This represents assignment 3.2 from the first theme, which I found particularly engaging to develop. The challenge involved implementing span classes, a technique I was initially uncertain about. Overall, I believe the execution was highly successful.',
-        'match_table_desc': 'Match Table: This screenshot originates from my inaugural project and demonstrates effective problem-solving. The objective was to display all Den Bosch matches comprehensively. After careful consideration, I implemented a table-based solution—a methodology we had not previously utilized. This marked my first successful application of tabular data presentation for this type of challenge.',
-        'exercise_1_6_desc': 'realign tables using css I found this assignment reasonably manageable, as we received an HTML file that was completely disorganized and lacked CSS styling. The challenge required us to restore its visual appeal through strategic implementation of table structures and row organization.',
-        'exercise_2_1_desc': 'working with rows and colums This proved to be an exceptionally enjoyable assignment, particularly because it allowed us to experiment with row-span and column-span properties. The final outcome was remarkably successful, clearly demonstrating the necessity of utilizing classes and IDs to achieve varied color schemes within the table structure.',
+        'rainbow_desc': 'This project demonstrates my skills in implementing span classes and creating visually appealing layouts. The challenge involved working with CSS positioning and color schemes to create a rainbow effect.',
+        'match_table_desc': 'This project showcases effective problem-solving through table-based data presentation. The objective was to display football match information in a clear, organized format using HTML tables and CSS styling.',
+        'exercise_1_6_desc': 'This assignment focused on CSS table alignment and styling. I received a disorganized HTML file and was tasked with creating an appealing visual presentation through strategic CSS implementation.',
+        'exercise_2_1_desc': 'This project involved experimenting with row-span and column-span properties to create complex table layouts. The final result demonstrated the effective use of CSS classes and IDs for varied styling.',
         
         # Stage 1 Page
         'omnilan': 'Omnilan',
@@ -84,6 +84,16 @@ TRANSLATIONS = {
         'milight_desc': 'These represent user configuration settings for lighting control, including color adjustment capabilities. These features are particularly prominent in the left-hand section of the interface.',
         'rememberz_main_desc': 'This constitutes the central navigation hub of the Rememberz platform',
         
+        # Internship 1 (Omnilan) - New content
+        'omnilan_role_title': 'My Role at Omnilan',
+        'omnilan_role_desc': 'At Omnilan, I worked as a software developer focused on improving internal systems and communication tools. My primary responsibilities included developing and enhancing the lighting control system and streamlining the email communication system between workers. This role provided me with valuable hands-on experience in software development and system integration, allowing me to contribute to making workplace processes more efficient and user-friendly.',
+        'lighting_system_development': 'Lighting System Development',
+        'email_system_enhancement': 'Email System Enhancement',
+        'email_domain_management': 'Email Domain Management',
+        'email_address_configuration': 'Email Address Configuration',
+        'milight_control_system': 'Milight Control System',
+        'rememberz_main_interface': 'Rememberz Main Interface',
+        
         # Stage 2 Page
         'second_internship': 'AB Transport Internship: Web Development & Online Learning',
         'wagtail_desc': 'Conducted comprehensive exploration of the Wagtail CMS through structured online coursework, mastering the development of sophisticated dynamic content management systems for web applications.',
@@ -92,6 +102,16 @@ TRANSLATIONS = {
         'programming_skills': 'Advanced Programming Competency Development',
         'coding_topics_desc': 'Conducted in-depth exploration of diverse programming disciplines including Python, JavaScript, HTML & CSS, SQL, and additional technologies through methodically structured online learning programs.',
         'codecademy_desc': 'Successfully completed multiple comprehensive Python courses on Codecademy, encompassing intermediate and advanced Python programming concepts, as well as specialized Django web development frameworks.',
+        
+        # Internship 2 (AB Transport) - New content
+        'ab_transport_role_title': 'My Role at AB Transport',
+        'ab_transport_role_desc': 'At AB Transport, I work as a software developer in the IT department, focusing on improving the company\'s email systems and enhancing their visual presentation. My responsibilities include developing better-looking email templates and interfaces, as well as dedicating time to skill development through structured online courses. This position has been instrumental in advancing my technical capabilities, particularly in Python programming, web development frameworks, and modern email design techniques.',
+        'web_development_cms_projects': 'Web Development & CMS Projects',
+        'wagtail_cms_development': 'Wagtail CMS Development',
+        'content_management_systems': 'Content Management Systems',
+        'bootstrap_email_templates': 'Bootstrap Email Templates',
+        'programming_disciplines': 'Programming Disciplines',
+        'codecademy_python_courses': 'Codecademy Python Courses',
     },
 
  'nl': {
@@ -160,10 +180,10 @@ TRANSLATIONS = {
         'match_table': 'Wedstrijdtabel Project',
         'exercise_1_6': 'CSS Tabel Uitlijning Oefening',
         'exercise_2_1': 'Rij en Kolom Span Project',
-        'rainbow_desc': 'Regenboog Project: Dit representeert opdracht 3.2 van het eerste thema, welke ik bijzonder boeiend vond om te ontwikkelen. De uitdaging betrof het implementeren van span classes, een techniek waarover ik aanvankelijk onzeker was. Over het algemeen geloof ik dat de uitvoering zeer succesvol was.',
-        'match_table_desc': 'Wedstrijdtabel: Deze screenshot origineert uit mijn inaugurele project en demonstreert effectieve probleemoplossing. Het objectief was om alle Den Bosch wedstrijden comprehensief weer te geven. Na zorgvuldige overweging implementeerde ik een tabel-gebaseerde oplossing—een methodologie die wij voorheen niet hadden benut. Dit markeerde mijn eerste succesvolle toepassing van tabulaire data presentatie voor dit type uitdaging.',
-        'exercise_1_6_desc': 'Oefening 1.6: Ik vond deze opdracht redelijk beheersbaar, aangezien wij een HTML-bestand ontvingen dat volledig gedesorganiseerd was en CSS-styling miste. De uitdaging vereiste dat wij de visuele aantrekkelijkheid herstelden door strategische implementatie van tabelstructuren en rij-organisatie.',
-        'exercise_2_1_desc': 'Oefening 2.1: Dit bewees een uitzonderlijk plezierige opdracht te zijn, met name omdat het ons toestond te experimenteren met row-span en column-span eigenschappen. Het finale resultaat was opmerkelijk succesvol, waarbij duidelijk de noodzaak werd gedemonstreerd van het benutten van classes en IDs om gevarieerde kleurenschema\'s binnen de tabelstructuur te realiseren.',
+        'rainbow_desc': 'Dit project demonstreert mijn vaardigheden in het implementeren van span-klassen en het creëren van visueel aantrekkelijke layouts. De uitdaging betrof het werken met CSS-positionering en kleurenschema\'s om een regenboogeffect te creëren.',
+        'match_table_desc': 'Dit project toont effectieve probleemoplossing door middel van tabelgebaseerde datapresentatie. Het doel was om voetbalwedstrijdinformatie weer te geven in een duidelijk, georganiseerd formaat met behulp van HTML-tabellen en CSS-styling.',
+        'exercise_1_6_desc': 'Deze opdracht richtte zich op CSS-tabeluitlijning en -styling. Ik ontving een gedesorganiseerd HTML-bestand en kreeg de taak om een aantrekkelijke visuele presentatie te creëren door strategische CSS-implementatie.',
+        'exercise_2_1_desc': 'Dit project betrof het experimenteren met row-span en column-span eigenschappen om complexe tabellay-outs te creëren. Het eindresultaat demonstreerde het effectieve gebruik van CSS-klassen en ID\'s voor gevarieerde styling.',
         
         # Stage 1 Page
         'omnilan': 'Omnilan',
@@ -176,6 +196,16 @@ TRANSLATIONS = {
         'milight_desc': 'Deze representeren gebruikersconfiguratie-instellingen voor verlichtingscontrole, inclusief kleuranpassingsmogelijkheden. Deze features zijn bijzonder prominent in de linkerhand sectie van de interface.',
         'rememberz_main_desc': 'Dit constitueert de centrale navigatiehub van het Rememberz platform',
         
+        # Internship 1 (Omnilan) - New content
+        'omnilan_role_title': 'Mijn Rol bij Omnilan',
+        'omnilan_role_desc': 'Bij Omnilan werkte ik als software developer gericht op het verbeteren van interne systemen en communicatietools. Mijn primaire verantwoordelijkheden omvatten het ontwikkelen en verbeteren van het verlichtingscontrolesysteem en het stroomlijnen van het e-mailcommunicatiesysteem tussen werknemers. Deze rol bood mij waardevolle praktijkervaring in softwareontwikkeling en systeemintegratie, waardoor ik kon bijdragen aan het efficiënter en gebruiksvriendelijker maken van werkplekprocessen.',
+        'lighting_system_development': 'Verlichtingssysteem Ontwikkeling',
+        'email_system_enhancement': 'E-mailsysteem Verbetering',
+        'email_domain_management': 'E-maildomein Beheer',
+        'email_address_configuration': 'E-mailadres Configuratie',
+        'milight_control_system': 'Milight Controlesysteem',
+        'rememberz_main_interface': 'Rememberz Hoofdinterface',
+        
         # Stage 2 Page
         'second_internship': 'Tweede Stage: Geavanceerde Webontwikkeling & Gestructureerd Online Leren',
         'wagtail_desc': 'Voerde uitgebreide exploratie uit van het Wagtail CMS door middel van gestructureerde online coursework, waarbij ik de ontwikkeling van gesofisticeerde dynamische content management systemen voor webapplicaties beheerste.',
@@ -184,6 +214,16 @@ TRANSLATIONS = {
         'programming_skills': 'Geavanceerde Programmeercompetentie Ontwikkeling',
         'coding_topics_desc': 'Voerde diepgaande exploratie uit van diverse programmeer disciplines inclusief Python, JavaScript, HTML & CSS, SQL, en additionele technologieën door middel van methodisch gestructureerde online leerprogramma\'s.',
         'codecademy_desc': 'Voltooide succesvol meerdere uitgebreide Python cursussen op Codecademy, omvattend intermediate en geavanceerde Python programmeerconcepten, evenals gespecialiseerde Django webontwikkeling frameworks.',
+        
+        # Internship 2 (AB Transport) - New content
+        'ab_transport_role_title': 'Mijn Rol bij AB Transport',
+        'ab_transport_role_desc': 'Bij AB Transport werk ik als software developer op de IT-afdeling, gericht op het verbeteren van de e-mailsystemen van het bedrijf en het verbeteren van hun visuele presentatie. Mijn verantwoordelijkheden omvatten het ontwikkelen van beter uitziende e-mailtemplates en interfaces, evenals het besteden van tijd aan vaardigheidsontwikkeling door gestructureerde online cursussen. Deze positie is instrumenteel geweest in het bevorderen van mijn technische capaciteiten, met name in Python-programmering, webontwikkelingsframeworks en moderne e-maildesigntechnieken.',
+        'web_development_cms_projects': 'Webontwikkeling & CMS Projecten',
+        'wagtail_cms_development': 'Wagtail CMS Ontwikkeling',
+        'content_management_systems': 'Content Management Systemen',
+        'bootstrap_email_templates': 'Bootstrap E-mail Templates',
+        'programming_disciplines': 'Programmeerdisciplines',
+        'codecademy_python_courses': 'Codecademy Python Cursussen',
     },
     'fr': {
         # Navigation & Common Elements
@@ -251,10 +291,10 @@ TRANSLATIONS = {
         'match_table': 'Projet Tableau des Matchs',
         'exercise_1_6': 'Exercice d\'Alignement de Tableau CSS',
         'exercise_2_1': 'Projet Row-span et Column-span',
-        'rainbow_desc': 'Projet Arc-en-ciel: Ceci représente l\'exercice 3.2 du premier thème, que j\'ai trouvé particulièrement captivant à développer. Le défi impliquait l\'implémentation de classes span, une technique sur laquelle j\'étais initialement incertain. Globalement, je crois que l\'exécution fut hautement réussie.',
-        'match_table_desc': 'Tableau des Matchs: Cette capture d\'écran provient de mon projet inaugural et démontre une résolution de problème efficace. L\'objectif était d\'afficher tous les matchs de Den Bosch de manière exhaustive. Après considération attentive, j\'ai implémenté une solution basée sur tableau—une méthodologie que nous n\'avions pas précédemment utilisée. Ceci marqua ma première application réussie de présentation de données tabulaires pour ce type de défi.',
-        'exercise_1_6_desc': 'Exercice 1.6: J\'ai trouvé cette mission raisonnablement gérable, puisque nous avons reçu un fichier HTML complètement désorganisé et dépourvu de style CSS. Le défi nécessitait que nous restaurions son attrait visuel à travers l\'implémentation stratégique de structures de tableau et d\'organisation de rangées.',
-        'exercise_2_1_desc': 'Exercice 2.1: Ceci s\'est avéré être une mission exceptionnellement plaisante, particulièrement parce qu\'elle nous a permis d\'expérimenter avec les propriétés row-span et column-span. Le résultat final fut remarquablement réussi, démontrant clairement la nécessité d\'utiliser des classes et des IDs pour réaliser des schémas de couleurs variés au sein de la structure du tableau.',
+        'rainbow_desc': 'Ce projet démontre mes compétences dans l\'implémentation de classes span et la création de mises en page visuellement attrayantes. Le défi impliquait de travailler avec le positionnement CSS et les schémas de couleurs pour créer un effet arc-en-ciel.',
+        'match_table_desc': 'Ce projet présente une résolution de problème efficace grâce à la présentation de données basée sur des tableaux. L\'objectif était d\'afficher les informations de match de football dans un format clair et organisé en utilisant des tableaux HTML et le style CSS.',
+        'exercise_1_6_desc': 'Cette mission se concentrait sur l\'alignement et le style des tableaux CSS. J\'ai reçu un fichier HTML désorganisé et j\'ai été chargé de créer une présentation visuelle attrayante grâce à une implémentation CSS stratégique.',
+        'exercise_2_1_desc': 'Ce projet impliquait d\'expérimenter avec les propriétés row-span et column-span pour créer des mises en page de tableaux complexes. Le résultat final a démontré l\'utilisation efficace des classes CSS et des ID pour un style varié.',
         
         # Stage 1 Page
         'omnilan': 'Omnilan',
@@ -267,6 +307,16 @@ TRANSLATIONS = {
         'milight_desc': 'Ceci représente les paramètres de configuration utilisateur pour le contrôle d\'éclairage, incluant les capacités d\'ajustement de couleur. Ces fonctionnalités sont particulièrement proéminentes dans la section gauche de l\'interface.',
         'rememberz_main_desc': 'Ceci constitue le hub de navigation central de la plateforme Rememberz',
         
+        # Internship 1 (Omnilan) - New content
+        'omnilan_role_title': 'Mon Rôle chez Omnilan',
+        'omnilan_role_desc': 'Chez Omnilan, j\'ai travaillé comme développeur de logiciels axé sur l\'amélioration des systèmes internes et des outils de communication. Mes responsabilités principales comprenaient le développement et l\'amélioration du système de contrôle d\'éclairage et la rationalisation du système de communication par e-mail entre les travailleurs. Ce rôle m\'a fourni une expérience pratique précieuse en développement de logiciels et intégration de systèmes, me permettant de contribuer à rendre les processus de travail plus efficaces et conviviaux.',
+        'lighting_system_development': 'Développement du Système d\'Éclairage',
+        'email_system_enhancement': 'Amélioration du Système E-mail',
+        'email_domain_management': 'Gestion du Domaine E-mail',
+        'email_address_configuration': 'Configuration d\'Adresse E-mail',
+        'milight_control_system': 'Système de Contrôle Milight',
+        'rememberz_main_interface': 'Interface Principale Rememberz',
+        
         # Stage 2 Page
         'second_internship': 'Deuxième Stage: Développement Web Avancé & Apprentissage en Ligne Structuré',
         'wagtail_desc': 'Ai mené une exploration exhaustive du CMS Wagtail à travers des cours en ligne structurés, maîtrisant le développement de systèmes de gestion de contenu dynamiques sophistiqués pour les applications web.',
@@ -275,6 +325,16 @@ TRANSLATIONS = {
         'programming_skills': 'Développement de Compétences en Programmation Avancée',
         'coding_topics_desc': 'Ai mené une exploration approfondie de diverses disciplines de programmation incluant Python, JavaScript, HTML & CSS, SQL, et des technologies additionnelles à travers des programmes d\'apprentissage en ligne méthodiquement structurés.',
         'codecademy_desc': 'Ai complété avec succès plusieurs cours Python exhaustifs sur Codecademy, englobant les concepts de programmation Python intermédiaires et avancés, ainsi que les frameworks de développement web Django spécialisés.',
+        
+        # Internship 2 (AB Transport) - New content
+        'ab_transport_role_title': 'Mon Rôle chez AB Transport',
+        'ab_transport_role_desc': 'Chez AB Transport, je travaille comme développeur de logiciels dans le département informatique, me concentrant sur l\'amélioration des systèmes de messagerie de l\'entreprise et l\'amélioration de leur présentation visuelle. Mes responsabilités incluent le développement de modèles d\'e-mail et d\'interfaces plus attrayants, ainsi que consacrer du temps au développement des compétences grâce à des cours en ligne structurés. Cette position a été déterminante dans l\'avancement de mes capacités techniques, en particulier en programmation Python, frameworks de développement web et techniques modernes de conception d\'e-mails.',
+        'web_development_cms_projects': 'Projets de Développement Web & CMS',
+        'wagtail_cms_development': 'Développement CMS Wagtail',
+        'content_management_systems': 'Systèmes de Gestion de Contenu',
+        'bootstrap_email_templates': 'Modèles E-mail Bootstrap',
+        'programming_disciplines': 'Disciplines de Programmation',
+        'codecademy_python_courses': 'Cours Python Codecademy',
     },
     'de': {
         # Navigation & Common Elements
@@ -342,10 +402,10 @@ TRANSLATIONS = {
         'match_table': 'Spieltabelle-Projekt',
         'exercise_1_6': 'CSS-Tabellenausrichtung Übung',
         'exercise_2_1': 'Row-span und Column-span Projekt',
-        'rainbow_desc': 'Regenbogen-Projekt: Dies repräsentiert Aufgabe 3.2 des ersten Themas, welche ich besonders fesselnd zu entwickeln fand. Die Herausforderung involvierte die Implementierung von Span-Klassen, eine Technik, über die ich anfänglich unsicher war. Insgesamt glaube ich, dass die Ausführung höchst erfolgreich war.',
-        'match_table_desc': 'Spieltabelle: Dieser Screenshot entstammt meinem inauguralen Projekt und demonstriert effektive Problemlösung. Das Ziel war es, alle Den Bosch Spiele umfassend darzustellen. Nach sorgfältiger Überlegung implementierte ich eine tabellenbasierte Lösung—eine Methodologie, die wir zuvor nicht genutzt hatten. Dies markierte meine erste erfolgreiche Anwendung tabularer Datenpräsentation für diese Art von Herausforderung.',
-        'exercise_1_6_desc': 'Übung 1.6: Ich fand diese Aufgabe vernünftig handhabbar, da wir eine HTML-Datei erhielten, die vollständig desorganisiert war und CSS-Styling vermissen ließ. Die Herausforderung erforderte, dass wir ihre visuelle Attraktivität durch strategische Implementierung von Tabellenstrukturen und Zeilenorganisation wiederherstellten.',
-        'exercise_2_1_desc': 'Übung 2.1: Dies erwies sich als außerordentlich vergnügliche Aufgabe, insbesondere weil sie uns erlaubte, mit row-span und column-span Eigenschaften zu experimentieren. Das finale Resultat war bemerkenswert erfolgreich und demonstrierte klar die Notwendigkeit, Klassen und IDs zu nutzen, um variierte Farbschemata innerhalb der Tabellenstruktur zu realisieren.',
+        'rainbow_desc': 'Dieses Projekt demonstriert meine Fähigkeiten bei der Implementierung von Span-Klassen und der Erstellung visuell ansprechender Layouts. Die Herausforderung bestand darin, mit CSS-Positionierung und Farbschemata zu arbeiten, um einen Regenbogeneffekt zu erzeugen.',
+        'match_table_desc': 'Dieses Projekt zeigt effektive Problemlösung durch tabellenbasierte Datenpräsentation. Das Ziel war es, Fußballspielinformationen in einem klaren, organisierten Format mit HTML-Tabellen und CSS-Styling anzuzeigen.',
+        'exercise_1_6_desc': 'Diese Aufgabe konzentrierte sich auf CSS-Tabellenausrichtung und -styling. Ich erhielt eine desorganisierte HTML-Datei und wurde beauftragt, eine ansprechende visuelle Präsentation durch strategische CSS-Implementierung zu erstellen.',
+        'exercise_2_1_desc': 'Dieses Projekt beinhaltete das Experimentieren mit Row-Span- und Column-Span-Eigenschaften zur Erstellung komplexer Tabellenlayouts. Das Endergebnis demonstrierte die effektive Nutzung von CSS-Klassen und IDs für vielfältiges Styling.',
         
         # Stage 1 Page
         'omnilan': 'Omnilan',
@@ -358,6 +418,16 @@ TRANSLATIONS = {
         'milight_desc': 'Diese repräsentieren Benutzerkonfigurationseinstellungen für Beleuchtungssteuerung, einschließlich Farbanpassungsmöglichkeiten. Diese Features sind besonders prominent im linken Bereich der Schnittstelle.',
         'rememberz_main_desc': 'Dies konstituiert den zentralen Navigationshub der Rememberz-Plattform',
         
+        # Internship 1 (Omnilan) - New content
+        'omnilan_role_title': 'Meine Rolle bei Omnilan',
+        'omnilan_role_desc': 'Bei Omnilan arbeitete ich als Softwareentwickler mit Fokus auf die Verbesserung interner Systeme und Kommunikationstools. Meine Hauptverantwortlichkeiten umfassten die Entwicklung und Verbesserung des Beleuchtungssteuerungssystems und die Rationalisierung des E-Mail-Kommunikationssystems zwischen Arbeitern. Diese Rolle bot mir wertvolle praktische Erfahrungen in der Softwareentwicklung und Systemintegration und ermöglichte es mir, zur Effizienz und Benutzerfreundlichkeit von Arbeitsplatzprozessen beizutragen.',
+        'lighting_system_development': 'Beleuchtungssystem-Entwicklung',
+        'email_system_enhancement': 'E-Mail-System-Verbesserung',
+        'email_domain_management': 'E-Mail-Domain-Verwaltung',
+        'email_address_configuration': 'E-Mail-Adress-Konfiguration',
+        'milight_control_system': 'Milight-Steuerungssystem',
+        'rememberz_main_interface': 'Rememberz-Hauptschnittstelle',
+        
         # Stage 2 Page
         'second_internship': 'Zweites Praktikum: Fortgeschrittene Webentwicklung & Strukturiertes Online-Lernen',
         'wagtail_desc': 'Führte umfassende Exploration des Wagtail CMS durch strukturierte Online-Kursarbeit durch, wobei ich die Entwicklung sophistizierter dynamischer Content-Management-Systeme für Webanwendungen meisterte.',
@@ -366,6 +436,16 @@ TRANSLATIONS = {
         'programming_skills': 'Fortgeschrittene Programmierkompetenzen-Entwicklung',
         'coding_topics_desc': 'Führte tiefgreifende Exploration diverser Programmierdisziplinen einschließlich Python, JavaScript, HTML & CSS, SQL und zusätzlicher Technologien durch methodisch strukturierte Online-Lernprogramme durch.',
         'codecademy_desc': 'Vollendete erfolgreich mehrere umfassende Python-Kurse auf Codecademy, umfassend intermediate und fortgeschrittene Python-Programmierkonzepte sowie spezialisierte Django-Webentwicklungs-Frameworks.',
+        
+        # Internship 2 (AB Transport) - New content
+        'ab_transport_role_title': 'Meine Rolle bei AB Transport',
+        'ab_transport_role_desc': 'Bei AB Transport arbeite ich als Softwareentwickler in der IT-Abteilung und konzentriere mich auf die Verbesserung der E-Mail-Systeme des Unternehmens und die Verbesserung ihrer visuellen Präsentation. Meine Verantwortlichkeiten umfassen die Entwicklung besser aussehender E-Mail-Vorlagen und Schnittstellen sowie die Widmung von Zeit für die Kompetenzentwicklung durch strukturierte Online-Kurse. Diese Position war entscheidend für die Förderung meiner technischen Fähigkeiten, insbesondere in Python-Programmierung, Webentwicklungs-Frameworks und modernen E-Mail-Design-Techniken.',
+        'web_development_cms_projects': 'Webentwicklung & CMS-Projekte',
+        'wagtail_cms_development': 'Wagtail CMS-Entwicklung',
+        'content_management_systems': 'Content-Management-Systeme',
+        'bootstrap_email_templates': 'Bootstrap E-Mail-Vorlagen',
+        'programming_disciplines': 'Programmierdisziplinen',
+        'codecademy_python_courses': 'Codecademy Python-Kurse',
     },
     'es': {
         # Navigation & Common Elements
@@ -433,10 +513,10 @@ TRANSLATIONS = {
         'match_table': 'Proyecto Tabla de Partidos',
         'exercise_1_6': 'Ejercicio de Alineación de Tabla CSS',
         'exercise_2_1': 'Proyecto Row-span y Column-span',
-        'rainbow_desc': 'Proyecto Arcoíris: Esto representa la asignación 3.2 del primer tema, la cual encontré particularmente cautivadora de desarrollar. El desafío involucró la implementación de clases span, una técnica sobre la cual inicialmente tenía incertidumbre. Globalmente, creo que la ejecución fue altamente exitosa.',
-        'match_table_desc': 'Tabla de Partidos: Esta captura de pantalla se origina de mi proyecto inaugural y demuestra resolución efectiva de problemas. El objetivo era mostrar todos los partidos de Den Bosch comprehensivamente. Después de consideración cuidadosa, implementé una solución basada en tablas—una metodología que previamente no habíamos utilizado. Esto marcó mi primera aplicación exitosa de presentación de datos tabulares para este tipo de desafío.',
-        'exercise_1_6_desc': 'Ejercicio 1.6: Encontré esta asignación razonablemente manejable, puesto que recibimos un archivo HTML completamente desorganizado y carente de estilización CSS. El desafío requería que restauráramos su atractivo visual a través de la implementación estratégica de estructuras de tabla y organización de filas.',
-        'exercise_2_1_desc': 'Ejercicio 2.1: Esto demostró ser una asignación excepcionalmente placentera, particularmente porque nos permitió experimentar con propiedades row-span y column-span. El resultado final fue notablemente exitoso, demostrando claramente la necesidad de utilizar clases e IDs para lograr esquemas de colores variados dentro de la estructura de la tabla.',
+        'rainbow_desc': 'Este proyecto demuestra mis habilidades en la implementación de clases span y la creación de diseños visualmente atractivos. El desafío involucró trabajar con posicionamiento CSS y esquemas de colores para crear un efecto arcoíris.',
+        'match_table_desc': 'Este proyecto muestra una resolución efectiva de problemas a través de presentación de datos basada en tablas. El objetivo era mostrar información de partidos de fútbol en un formato claro y organizado usando tablas HTML y estilo CSS.',
+        'exercise_1_6_desc': 'Esta asignación se enfocó en la alineación y estilo de tablas CSS. Recibí un archivo HTML desorganizado y fui encargado de crear una presentación visual atractiva a través de implementación CSS estratégica.',
+        'exercise_2_1_desc': 'Este proyecto involucró experimentar con propiedades row-span y column-span para crear diseños de tabla complejos. El resultado final demostró el uso efectivo de clases CSS e IDs para estilo variado.',
         
         # Stage 1 Page
         'omnilan': 'Omnilan',
@@ -449,6 +529,16 @@ TRANSLATIONS = {
         'milight_desc': 'Estos representan configuraciones de usuario para control de iluminación, incluyendo capacidades de ajuste de color. Estas características son particularmente prominentes en la sección izquierda de la interfaz.',
         'rememberz_main_desc': 'Esto constituye el hub de navegación central de la plataforma Rememberz',
         
+        # Internship 1 (Omnilan) - New content
+        'omnilan_role_title': 'Mi Rol en Omnilan',
+        'omnilan_role_desc': 'En Omnilan, trabajé como desarrollador de software enfocado en mejorar sistemas internos y herramientas de comunicación. Mis responsabilidades principales incluían desarrollar y mejorar el sistema de control de iluminación y optimizar el sistema de comunicación por correo electrónico entre trabajadores. Este rol me proporcionó experiencia práctica valiosa en desarrollo de software e integración de sistemas, permitiéndome contribuir a hacer los procesos de trabajo más eficientes y fáciles de usar.',
+        'lighting_system_development': 'Desarrollo del Sistema de Iluminación',
+        'email_system_enhancement': 'Mejora del Sistema de Correo',
+        'email_domain_management': 'Gestión de Dominio de Correo',
+        'email_address_configuration': 'Configuración de Dirección de Correo',
+        'milight_control_system': 'Sistema de Control Milight',
+        'rememberz_main_interface': 'Interfaz Principal Rememberz',
+        
         # Stage 2 Page
         'second_internship': 'Segundas Prácticas: Desarrollo Web Avanzado & Aprendizaje en Línea Estructurado',
         'wagtail_desc': 'Conduje exploración exhaustiva del CMS Wagtail a través de cursos en línea estructurados, dominando el desarrollo de sistemas sofisticados de gestión de contenido dinámico para aplicaciones web.',
@@ -457,6 +547,16 @@ TRANSLATIONS = {
         'programming_skills': 'Desarrollo de Competencias Avanzadas en Programación',
         'coding_topics_desc': 'Conduje exploración profunda de diversas disciplinas de programación incluyendo Python, JavaScript, HTML & CSS, SQL, y tecnologías adicionales a través de programas de aprendizaje en línea metódicamente estructurados.',
         'codecademy_desc': 'Completé exitosamente múltiples cursos exhaustivos de Python en Codecademy, abarcando conceptos de programación Python intermedios y avanzados, así como frameworks especializados de desarrollo web Django.',
+        
+        # Internship 2 (AB Transport) - New content
+        'ab_transport_role_title': 'Mi Rol en AB Transport',
+        'ab_transport_role_desc': 'En AB Transport, trabajo como desarrollador de software en el departamento de TI, enfocándome en mejorar los sistemas de correo electrónico de la empresa y mejorar su presentación visual. Mis responsabilidades incluyen desarrollar plantillas de correo electrónico e interfaces de mejor apariencia, así como dedicar tiempo al desarrollo de habilidades a través de cursos en línea estructurados. Esta posición ha sido instrumental en avanzar mis capacidades técnicas, particularmente en programación Python, frameworks de desarrollo web y técnicas modernas de diseño de correo electrónico.',
+        'web_development_cms_projects': 'Proyectos de Desarrollo Web & CMS',
+        'wagtail_cms_development': 'Desarrollo CMS Wagtail',
+        'content_management_systems': 'Sistemas de Gestión de Contenido',
+        'bootstrap_email_templates': 'Plantillas de Correo Bootstrap',
+        'programming_disciplines': 'Disciplinas de Programación',
+        'codecademy_python_courses': 'Cursos Python Codecademy',
     },
     'it': {
         # Navigation & Common Elements
@@ -524,10 +624,10 @@ TRANSLATIONS = {
         'match_table': 'Progetto Tabella Partite',
         'exercise_1_6': 'Esercizio Allineamento Tabella CSS',
         'exercise_2_1': 'Progetto Row-span e Column-span',
-        'rainbow_desc': 'Progetto Arcobaleno: Questo rappresenta l\'assegnazione 3.2 del primo tema, che ho trovato particolarmente accattivante da sviluppare. La sfida coinvolgeva l\'implementazione di classi span, una tecnica sulla quale inizialmente avevo incertezza. Globalmente, credo che l\'esecuzione sia stata altamente riuscita.',
-        'match_table_desc': 'Tabella Partite: Questo screenshot origina dal mio progetto inaugurale e dimostra risoluzione efficace di problemi. L\'obiettivo era mostrare tutte le partite di Den Bosch comprensivamente. Dopo attenta considerazione, ho implementato una soluzione basata su tabelle—una metodologia che precedentemente non avevamo utilizzato. Questo ha segnato la mia prima applicazione riuscita di presentazione dati tabulari per questo tipo di sfida.',
-        'exercise_1_6_desc': 'Esercizio 1.6: Ho trovato questa assegnazione ragionevolmente gestibile, poiché abbiamo ricevuto un file HTML completamente disorganizzato e privo di stilizzazione CSS. La sfida richiedeva che restaurassimo il suo appeal visivo attraverso l\'implementazione strategica di strutture tabellari e organizzazione di righe.',
-        'exercise_2_1_desc': 'Esercizio 2.1: Questo si è dimostrato un\'assegnazione eccezionalmente piacevole, particolarmente perché ci ha permesso di sperimentare con proprietà row-span e column-span. Il risultato finale è stato notevolmente riuscito, dimostrando chiaramente la necessità di utilizzare classi e ID per realizzare schemi cromatici variati all\'interno della struttura tabellare.',
+        'rainbow_desc': 'Questo progetto dimostra le mie competenze nell\'implementazione di classi span e nella creazione di layout visivamente accattivanti. La sfida ha coinvolto il lavoro con il posizionamento CSS e schemi di colori per creare un effetto arcobaleno.',
+        'match_table_desc': 'Questo progetto mostra una risoluzione efficace dei problemi attraverso la presentazione di dati basata su tabelle. L\'obiettivo era mostrare informazioni sulle partite di calcio in un formato chiaro e organizzato utilizzando tabelle HTML e stile CSS.',
+        'exercise_1_6_desc': 'Questo incarico si è concentrato sull\'allineamento e lo stile delle tabelle CSS. Ho ricevuto un file HTML disorganizzato e sono stato incaricato di creare una presentazione visiva accattivante attraverso l\'implementazione CSS strategica.',
+        'exercise_2_1_desc': 'Questo progetto ha coinvolto la sperimentazione con proprietà row-span e column-span per creare layout di tabella complessi. Il risultato finale ha dimostrato l\'uso efficace di classi CSS e ID per stile variato.',
         
         # Stage 1 Page
         'omnilan': 'Omnilan',
@@ -540,6 +640,16 @@ TRANSLATIONS = {
         'milight_desc': 'Questi rappresentano impostazioni di configurazione utente per controllo illuminazione, includendo capacità di regolazione colore. Queste caratteristiche sono particolarmente prominenti nella sezione sinistra dell\'interfaccia.',
         'rememberz_main_desc': 'Questo costituisce l\'hub di navigazione centrale della piattaforma Rememberz',
         
+        # Internship 1 (Omnilan) - New content
+        'omnilan_role_title': 'Il Mio Ruolo presso Omnilan',
+        'omnilan_role_desc': 'Presso Omnilan, ho lavorato come sviluppatore software concentrandomi sul miglioramento dei sistemi interni e degli strumenti di comunicazione. Le mie responsabilità principali includevano lo sviluppo e il miglioramento del sistema di controllo dell\'illuminazione e la razionalizzazione del sistema di comunicazione email tra i lavoratori. Questo ruolo mi ha fornito preziosa esperienza pratica nello sviluppo software e nell\'integrazione di sistemi, permettendomi di contribuire a rendere i processi lavorativi più efficienti e user-friendly.',
+        'lighting_system_development': 'Sviluppo Sistema di Illuminazione',
+        'email_system_enhancement': 'Miglioramento Sistema Email',
+        'email_domain_management': 'Gestione Dominio Email',
+        'email_address_configuration': 'Configurazione Indirizzo Email',
+        'milight_control_system': 'Sistema di Controllo Milight',
+        'rememberz_main_interface': 'Interfaccia Principale Rememberz',
+        
         # Stage 2 Page
         'second_internship': 'Secondo Tirocinio: Sviluppo Web Avanzato & Apprendimento Online Strutturato',
         'wagtail_desc': 'Ho condotto esplorazione esaustiva del CMS Wagtail attraverso corsi online strutturati, padroneggiando lo sviluppo di sistemi sofisticati di gestione contenuti dinamici per applicazioni web.',
@@ -548,6 +658,16 @@ TRANSLATIONS = {
         'programming_skills': 'Sviluppo Competenze Programmazione Avanzate',
         'coding_topics_desc': 'Ho condotto esplorazione approfondita di diverse discipline di programmazione includendo Python, JavaScript, HTML & CSS, SQL, e tecnologie aggiuntive attraverso programmi di apprendimento online metodicamente strutturati.',
         'codecademy_desc': 'Ho completato con successo molteplici corsi Python esaustivi su Codecademy, comprendendo concetti di programmazione Python intermedi e avanzati, così come framework specializzati di sviluppo web Django.',
+        
+        # Internship 2 (AB Transport) - New content
+        'ab_transport_role_title': 'Il Mio Ruolo presso AB Transport',
+        'ab_transport_role_desc': 'Presso AB Transport, lavoro come sviluppatore software nel dipartimento IT, concentrandomi sul miglioramento dei sistemi email dell\'azienda e sul miglioramento della loro presentazione visiva. Le mie responsabilità includono lo sviluppo di template email e interfacce dall\'aspetto migliore, così come dedicare tempo allo sviluppo delle competenze attraverso corsi online strutturati. Questa posizione è stata strumentale nell\'avanzare le mie capacità tecniche, particolarmente nella programmazione Python, framework di sviluppo web e tecniche moderne di design email.',
+        'web_development_cms_projects': 'Progetti di Sviluppo Web & CMS',
+        'wagtail_cms_development': 'Sviluppo CMS Wagtail',
+        'content_management_systems': 'Sistemi di Gestione Contenuti',
+        'bootstrap_email_templates': 'Template Email Bootstrap',
+        'programming_disciplines': 'Discipline di Programmazione',
+        'codecademy_python_courses': 'Corsi Python Codecademy',
     },
     # Norwegian (no) translations
 'no': {
@@ -616,10 +736,10 @@ TRANSLATIONS = {
     'match_table': 'Kamptabell-prosjekt',
     'exercise_1_6': 'CSS-tabellinjustering Øvelse',
     'exercise_2_1': 'Row-span og Column-span Prosjekt',
-    'rainbow_desc': 'Regnbueprosjekt: Dette representerer oppgave 3.2 fra det første temaet, som jeg fant særlig fengslende å utvikle. Utfordringen involverte implementering av span-klasser, en teknikk jeg opprinnelig var usikker på. Overordnet mener jeg at gjennomføringen var høyst vellykket.',
-    'match_table_desc': 'Kamptabell: Dette skjermbildet stammer fra mitt inaugurale prosjekt og demonstrerer effektiv problemløsning. Målet var å vise alle Den Bosch-kamper omfattende. Etter nøye overveielse implementerte jeg en tabellbasert løsning—en metodologi vi tidligere ikke hadde benyttet. Dette markerte min første vellykkede anvendelse av tabulær datapresentasjon for denne typen utfordring.',
-    'exercise_1_6_desc': 'Øvelse 1.6: Jeg fant denne oppgaven rimelig håndterbar, ettersom vi mottok en HTML-fil som var fullstendig desorganisert og manglet CSS-styling. Utfordringen krevde at vi gjenopprettet dens visuelle appell gjennom strategisk implementering av tabellstrukturer og radorganisering.',
-    'exercise_2_1_desc': 'Øvelse 2.1: Dette viste seg å være en eksepsjonelt fornøyelig oppgave, særlig fordi den tillot oss å eksperimentere med row-span og column-span egenskaper. Det endelige resultatet var bemerkelsesverdig vellykket, og demonstrerte tydelig nødvendigheten av å benytte klasser og ID-er for å realisere varierte fargeskjemaer innenfor tabellstrukturen.',
+    'rainbow_desc': 'Dette prosjektet demonstrerer mine ferdigheter i implementering av span-klasser og opprettelse av visuelt tiltalende layouts. Utfordringen involverte arbeid med CSS-posisjonering og fargeordninger for å skape en regnbueeffekt.',
+    'match_table_desc': 'Dette prosjektet viser effektiv problemløsning gjennom tabellbasert datapresentasjon. Målet var å vise fotballkampinformasjon i et klart, organisert format ved bruk av HTML-tabeller og CSS-styling.',
+    'exercise_1_6_desc': 'Denne oppgaven fokuserte på CSS-tabellinjustering og styling. Jeg mottok en desorganisert HTML-fil og ble bedt om å skape en tiltalende visuell presentasjon gjennom strategisk CSS-implementering.',
+    'exercise_2_1_desc': 'Dette prosjektet involverte eksperimentering med row-span og column-span egenskaper for å skape komplekse tabelllayouts. Det endelige resultatet demonstrerte effektiv bruk av CSS-klasser og ID-er for variert styling.',
     
     # Stage 1 Page
     'omnilan': 'Omnilan',
@@ -632,6 +752,16 @@ TRANSLATIONS = {
     'milight_desc': 'Disse representerer brukerkonfigurasjonsinnstillinger for belysningskontroll, inkludert fargetilpasningskapasiteter. Disse funksjonene er særlig fremtredende i venstre seksjon av grensesnittet.',
     'rememberz_main_desc': 'Dette konstituerer det sentrale navigasjonssenteret til Rememberz-plattformen',
     
+    # Internship 1 (Omnilan) - New content
+    'omnilan_role_title': 'Min Rolle hos Omnilan',
+    'omnilan_role_desc': 'Hos Omnilan arbeidet jeg som programvareutvikler fokusert på å forbedre interne systemer og kommunikasjonsverktøy. Mine primære ansvarsområder inkluderte utvikling og forbedring av belysningskontrollsystemet og strømlinjing av e-postkommunikasjonssystemet mellom arbeidere. Denne rollen ga meg verdifull praktisk erfaring innen programvareutvikling og systemintegrasjon, og tillot meg å bidra til å gjøre arbeidsplassprosesser mer effektive og brukervennlige.',
+    'lighting_system_development': 'Belysningssystem Utvikling',
+    'email_system_enhancement': 'E-postsystem Forbedring',
+    'email_domain_management': 'E-postdomene Administrasjon',
+    'email_address_configuration': 'E-postadresse Konfigurasjon',
+    'milight_control_system': 'Milight Kontrollsystem',
+    'rememberz_main_interface': 'Rememberz Hovedgrensesnitt',
+    
     # Stage 2 Page
     'second_internship': 'Andre Praksis: Avansert Webutvikling & Strukturert Online Læring',
     'wagtail_desc': 'Gjennomførte omfattende utforskning av Wagtail CMS gjennom strukturerte online kurs, hvor jeg mestret utviklingen av sofistikerte dynamiske innholdsstyringssystemer for webapplikasjoner.',
@@ -640,6 +770,16 @@ TRANSLATIONS = {
     'programming_skills': 'Avansert Programmeringskompetanse Utvikling',
     'coding_topics_desc': 'Gjennomførte dybdegående utforskning av diverse programmeringsdisipliner inkludert Python, JavaScript, HTML & CSS, SQL, og tilleggsteknologier gjennom metodisk strukturerte online læringsprogrammer.',
     'codecademy_desc': 'Fullførte vellykket flere omfattende Python-kurs på Codecademy, omfattende mellomliggende og avanserte Python-programmeringskonsepter, samt spesialiserte Django webutviklingsrammeverk.',
+    
+    # Internship 2 (AB Transport) - New content
+    'ab_transport_role_title': 'Min Rolle hos AB Transport',
+    'ab_transport_role_desc': 'Hos AB Transport arbeider jeg som programvareutvikler i IT-avdelingen, fokusert på å forbedre selskapets e-postsystemer og forbedre deres visuelle presentasjon. Mine ansvarsområder inkluderer utvikling av bedre utseende e-postmaler og grensesnitt, samt å dedikere tid til ferdighetsutvikli ng gjennom strukturerte online kurs. Denne posisjonen har vært instrumentell i å fremme mine tekniske kapasiteter, særlig innen Python-programmering, webutviklingsrammeverk og moderne e-postdesignteknikker.',
+    'web_development_cms_projects': 'Webutvikling & CMS Prosjekter',
+    'wagtail_cms_development': 'Wagtail CMS Utvikling',
+    'content_management_systems': 'Innholdsstyringssystemer',
+    'bootstrap_email_templates': 'Bootstrap E-postmaler',
+    'programming_disciplines': 'Programmeringsdisipliner',
+    'codecademy_python_courses': 'Codecademy Python Kurs',
 },
 
 # Swedish (sv) translations
@@ -709,10 +849,10 @@ TRANSLATIONS = {
     'match_table': 'Matchtabell-projekt',
     'exercise_1_6': 'CSS-tabelljustering Övning',
     'exercise_2_1': 'Row-span och Column-span Projekt',
-    'rainbow_desc': 'Regnbågsprojekt: Detta representerar uppgift 3.2 från det första temat, vilket jag fann särskilt fängslande att utveckla. Utmaningen involverade implementering av span-klasser, en teknik jag ursprungligen var osäker på. Övergripande anser jag att genomförandet var högst framgångsrikt.',
-    'match_table_desc': 'Matchtabell: Denna skärmbild härstammar från mitt inaugurala projekt och demonstrerar effektiv problemlösning. Målet var att visa alla Den Bosch-matcher omfattande. Efter noggrann övervägande implementerade jag en tabellbaserad lösning—en metodologi vi tidigare inte hade utnyttjat. Detta markerade min första framgångsrika tillämpning av tabulär datapresentation för denna typ av utmaning.',
-    'exercise_1_6_desc': 'Övning 1.6: Jag fann denna uppgift rimligt hanterbar, eftersom vi erhöll en HTML-fil som var fullständigt desorganiserad och saknade CSS-styling. Utmaningen krävde att vi återställde dess visuella attraktion genom strategisk implementering av tabellstrukturer och radorganisering.',
-    'exercise_2_1_desc': 'Övning 2.1: Detta visade sig vara en exceptionellt njutbar uppgift, särskilt eftersom den tillät oss att experimentera med row-span och column-span egenskaper. Det slutliga resultatet var anmärkningsvärt framgångsrikt, tydligt demonstrerande nödvändigheten av att utnyttja klasser och ID:n för att realisera varierade färgscheman inom tabellstrukturen.',
+    'rainbow_desc': 'Detta projekt demonstrerar mina färdigheter i implementering av span-klasser och skapande av visuellt tilltalande layouts. Utmaningen involverade arbete med CSS-positionering och färgscheman för att skapa en regnbågseffekt.',
+    'match_table_desc': 'Detta projekt visar effektiv problemlösning genom tabellbaserad datapresentation. Målet var att visa fotbollsmatchinformation i ett klart, organiserat format med hjälp av HTML-tabeller och CSS-styling.',
+    'exercise_1_6_desc': 'Denna uppgift fokuserade på CSS-tabelljustering och styling. Jag fick en desorganiserad HTML-fil och blev ombedd att skapa en tilltalande visuell presentation genom strategisk CSS-implementering.',
+    'exercise_2_1_desc': 'Detta projekt involverade experimentering med row-span och column-span egenskaper för att skapa komplexa tabelllayouts. Det slutliga resultatet demonstrerade effektiv användning av CSS-klasser och ID:n för varierad styling.',
     
     # Stage 1 Page
     'omnilan': 'Omnilan',
@@ -725,6 +865,16 @@ TRANSLATIONS = {
     'milight_desc': 'Dessa representerar användarkonfigurationsinställningar för belysningskontroll, inklusive färgjusteringskapaciteter. Dessa funktioner är särskilt framträdande i vänstra sektionen av gränssnittet.',
     'rememberz_main_desc': 'Detta konstituerar det centrala navigationscentret för Rememberz-plattformen',
     
+    # Internship 1 (Omnilan) - New content
+    'omnilan_role_title': 'Min Roll hos Omnilan',
+    'omnilan_role_desc': 'Hos Omnilan arbetade jag som mjukvaruutvecklare fokuserad på att förbättra interna system och kommunikationsverktyg. Mina primära ansvarsområden inkluderade utveckling och förbättring av belysningskontrollsystemet och strömlinjeformning av e-postkommunikationssystemet mellan arbetare. Denna roll gav mig värdefull praktisk erfarenhet inom mjukvaruutveckling och systemintegration, vilket tillät mig att bidra till att göra arbetsplatsprocesser mer effektiva och användarvänliga.',
+    'lighting_system_development': 'Belysningssystem Utveckling',
+    'email_system_enhancement': 'E-postsystem Förbättring',
+    'email_domain_management': 'E-postdomän Hantering',
+    'email_address_configuration': 'E-postadress Konfiguration',
+    'milight_control_system': 'Milight Kontrollsystem',
+    'rememberz_main_interface': 'Rememberz Huvudgränssnitt',
+    
     # Stage 2 Page
     'second_internship': 'Andra Praktik: Avancerad Webbutveckling & Strukturerad Online Lärande',
     'wagtail_desc': 'Genomförde omfattande utforskning av Wagtail CMS genom strukturerade online kurser, där jag bemästrade utvecklingen av sofistikerade dynamiska innehållshanteringssystem för webbapplikationer.',
@@ -733,6 +883,16 @@ TRANSLATIONS = {
     'programming_skills': 'Avancerad Programmeringskompetens Utveckling',
     'coding_topics_desc': 'Genomförde djupgående utforskning av diverse programmeringsdiscipliner inklusive Python, JavaScript, HTML & CSS, SQL, och ytterligare teknologier genom metodiskt strukturerade online lärandeprogrammer.',
     'codecademy_desc': 'Fullbordade framgångsrikt flera omfattande Python-kurser på Codecademy, omfattande mellanliggande och avancerade Python-programmeringskoncept, samt specialiserade Django webbutvecklingsramverk.',
+    
+    # Internship 2 (AB Transport) - New content
+    'ab_transport_role_title': 'Min Roll hos AB Transport',
+    'ab_transport_role_desc': 'Hos AB Transport arbetar jag som mjukvaruutvecklare inom IT-avdelningen, fokuserad på att förbättra företagets e-postsystem och förbättra deras visuella presentation. Mina ansvarsområden inkluderar utveckling av bättre utseende e-postmallar och gränssnitt, samt att ägna tid åt färdighetsutveckling genom strukturerade online kurser. Denna position har varit instrumentell i att främja mina tekniska kapaciteter, särskilt inom Python-programmering, webbutvecklingsramverk och moderna e-postdesigntekniker.',
+    'web_development_cms_projects': 'Webbutveckling & CMS Projekt',
+    'wagtail_cms_development': 'Wagtail CMS Utveckling',
+    'content_management_systems': 'Innehållshanteringssystem',
+    'bootstrap_email_templates': 'Bootstrap E-postmallar',
+    'programming_disciplines': 'Programmeringsdiscipliner',
+    'codecademy_python_courses': 'Codecademy Python Kurser',
 },
 
 # Danish (da) translations
@@ -802,10 +962,10 @@ TRANSLATIONS = {
     'match_table': 'Kamptabel-projekt',
     'exercise_1_6': 'CSS-tabeljustering Øvelse',
     'exercise_2_1': 'Row-span og Column-span Projekt',
-    'rainbow_desc': 'Regnbueprojekt: Dette repræsenterer opgave 3.2 fra det første tema, hvilket jeg fandt særligt fængslende at udvikle. Udfordringen involverede implementering af span-klasser, en teknik jeg oprindeligt var usikker på. Overordnet mener jeg at gennemførelsen var højst vellykket.',
-    'match_table_desc': 'Kamptabel: Dette skærmbillede stammer fra mit inaugurale projekt og demonstrerer effektiv problemløsning. Målet var at vise alle Den Bosch-kampe omfattende. Efter omhyggelig overvejelse implementerede jeg en tabelbaseret løsning—en metodologi vi tidligere ikke havde udnyttet. Dette markerede min første vellykkede anvendelse af tabulær datapræsentation for denne type udfordring.',
-    'exercise_1_6_desc': 'Øvelse 1.6: Jeg fandt denne opgave rimeligt håndterbar, eftersom vi modtog en HTML-fil der var fuldstændigt desorganiseret og manglede CSS-styling. Udfordringen krævede at vi genoprettede dens visuelle appel gennem strategisk implementering af tabelstrukturer og rækkeorganisering.',
-    'exercise_2_1_desc': 'Øvelse 2.1: Dette viste sig at være en exceptionelt fornøjelig opgave, særligt fordi den tillod os at eksperimentere med row-span og column-span egenskaber. Det endelige resultat var bemærkelsesværdigt vellykket, tydeligt demonstrerende nødvendigheden af at udnytte klasser og ID\'er for at realisere varierede farveskemaer inden for tabelstrukturen.',
+    'rainbow_desc': 'Dette projekt demonstrerer mine færdigheder i implementering af span-klasser og skabelse af visuelt tiltalende layouts. Udfordringen involverede arbejde med CSS-positionering og farveskemaer for at skabe en regnbueeffekt.',
+    'match_table_desc': 'Dette projekt viser effektiv problemløsning gennem tabelbaseret datapræsentation. Målet var at vise fodboldkampinformation i et klart, organiseret format ved hjælp af HTML-tabeller og CSS-styling.',
+    'exercise_1_6_desc': 'Denne opgave fokuserede på CSS-tabeljustering og styling. Jeg modtog en desorganiseret HTML-fil og blev bedt om at skabe en tiltalende visuel præsentation gennem strategisk CSS-implementering.',
+    'exercise_2_1_desc': 'Dette projekt involverede eksperimentering med row-span og column-span egenskaber for at skabe komplekse tabellayouts. Det endelige resultat demonstrerede effektiv brug af CSS-klasser og ID\'er for varieret styling.',
     
     # Stage 1 Page
     'omnilan': 'Omnilan',
@@ -818,6 +978,16 @@ TRANSLATIONS = {
     'milight_desc': 'Disse repræsenterer brugerkonfigurationsindstillinger for belysningskontrol, inklusive farvetilpasningskapaciteter. Disse funktioner er særligt fremtrædende i venstre sektion af interfacet.',
     'rememberz_main_desc': 'Dette konstituerer det centrale navigationscenter for Rememberz-platformen',
     
+    # Internship 1 (Omnilan) - New content
+    'omnilan_role_title': 'Min Rolle hos Omnilan',
+    'omnilan_role_desc': 'Hos Omnilan arbejdede jeg som softwareudvikler fokuseret på at forbedre interne systemer og kommunikationsværktøjer. Mine primære ansvarsområder inkluderede udvikling og forbedring af belysningskontrolsystemet og strømlining af e-mailkommunikationssystemet mellem arbejdere. Denne rolle gav mig værdifuld praktisk erfaring inden for softwareudvikling og systemintegration, hvilket tillod mig at bidrage til at gøre arbejdspladsprocesser mere effektive og brugervenlige.',
+    'lighting_system_development': 'Belysningssystem Udvikling',
+    'email_system_enhancement': 'E-mailsystem Forbedring',
+    'email_domain_management': 'E-maildomæne Administration',
+    'email_address_configuration': 'E-mailadresse Konfiguration',
+    'milight_control_system': 'Milight Kontrolsystem',
+    'rememberz_main_interface': 'Rememberz Hovedinterface',
+    
     # Stage 2 Page
     'second_internship': 'Anden Praktik: Avanceret Webudvikling & Struktureret Online Læring',
     'wagtail_desc': 'Gennemførte omfattende udforskning af Wagtail CMS gennem strukturerede online kurser, hvor jeg mestrede udviklingen af sofistikerede dynamiske indholdsstyringssystemer for webapplikationer.',
@@ -826,6 +996,16 @@ TRANSLATIONS = {
     'programming_skills': 'Avanceret Programmeringskompetence Udvikling',
     'coding_topics_desc': 'Gennemførte dybdegående udforskning af diverse programmeringsdiscipliner inklusive Python, JavaScript, HTML & CSS, SQL, og yderligere teknologier gennem metodisk strukturerede online læringsprogrammer.',
     'codecademy_desc': 'Fuldførte succesfuldt flere omfattende Python-kurser på Codecademy, omfattende mellemliggende og avancerede Python-programmeringskoncepter, samt specialiserede Django webudviklingsframeworks.',
+    
+    # Internship 2 (AB Transport) - New content
+    'ab_transport_role_title': 'Min Rolle hos AB Transport',
+    'ab_transport_role_desc': 'Hos AB Transport arbejder jeg som softwareudvikler i IT-afdelingen, fokuseret på at forbedre virksomhedens e-mailsystemer og forbedre deres visuelle præsentation. Mine ansvarsområder inkluderer udvikling af bedre udseende e-mailskabeloner og interfaces, samt at dedikere tid til færdighedsudvikling gennem strukturerede online kurser. Denne position har været instrumental i at fremme mine tekniske kapaciteter, særligt inden for Python-programmering, webudviklingsframeworks og moderne e-maildesignteknikker.',
+    'web_development_cms_projects': 'Webudvikling & CMS Projekter',
+    'wagtail_cms_development': 'Wagtail CMS Udvikling',
+    'content_management_systems': 'Indholdsstyringssystemer',
+    'bootstrap_email_templates': 'Bootstrap E-mailskabeloner',
+    'programming_disciplines': 'Programmeringsdiscipliner',
+    'codecademy_python_courses': 'Codecademy Python Kurser',
 },
 
 # Finnish (fi) translations
@@ -895,10 +1075,10 @@ TRANSLATIONS = {
     'match_table': 'Ottelutaulukko-projekti',
     'exercise_1_6': 'CSS-taulukon Tasaus Harjoitus',
     'exercise_2_1': 'Row-span ja Column-span Projekti',
-    'rainbow_desc': 'Sateenkaari-projekti: Tämä edustaa tehtävää 3.2 ensimmäisestä teemasta, jonka koin erityisen kiehtovaksi kehittää. Haaste sisälsi span-luokkien implementoinnin, tekniikka josta olin alun perin epävarma. Kokonaisuudessaan uskon että toteutus oli erittäin menestyksekas.',
-    'match_table_desc': 'Ottelutaulukko: Tämä kuvakaappaus on peräisin ensimmäisestä projektistani ja demonstroi tehokasta ongelmanratkaisua. Tavoite oli näyttää kaikki Den Boschin ottelut kattavasti. Huolellisen harkinnan jälkeen implementoin taulukkopohjaisen ratkaisun—metodologian jota emme olleet aiemmin hyödyntäneet. Tämä merkitsi ensimmäistä menestyksellistä soveltamistani taulukkomuotoisen datan esittämisestä tämäntyyppiseen haasteeseen.',
-    'exercise_1_6_desc': 'Harjoitus 1.6: Koin tämän tehtävän kohtuullisen hallittavaksi, koska saimme HTML-tiedoston joka oli täysin järjestäytymätön ja puuttui CSS-tyylittely. Haaste vaati että palautimme sen visuaalisen vetovoiman strategisen taulukkorakenteiden ja riviorganisaation implementoinnin kautta.',
-    'exercise_2_1_desc': 'Harjoitus 2.1: Tämä osoittautui poikkeuksellisen nautinnolliseksi tehtäväksi, erityisesti koska se salli meidän kokeilla row-span ja column-span ominaisuuksia. Lopullinen tulos oli huomattavan menestyksekas, selvästi demonstroiden tarvetta hyödyntää luokkia ja ID:itä vaihtelevien väriteemojen toteuttamiseksi taulukkorakenteen sisällä.',
+    'rainbow_desc': 'Tämä projekti demonstroi taitojani span-luokkien implementoinnissa ja visuaalisesti houkuttelevien asettelujen luomisessa. Haaste sisälsi CSS-sijoittelun ja väriteemojen kanssa työskentelyn sateenkaaritehosteen luomiseksi.',
+    'match_table_desc': 'Tämä projekti näyttää tehokasta ongelmanratkaisua taulukkopohjaisella tietojen esityksellä. Tavoite oli näyttää jalkapallo-ottelutiedot selkeässä, järjestetyssä muodossa HTML-taulukoita ja CSS-tyylejä käyttäen.',
+    'exercise_1_6_desc': 'Tämä tehtävä keskittyi CSS-taulukon tasaukseen ja tyylittelyyn. Sain järjestäytymättömän HTML-tiedoston ja minua pyydettiin luomaan houkutteleva visuaalinen esitys strategisen CSS-implementoinnin kautta.',
+    'exercise_2_1_desc': 'Tämä projekti sisälsi kokeilua row-span ja column-span ominaisuuksilla monimutkaisten taulukkoasettelujen luomiseksi. Lopullinen tulos demonstroi tehokasta CSS-luokkien ja ID:iden käyttöä vaihtelevaan tyylittelyyn.',
     
     # Stage 1 Page
     'omnilan': 'Omnilan',
@@ -911,6 +1091,16 @@ TRANSLATIONS = {
     'milight_desc': 'Nämä edustavat käyttäjäkonfiguraatioasetuksia valaistuksen hallintaan, mukaan lukien värisäätökapasiteetit. Nämä ominaisuudet ovat erityisen näkyviä käyttöliittymän vasemmassa osiossa.',
     'rememberz_main_desc': 'Tämä muodostaa Rememberz-alustan keskusnavigointikeskuksen',
     
+    # Internship 1 (Omnilan) - New content
+    'omnilan_role_title': 'Roolini Omnilanissa',
+    'omnilan_role_desc': 'Omnilanissa työskentelin ohjelmistokehittäjänä keskittyen sisäisten järjestelmien ja viestintätyökalujen parantamiseen. Ensisijaiset vastuualueeni sisälsivät valaistuksen ohjausjärjestelmän kehittämisen ja parantamisen sekä työntekijöiden välisen sähköpostiviestintäjärjestelmän virtaviivaistamisen. Tämä rooli tarjosi minulle arvokasta käytännön kokemusta ohjelmistokehityksestä ja järjestelmien integroinnista, mahdollistaen minun osallistumiseni työpaikan prosessien tehostamiseen ja käyttäjäystävällisemmäksi tekemiseen.',
+    'lighting_system_development': 'Valaistuksen Järjestelmäkehitys',
+    'email_system_enhancement': 'Sähköpostijärjestelmän Parantaminen',
+    'email_domain_management': 'Sähköpostidomainin Hallinta',
+    'email_address_configuration': 'Sähköpostiosoitteen Konfigurointi',
+    'milight_control_system': 'Milight Ohjausjärjestelmä',
+    'rememberz_main_interface': 'Rememberz Pääkäyttöliittymä',
+    
     # Stage 2 Page
     'second_internship': 'Toinen Harjoittelu: Edistynyt Web-kehitys & Strukturoitu Verkko-oppiminen',
     'wagtail_desc': 'Suoritin kattavan tutkimuksen Wagtail CMS:stä strukturoitujen verkkokurssien kautta, jossa hallitsin kehittyneiden dynaamisten sisällönhallintajärjestelmien kehittämisen web-sovelluksille.',
@@ -919,6 +1109,16 @@ TRANSLATIONS = {
     'programming_skills': 'Edistynyt Ohjelmointikompetenssien Kehittäminen',
     'coding_topics_desc': 'Suoritin syvällistä tutkimusta erilaisista ohjelmointidisipliineistä mukaan lukien Python, JavaScript, HTML & CSS, SQL, ja lisäteknologioita metodisesti strukturoitujen verkko-oppimisohjelmien kautta.',
     'codecademy_desc': 'Suoritin menestyksekkäästi useita kattavia Python-kursseja Codecademyssa, käsittäen keskitason ja edistyneet Python-ohjelmointikonseptit, sekä erikoistuneet Django web-kehityskehykset.',
+    
+    # Internship 2 (AB Transport) - New content
+    'ab_transport_role_title': 'Roolini AB Transportissa',
+    'ab_transport_role_desc': 'AB Transportissa työskentelen ohjelmistokehittäjänä IT-osastolla, keskittyen yrityksen sähköpostijärjestelmien parantamiseen ja niiden visuaalisen esityksen kehittämiseen. Vastuualueisiini kuuluu paremmin näyttävien sähköpostimallien ja käyttöliittymien kehittäminen, sekä ajan omistaminen taitojen kehittämiseen strukturoitujen verkkokurssien kautta. Tämä asema on ollut ratkaiseva teknisten kykyjeni edistämisessä, erityisesti Python-ohjelmoinnissa, web-kehityskehyksissä ja modernissa sähköpostisuunnittelussa.',
+    'web_development_cms_projects': 'Web-kehitys & CMS Projektit',
+    'wagtail_cms_development': 'Wagtail CMS Kehitys',
+    'content_management_systems': 'Sisällönhallintajärjestelmät',
+    'bootstrap_email_templates': 'Bootstrap Sähköpostimallit',
+    'programming_disciplines': 'Ohjelmointidisipliinit',
+    'codecademy_python_courses': 'Codecademy Python Kurssit',
 }
 
 }

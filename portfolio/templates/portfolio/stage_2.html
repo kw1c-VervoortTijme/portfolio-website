@@ -1,41 +1,151 @@
+<!-- portfolio/templates/portfolio/internship2.html -->
 {% extends 'portfolio/base.html' %}
 {% load static translation_tags %}
 
 {% block title %}{% t 'internship2_title' %}{% endblock %}
 
 {% block content %}
-<div id="margin">
-  <div class="lightbox">
-    <div class="row">
-      <h1>{% t 'second_internship' %}</h1>
-      
-      <!-- Preview content - visible to everyone -->
-      <div class="col-lg-6">
-        <img src="{% static 'portfolio/images/wagtail_logo.png' %}" data-mdb-img="{% static 'portfolio/images/wagtail_logo.png' %}" alt="{% t 'blog_editor' %}" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded" />
-        <p>{% t 'wagtail_desc' %}</p>
-      </div>
-      <div class="col-lg-6">
-        <img src="{% static 'portfolio/images/bootstrap_email.png' %}" data-mdb-img="{% static 'portfolio/images/bootstrap_email.png' %}" alt="{% t 'bootstrap_email' %}" class="w-100 shadow-1-strong rounded" />
-        <p>{% t 'bootstrap_email_desc' %}</p>
-      </div>
+<div class="row">
+    <div class="col-12">
+        <h1 class="text-center mb-5">{% t 'second_internship' %}</h1>
     </div>
-  </div>
 </div>
-<div id="gevoel2">
-  <div class="container">
-    <h1>{% t 'programming_skills' %}</h1>
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="{% static 'portfolio/images/topics_codecademy.png' %}" alt="{% t 'coding_topics' %}" class="w-100 mb-4 shadow-1-strong" />
-        <p>{% t 'coding_topics_desc' %}</p>
-      </div>
-      <div class="col-lg-6">
-        <img src="{% static 'portfolio/images/codecademy_certificaten.png' %}" data-mdb-img="{% static 'portfolio/images/codecademy_certificaten.png' %}" alt="{% t 'codecademy_courses' %}" class="w-100 shadow-1-strong rounded" />
-        <p>{% t 'codecademy_desc' %}</p>
-        <img src="{% static 'portfolio/images/blog_editor.png' %}" data-mdb-img="{% static 'portfolio/images/blog_editor.png' %}" alt="{% t 'learn_wagtail' %}" class="w-100 shadow-1-strong rounded mt-4" />
-        <p>{% t 'cms_desc' %}</p>
-      </div>
+
+<!-- Company and Role Introduction -->
+<div class="row mb-5">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">{% t 'ab_transport_role_title' %}</h3>
+                <p class="card-text">{% t 'ab_transport_role_desc' %}</p>
+            </div>
+        </div>
     </div>
-  </div>
+</div>
+
+<!-- Web Development Projects -->
+<div class="row mb-5">
+    <div class="col-12">
+        <h2 class="mb-4">{% t 'web_development_cms_projects' %}</h2>
+    </div>
+</div>
+
+<!-- Wagtail CMS Section -->
+<div class="row mb-5">
+    <div class="col-12">
+        <div class="card h-100">
+            <div class="card-body">
+                <h3 class="card-title">{% t 'wagtail_cms_development' %}</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="{% static 'portfolio/images/wagtail.png' %}" 
+                            alt="{% t 'wagtail_cms_development' %}" 
+                            class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="card-text">{% t 'wagtail_desc' %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CMS Blog Section -->
+<div class="row mb-5">
+    <div class="col-12">
+        <div class="card h-100">
+            <div class="card-body">
+                <h3 class="card-title">{% t 'content_management_systems' %}</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="{% static 'portfolio/images/cms.png' %}" 
+                            alt="{% t 'content_management_systems' %}" 
+                            class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="card-text">{% t 'cms_desc' %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Email Development Projects -->
+<div class="row mb-5">
+    <div class="col-12">
+        <h2 class="mb-4">{% t 'email_system_enhancement' %}</h2>
+    </div>
+</div>
+
+<!-- Bootstrap Email Section -->
+<div class="row mb-5">
+    <div class="col-12">
+        <div class="card h-100">
+            <div class="card-body">
+                <h3 class="card-title">{% t 'bootstrap_email_templates' %}</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="{% static 'portfolio/images/bootstrap_email.png' %}" 
+                          alt="{% t 'bootstrap_email_templates' %}" 
+                          class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="card-text">{% t 'bootstrap_email_desc' %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Skills Development -->
+<div class="row mb-5">
+    <div class="col-12">
+        <h2 class="mb-4">{% t 'programming_skills' %}</h2>
+    </div>
+</div>
+
+<!-- Coding Topics Section -->
+<div class="row mb-5">
+    <div class="col-12">
+        <div class="card h-100">
+            <div class="card-body">
+                <h3 class="card-title">{% t 'programming_disciplines' %}</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="{% static 'portfolio/images/coding_topics.png' %}" 
+                            alt="{% t 'programming_disciplines' %}" 
+                            class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="card-text">{% t 'coding_topics_desc' %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Codecademy Section -->
+<div class="row mb-5">
+    <div class="col-12">
+        <div class="card h-100">
+            <div class="card-body">
+                <h3 class="card-title">{% t 'codecademy_python_courses' %}</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="{% static 'portfolio/images/codecademy.png' %}" 
+                            alt="{% t 'codecademy_python_courses' %}" 
+                            class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="card-text">{% t 'codecademy_desc' %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
